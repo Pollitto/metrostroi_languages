@@ -1,7 +1,7 @@
 return [[
 #Base text for English language
 
-[ru]
+[en]
 lang        = English                           #Full language name
 AuthorText  = Translation Author: Pollitto      #Author text
 
