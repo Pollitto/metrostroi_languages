@@ -1,7 +1,7 @@
 return [[
 #Base text for English language
 
-[ru]
+[en]
 lang        = English                           #Full language name
 AuthorText  = Translation Author: Pollitto      #Author text
 
@@ -150,8 +150,8 @@ Common.ALL.GaugeLights                      = Gauges lighting
 Common.ALL.CabLights                        = Cabin lighting
 Common.ALL.RMK                              = RMK: Emergency compressor
 Common.ALL.KRP                              = KRP: Emergency start button
-Common.ALL.VZP                              = VZP: Departure delay switch
-Common.ALL.VZD                              = VZD: Doors delay switch
+Common.ALL.VZP                              = VZP: Disable drive delay
+Common.ALL.VZD                              = VZD: Disable doors delay
 Common.ALL.VAV                              = VAV: Autodrive switch
 Common.ALL.RouteNumber1+                    = Increase first digit of the route number
 Common.ALL.RouteNumber1-                    = Decrease first digit of the route number
@@ -165,8 +165,8 @@ Common.ALL.RRP                              = RP: Red overload relay lamp (power
 Common.ALL.GRP                              = RP: Green overload relay lamp (prevents overcurrent of engines)
 Common.ALL.RP                               = RP: Red overload relay lamp (power circuits failed to assemble or RP activated)
 Common.ALL.SN                               = LSN: Failure indicator light (power circuits failed to assemble)
-Common.ALL.PU                               = Reduced setting is enabled
-Common.ALL.BrT                              = Train pneumobrakes are enabled
+Common.ALL.PU                               = Reduced power mode indicator
+Common.ALL.BrT                              = Train pneumobrakes are engaged
 Common.ALL.ARS                              = ARS: Automatic speed regulation switch
 Common.ALL.ARSR                             = ARS-R: Automatic speed regulation in ARS-R mode switch
 Common.ALL.ALS                              = ALS: Automatic locomotive signalling
