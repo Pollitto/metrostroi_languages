@@ -42,7 +42,7 @@ Panel.ClientAdvanced    = Klient (zaawansowane)
 Panel.DrawDebugInfo     = Pokaż dodatkowe informacje (debug)
 Panel.CheckAddons       = Przeskanuj addony
 Panel.ReloadLang        = Przeładuj języki
-Panel.SoftDraw          = Miękkie rysowanie ??
+Panel.SoftDraw          = Opóźnienie między rysowaniami
 Panel.SoftReloadLang    = Nie przeładowywuj spawnmenu
 
 #Common train
