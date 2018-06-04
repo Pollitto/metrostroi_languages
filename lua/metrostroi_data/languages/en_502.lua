@@ -1,40 +1,40 @@
 return [[
 #81-502
 
-[ru]
+[en]
 
 #######Buttons###########
 #Common
-Common.502.KS                   = Лампа работы КСАУП
-Common.502.AV                   = Лампа включения режима автоведения
-Common.502.SD                   = Лампа сигнализации дверей поезда (двери закрыты)
-Common.502.SDW                  = Лампа сигнализации дверей вагона (двери открыты)
-Common.502.L3w                  = Лампа 3 провода (режим ход3)
-Common.502.L4w                  = Лампа 4 провода (направление движения назад)
-Common.502.L5w                  = Лампа 5 провода (направление движения вперёд)
-Common.502.L16w                 = Лампа 16 провода (закрытие дверей)
-Common.502.L20w                 = Лампа 20 провода (замыкание ЛК2 и ЛК5, плавный разбор)
-Common.502.L23w                 = Лампа 23 провода (управление мотор-компрессоров)
-Common.502.RK1                  = Лампа контроля первой позиции РК
-Common.502.BRD                  = Лампа неисправности дверей
-Common.502.KOS                  = Кнопка ограничения скорости (кнопка бдительности)
-Common.502.VAK                  = Кнопка сбора схемы аварийного хода
-Common.502.LRU                  = Лампа сбора схемы резервного управления
+Common.502.KS                   = KSAUP operating indicator
+Common.502.AV                   = Autodrive is engaged
+Common.502.SD                   = Door state light (doors are closed)
+Common.502.SDW                  = Door state light (doors are opened)
+Common.502.L3w                  = 3rd wire lamp (X3 mode)
+Common.502.L4w                  = 4th wire lamp (backward movement direction)
+Common.502.L5w                  = 5th wire lamp (forward movement direction)
+Common.502.L16w                 = 16th wire lamp (doors interlock)
+Common.502.L20w                 = 20th wire lamp (LK2 and LK5 closure, smooth disengage)
+Common.502.L23w                 = 23rd wire lamp (compressor control)
+Common.502.RK1                  = Control of the first RK position
+Common.502.BRD                  = Doors failure lamp
+Common.502.KOS                  = KB: Speed limit button (attention button)
+Common.502.VAK                  = Assembly emergency drive mode circuits
+Common.502.LRU                  = Emergency drive mode circuits are engaged
 #gmod_subway_81-502
-Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Выключатель батарей автоведения
+Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Autodrive battery on/off
 
-Entities.gmod_subway_81-502.Buttons.AV.VRUToggle = Выключатель резервного управления
-Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle = Отключение пневматического выключателя управления
-Entities.gmod_subway_81-502.Buttons.AV.KSDToggle = Выключатель контроля работы дверных блокировок
+Entities.gmod_subway_81-502.Buttons.AV.VRUToggle = Emergency driving mode
+Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle = Turn off the pneumatic control disabler
+Entities.gmod_subway_81-502.Buttons.AV.KSDToggle = Disable door interlock control
 Entities.gmod_subway_81-502.Buttons.AV.KAHToggle = @[Common.ALL.VAH]
 Entities.gmod_subway_81-502.Buttons.AV.KADToggle = @[Common.ALL.VAD]
 Entities.gmod_subway_81-502.Buttons.AV.OVTToggle = @[Common.ALL.OVT]
 Entities.gmod_subway_81-502.Buttons.AV.VKFToggle = @[Common.ALL.VKF]
 
 
-Entities.gmod_subway_81-502.Buttons.RCAV3.RCAV3Toggle           = Разъединитель цепей КСАУП (АВ3)
-Entities.gmod_subway_81-502.Buttons.RCAV4.RCAV4Toggle           = Разъединитель цепей КСАУП (АВ4)
-Entities.gmod_subway_81-502.Buttons.RCAV5.RCAV5Toggle           = Разъединитель цепей КСАУП (АВ5)
+Entities.gmod_subway_81-502.Buttons.RCAV3.RCAV3Toggle           = KSAUP circuits disconnector (AV3)
+Entities.gmod_subway_81-502.Buttons.RCAV4.RCAV4Toggle           = KSAUP circuits disconnector (AV4)
+Entities.gmod_subway_81-502.Buttons.RCAV5.RCAV5Toggle           = KSAUP circuits disconnector (AV5)
 Entities.gmod_subway_81-502.Buttons.RCARS.RCARSToggle           = @[Common.ALL.RCARS]
 Entities.gmod_subway_81-502.Buttons.RCBPS.RCBPSToggle           = @[Common.ALL.RCBPS]
 
@@ -188,14 +188,14 @@ Entities.gmod_subway_81-502.Buttons.HVMeters.!EnginesCurrent             = @[Com
 Entities.gmod_subway_81-502.Buttons.BatteryVoltage.!BatteryVoltage       = @[Common.ALL.BatteryVoltage]
 
 #Cameras:
-Train.502.AV = Автоматические выключатели
-Train.502.VBA = Выключатель батареи автоведения
-Train.502.VRD = ВРД
-Train.502.RCARS = РЦ-АРС
-Train.502.RCAV5 = РЦ-АВ5
-Train.502.RCBPS = РЦ-БПС
-Train.502.RCAV3 = РЦ-АВ3
-Train.502.RCAV4 = РЦ-АВ4
+Train.502.AV = Switches
+Train.502.VBA = @[Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle]
+Train.502.VRD = VRD
+Train.502.RCARS = RC-ARS
+Train.502.RCAV5 = RC-AV5
+Train.502.RCBPS = RC-BPС
+Train.502.RCAV3 = RC-AV3
+Train.502.RCAV4 = RC-AV4
 
 #Spawner:
 ]]

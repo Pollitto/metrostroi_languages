@@ -18,7 +18,7 @@ Workshop.Open               = Workshop
 Workshop.ErrorGithub        = Detected GitHub version of the Metrostroi. Current Metrostroi version is not compatible and cannot work with GitHub version of Metrostroi.
 Workshop.ErrorLegacy        = Detected Legacy version of the Metrostroi. Current Metrostroi version is not compatible and cannot work with Legacy version of Metrostroi.
 
-Workshop.Error1             = This addon contain an old script code of the Metrostroi that conflicts with current. May be "Scrips errors" and unstable work of the addon.
+Workshop.Error1             = This addon contain an old script code of the Metrostroi that conflicts with current. May be "Scripts errors" and unstable work of the addon.
 
 #Client settings
 Panel.Admin             = Admin
@@ -135,7 +135,7 @@ Common.ALL.KDLPK                            = Door buttons cover
 Common.ALL.KRZD                             = KRZD: Emergency door closing
 Common.ALL.Ring                             = Ring
 Common.ALL.VUD                              = VUD: Door control toggle (close doors)
-Common.ALL.KDPH                             = Open right doors in the last car
+Common.ALL.KDPH                             = Open right doors of the last car
 Common.ALL.VUD2                             = VUD2: Close doors from the helper's side
 Common.ALL.Program1                         = Program I
 Common.ALL.Program2                         = Program II
@@ -219,7 +219,7 @@ Common.ALL.UAVAContact                      = UAVA contacts reset
 Common.ALL.OAVU                             = OAVU: Disable AVU switch
 Common.ALL.LAVU                             = AVU is activated
 Common.ALL.GV                               = Main switch
-Common.ALL.AirDistributor                   = VRN: Air disctributor disabler
+Common.ALL.AirDistributor                   = VRN: Air distributor disabler
 Common.ALL.CabinDoor                        = Cabin door
 Common.ALL.FrontDoor                        = Front door
 Common.ALL.RearDoor                         = Rear door
