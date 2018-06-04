@@ -7,8 +7,8 @@ return [[
 #Common
 Common.502.KS                   = KSAUP operating indicator
 Common.502.AV                   = Autodrive is engaged
-Common.502.SD                   = Door state light (doors are closed)
-Common.502.SDW                  = Door state light (doors are opened)
+Common.502.SD                   = SD: Door state light (doors are closed)
+Common.502.SDW                  = SD: Door state light (doors are opened)
 Common.502.L3w                  = 3rd wire lamp (X3 mode)
 Common.502.L4w                  = 4th wire lamp (backward movement direction)
 Common.502.L5w                  = 5th wire lamp (forward movement direction)
@@ -18,14 +18,14 @@ Common.502.L23w                 = 23rd wire lamp (compressor control)
 Common.502.RK1                  = Control of the first RK position
 Common.502.BRD                  = Doors failure lamp
 Common.502.KOS                  = KB: Speed limit button (attention button)
-Common.502.VAK                  = Assembly emergency drive mode circuits
+Common.502.VAK                  = AK: Assembly emergency drive mode circuits
 Common.502.LRU                  = Emergency drive mode circuits are engaged
 #gmod_subway_81-502
 Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Autodrive battery on/off
 
-Entities.gmod_subway_81-502.Buttons.AV.VRUToggle = Emergency driving mode
-Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle = Turn off the pneumatic control disabler
-Entities.gmod_subway_81-502.Buttons.AV.KSDToggle = Disable door interlock control
+Entities.gmod_subway_81-502.Buttons.AV.VRUToggle = VRU: Emergency driving mode
+Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle = KPVU: Turn off the pneumatic control disabler
+Entities.gmod_subway_81-502.Buttons.AV.KSDToggle = KSD: Disable door interlock control
 Entities.gmod_subway_81-502.Buttons.AV.KAHToggle = @[Common.ALL.VAH]
 Entities.gmod_subway_81-502.Buttons.AV.KADToggle = @[Common.ALL.VAD]
 Entities.gmod_subway_81-502.Buttons.AV.OVTToggle = @[Common.ALL.OVT]
