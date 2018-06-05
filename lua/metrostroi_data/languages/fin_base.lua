@@ -2,8 +2,8 @@ return [[
 #Base text for Finnish language
 
 [fin]
-lang        = Finnish							#Full language name
-AuthorText  = Translation Author: Nikke			#Author text
+lang        = Finnish                          #Full language name
+AuthorText  = Translation Author: Nikke      #Author text
 
 #Workshop errors
 Workshop.Title              = Hallintapneeli
@@ -12,7 +12,7 @@ Workshop.FilesMissingLocaly = Joitakin tiedostoja puuttuu tai ne ovat vahingoitt
 Workshop.InstalledLocaly    = Asennettu (local)
 Workshop.NotInstalledE      = Ei asenennettu.\Tilaa kaikki lisäosat ja aktivoi ne 
 Workshop.NotInstalled       = Ei asennettu.
-Workshop.Disabled           = Poistettu käytöstä.\Aktivoi "Addons" menusta.
+Workshop.Disabled           = Poistettu käytöstä.\Aktivoi "Lisäosat" valikosta.
 Workshop.Installed          = Asennettu
 Workshop.Open               = Workshop
 Workshop.ErrorGithub        = Nykyinen versio ei ole yhteen sopiva GitHub version kanssa.
@@ -30,20 +30,20 @@ Panel.DrawCams          = Renderöi kamerat
 Panel.DisableHUD        = Disabloi HUD kuljettajan istuimella istuessa
 Panel.DisableCamAccel   = Disabloi kameroiden kiihtyvyys
 Panel.DisableHoverText  = Disabloi lentävä teksti
-Panel.ScreenshotMode    = Kuvankaappaus tila(LOW FPS)
+Panel.ScreenshotMode    = Kuvankaappaus tila(Matala fps)
 Panel.ShadowsHeadlight  = Aktivoi ajovalojen varjot
 Panel.ShadowsOther      = Aktivoi varjot 
 Panel.MinimizedShow     = Älä poista elementtejä
-Panel.FOV               = FOV
+Panel.FOV               = FOV(näkökentän laajuus)
 Panel.RenderDistance    = Renderöinnin matka
 Panel.ReloadClient      = Palautus
 
-Panel.ClientAdvanced    = "asikas" (advanced)
+Panel.ClientAdvanced    = "asikas" (edistynyt)
 Panel.DrawDebugInfo     = Debug logi näkyville
 Panel.CheckAddons       = Scannaa lisäosat
 Panel.ReloadLang        = Palauta kieli
-Panel.SoftDraw          = Elements "smooth\nloading" percent
-Panel.SoftReloadLang    = Älä palautaa "spawn" valikkoa
+Panel.SoftDraw          = Elementtien "kevyt\lataus" prosentti
+Panel.SoftReloadLang    = Älä palauta "aloituspiste" valikkoa
 
 #Common train
 Train.Common.Camera0        = Kuljettajan istuin
@@ -65,8 +65,8 @@ Entities.gmod_subway_ezh.Name         = 81-707 (Ezh päävaunu)
 Entities.gmod_subway_ezh1.Name        = 81-708 (Ezh1 välivaunu)
 Entities.gmod_subway_ezh3.Name        = 81-710 (Ezh3 päävaunu)
 Entities.gmod_subway_em508t.Name      = 81-508T (Em-508T välivaunu)
-Entities.gmod_subway_81-717_mvm.Name  = 81-717 (Moscow päävaunu)
-Entities.gmod_subway_81-714_mvm.Name  = 81-714 (Moscow välivaunu)
+Entities.gmod_subway_81-717_mvm.Name  = 81-717 (Moskovan päävaunu)
+Entities.gmod_subway_81-714_mvm.Name  = 81-714 (Moskovan välivaunu)
 Entities.gmod_subway_81-717_lvz.Name  = 81-717 (St. Petersburgin päävaunu
 Entities.gmod_subway_81-714_lvz.Name  = 81-714 (St. Petersburgin välivaunu)
 Entities.gmod_subway_81-718.Name      = 81-718 (TISU päävaunu)
@@ -76,7 +76,7 @@ Entities.gmod_subway_81-721.Name      = 81-721 (Yauza välivaunu)
 Entities.gmod_subway_81-722.Name      = 81-722 (Yubileyniy päävaunu)
 Entities.gmod_subway_81-723.Name      = 81-723 (Yubileyniy välivaunu moottorilla)
 Entities.gmod_subway_81-724.Name      = 81-724 (Yubileyniy välivaunu)
-Entities.gmod_subway_81-7036.Name     = 81-7036 (ei toimik)
+Entities.gmod_subway_81-7036.Name     = 81-7036 (ei toimi)
 Entities.gmod_subway_81-7037.Name     = 81-7037 (ei toimi)
 Entities.gmod_subway_tatra_t3.Name    = Tatra T3
 
@@ -95,7 +95,7 @@ Entities.gmod_track_switch.Name             = Vaihteiden vaihto
 Entities.gmod_track_powermeter.Name         = Sähkömittari
 Entities.gmod_track_arm.Name                = ARM DSCP
 Entities.gmod_track_udochka.Name            = Virran liittäminen
-Entities.gmod_train_spawner.Name            = Junan spawnaus
+Entities.gmod_train_spawner.Name            = Junan luonti
 
 #Spawner common
 Common.Spawner.Texture      = Rungon väritys
@@ -108,17 +108,17 @@ Common.Spawner.Type3        = Tyyppi 3
 Common.Spawner.Type4        = Tyyppi 4
 
 #Trains common
-Common.ALL.Unsused1                         = Unused
-Common.ALL.Unsused2                         = (unused)
+Common.ALL.Unsused1                         = ei käytös
+Common.ALL.Unsused2                         = (ei käytössä)
 Common.ALL.VB                               = VB: Akusto päälle/pois
 Common.ALL.VSOSD                            = SOSD: Oviaseman ovet auki
 Common.ALL.VKF                              = VKF: Akuston virta punaisille valoille
 Common.ALL.VB2                              = (Matalajännitteen piirit)
 Common.ALL.VPR                              = VPR: Junan radioasema
 Common.ALL.VASNP                            = ASNP virta
-Common.ALL.UOS                              = RC-UOS: Nopeudenrajoitin (ajaminen w/o EPV/EPK)
+Common.ALL.UOS                              = RC-UOS: Nopeudenrajoitin (ajaminen ilman EPV/EPK)
 Common.ALL.VAH                              = VAH: Hätäajo 
-Common.ALL.KAH                              = KAH: Hätäajon nappula w/o ARS
+Common.ALL.KAH                              = KAH: Hätäajon nappula ilman ARS
 Common.ALL.VAD                              = VAD: Ovien hätäsulkeminen (virhe KD sulakkeessa)
 Common.ALL.OVT                              = OVT: Poista paineilmajarrujen rele käytöstä
 Common.ALL.VOVT                             = VOVT: Sulje paineilmajarrujen ohituskytkin
@@ -191,15 +191,15 @@ Common.ARS.KB                               = KB: Varoitus nappi
 Common.ARS.KVT                              = KVT: Jarrujen havannointi painike
 Common.ARS.KVTR                             = KVT: ARS-R pakkojarrun kuittaus
 Common.ARS.04                               = OCh: Ei ARS singaalia
-Common.ARS.0                                = 0: ARS pysähtymiskäs
-Common.ARS.40                               = Nopeusrajoitus 40 kph
-Common.ARS.60                               = Nopeusrajoitus 60 kph
-Common.ARS.70                               = Nopeusrajoitus 70 kph
-Common.ARS.80                               = Nopeusrajoitus 80 kph
+Common.ARS.0                                = 0: ARS pysähtymiskäsky
+Common.ARS.40                               = Nopeusrajoitus 40 kmh/h
+Common.ARS.60                               = Nopeusrajoitus 60 kmh/h
+Common.ARS.70                               = Nopeusrajoitus 70 kmh/h
+Common.ARS.80                               = Nopeusrajoitus 80 kmh/h
 Common.ALL.RCBPS                            = RC-BPS: Anti-Rolling kytkin
-Common.BPS.On                               = Anti-Rolling vaunukohtainen toiminta
-Common.BPS.Err                              = Anti-Rolling vaunukohtainen toimintahäiriö
-Common.BPS.Fail                             = Anti-Rolling toimintahäiriö
+Common.BPS.On                               = "Anti-Rolling" vaunukohtainen toiminta
+Common.BPS.Err                              = "Anti-Rolling" vaunukohtainen toimintahäiriö
+Common.BPS.Fail                             ="Anti-Rolling" toimintahäiriö
 Commom.NMnUAVA.NMPressureLow                = Matala jarrupaine
 Commom.NMnUAVA.UAVATriggered                = UAVA:n yhteys auki
 Common.ALL.L1w                              = 1st lamppu (ajo aktiivinen)
@@ -218,8 +218,8 @@ Common.ALL.LAVU                             = AVU on aktivoitu
 Common.ALL.GV                               = Pääkytkin
 Common.ALL.AirDistributor                   = VRN: Ilmanjakojärjestelmä
 Common.ALL.CabinDoor                        = Ohjaamon ovi
-Common.ALL.FrontDoor                        = Etu-ovi
-Common.ALL.RearDoor                         = Taka-ovi
+Common.ALL.FrontDoor                        = Etuovi
+Common.ALL.RearDoor                         = Takaovi
 
 Common.ALL.UNCh                             = UNCh: Alhainen taajuusvahvistin
 Common.ALL.ES                               = ES: Hätä kommunikaatio
@@ -238,11 +238,11 @@ Common.RRI.RRIEnableToggle                  = RRI: Virta
 Common.RRI.RRIRewindSet2                    = RRI: Nopeasti eteen
 Common.RRI.RRIRewindSet0                    = RRI: Takaisin
 Common.RRI.RRIAmplifierToggle               = RRI: Vahvistin
-Common.RRI.RRIOn                            = RRI merkkivalo
+Common.RRI.RRIOn                            = RRI Merkkivalo
 
 #ASNP
 Train.Common.ASNP           = ASNP
-Common.ASNP.ASNPMenu        = ASNP: Menu
+Common.ASNP.ASNPMenu        = ASNP: Valikko
 Common.ASNP.ASNPUp          = ASNP: Ylös
 Common.ASNP.ASNPDown        = ASNP: Alas
 Common.ASNP.ASNPOn          = ASNP: Virta
@@ -264,7 +264,7 @@ Common.IGLA.IGLAOff         = IGLA: HV piirit pois
 
 #Train helpers common
 Common.ALL.Speedometer      = Nopeusmittari
-Common.ALL.BLTLPressure     = Jarrupaineet(red: jarrupaine, black: junanpaine)
+Common.ALL.BLTLPressure     = Jarrupaineet(punainen: jarrupaine, musta: junanpaine)
 Common.ALL.BCPressure       = Jarru sylinterien paine
 Common.ALL.EnginesCurrent   = Moottoreiden sähkönkäyttö (A)
 Common.ALL.EnginesVoltage   = Moottoreiden jännite (kV)
