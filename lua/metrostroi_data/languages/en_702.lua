@@ -4,7 +4,7 @@ return [[
 [en]
 
 #Cameras:
-Train.702.Breakers1 = @[Common.ALL.VB]
+Train.702.Breakers1 = Battery switch
 Train.702.Breakers2 = Lighting switches
 Train.702.Breakers3 = Main breaker
 Train.703.Breakers1 = Battery switch
@@ -18,7 +18,7 @@ Train.710.VU        = @[Common.ALL.VU]
 #Common
 Common.703.ParkingBrakeLeft     = Release the parking brake
 Common.703.ParkingBrakeRight    = Apply the parking brake
-Common.703.KSD                  = Doors interlock control button
+Common.703.KSD                  = KSD: Doors interlock control button
 Common.703.SD                   = @[Common.502.SDW]
 Common.703.VU1                  = Cabin heater
 Common.703.VU2                  = Emergency lighting
@@ -38,11 +38,11 @@ Common.710.SAMMReset            = SAMM: Reset button
 Common.710.SAMMXTLamp           = SAMM: Assemble drive/brake circuits by ATO
 Common.710.SAMMSignal1          = SAMM: @[Common.ALL.Unsused1]
 Common.710.SAMMSignal2          = SAMM: @[Common.ALL.Unsused1]
-Common.710.SAMMOn               = SAMM: switch (automatic train operation)
-Common.710.SAMMUnit             = SAMM: execution unit 
+Common.710.SAMMOn               = SAMM: Switch (automatic train operation)
+Common.710.SAMMUnit             = SAMM: Execution unit 
 Common.710.SAMMX2               = SAMM: X2 mode
 Common.710.SAMMAhead            = SAMM: Catch-up mode
-Common.710.SAMMAccept           = Permission
+Common.710.SAMMAccept           = SAMM: Permission
 
 #gmod_subway_81-702
 Entities.gmod_subway_81-702.Buttons.Battery.VBToggle        = @[Common.ALL.VB] @[Common.ALL.VB2]
