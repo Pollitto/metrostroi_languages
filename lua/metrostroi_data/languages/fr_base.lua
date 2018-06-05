@@ -2,8 +2,8 @@ return [[
 #Base text for French language
 
 [fr]
-lang        = Français							#Full language name
-AuthorText  = Traducteur: Link-Skywalker		#Author text
+lang        = Français                           #Full language name
+AuthorText  = Traducteur: Link-Skywalker      #Author text
 
 #Workshop errors
 Workshop.Title              = Gestionnaire de contenu
@@ -27,7 +27,7 @@ Panel.RequireThirdRail  = Requiert un troisième rail
 Panel.Client            = Client
 Panel.Language          = Sélectionner la langue
 Panel.DrawCams          = Rendu des caméras
-Panel.DisableHUD        = Désactive le HUD sur le siège du conducteur
+Panel.DisableHUD        = Désactive le HUD sur le siège du\nconducteur
 Panel.DisableCamAccel   = Désactive l'accéleration de caméra
 Panel.DisableHoverText  = Désactive le texte de légende
 Panel.ScreenshotMode    = Mode screenshot (IPS bas)
@@ -225,7 +225,7 @@ Common.ALL.FrontDoor                        = Porte avant
 Common.ALL.RearDoor                         = Porte arrière
 
 Common.ALL.UNCh                             = UNCh: Amplificateur de basse fréquence
-Common.ALL.ES                               = ES: Control des communications d'urgence
+Common.ALL.ES                               = ES: Contrôle des communications d'urgence
 Common.ALL.GCab                             = Haut-parleur: Son en cabine
 Common.ALL.UPO                              = UPO: Annonceur
 Common.ALL.R_Radio                          = Annonceur
