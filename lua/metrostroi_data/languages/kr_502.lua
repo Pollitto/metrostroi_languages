@@ -6,7 +6,7 @@ return [[
 #######Buttons###########
 #Common
 Common.502.KS                   = KSAUP 작동 표시등
-Common.502.AV                   = 자동 운전 작동 중
+Common.502.AV                   = ATO 작동 중
 Common.502.SD                   = SD: 출입문 상태 표시등 (출입문 닫힘)
 Common.502.SDW                  = SD: 출입문 상태 표시등 (출입문 열림)
 Common.502.L3w                  = 차량 회로 3 표시등 (X3 모드)
@@ -32,9 +32,9 @@ Entities.gmod_subway_81-502.Buttons.AV.OVTToggle = @[Common.ALL.OVT]
 Entities.gmod_subway_81-502.Buttons.AV.VKFToggle = @[Common.ALL.VKF]
 
 
-Entities.gmod_subway_81-502.Buttons.RCAV3.RCAV3Toggle           = KSAUP 회로 단로기 (AV3)
-Entities.gmod_subway_81-502.Buttons.RCAV4.RCAV4Toggle           = KSAUP 회로 단로기 (AV4)
-Entities.gmod_subway_81-502.Buttons.RCAV5.RCAV5Toggle           = KSAUP 회로 단로기 (AV5)
+Entities.gmod_subway_81-502.Buttons.RCAV3.RCAV3Toggle           = KSAUP 회로 차단기 (AV3)
+Entities.gmod_subway_81-502.Buttons.RCAV4.RCAV4Toggle           = KSAUP 회로 차단기 (AV4)
+Entities.gmod_subway_81-502.Buttons.RCAV5.RCAV5Toggle           = KSAUP 회로 차단기 (AV5)
 Entities.gmod_subway_81-502.Buttons.RCARS.RCARSToggle           = @[Common.ALL.RCARS]
 Entities.gmod_subway_81-502.Buttons.RCBPS.RCBPSToggle           = @[Common.ALL.RCBPS]
 
