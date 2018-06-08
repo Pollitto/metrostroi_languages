@@ -5,36 +5,36 @@ return [[
 
 #######Buttons###########
 #Common
-Common.502.KS                   = KSAUP operating indicator
-Common.502.AV                   = Autodrive is engaged
-Common.502.SD                   = SD: Door state light (doors are closed)
-Common.502.SDW                  = SD: Door state light (doors are opened)
-Common.502.L3w                  = 3rd wire lamp (X3 mode)
-Common.502.L4w                  = 4th wire lamp (backward movement direction)
-Common.502.L5w                  = 5th wire lamp (forward movement direction)
-Common.502.L16w                 = 16th wire lamp (doors interlock)
-Common.502.L20w                 = 20th wire lamp (LK2 and LK5 closure, smooth disengage)
-Common.502.L23w                 = 23rd wire lamp (compressor control)
-Common.502.RK1                  = Control of the first RK position
-Common.502.BRD                  = Doors failure lamp
-Common.502.KOS                  = KB: Speed limit button (attention button)
-Common.502.VAK                  = AK: Assembly emergency drive mode circuits
-Common.502.LRU                  = Emergency drive mode circuits are engaged
+Common.502.KS                   = KSAUP:n merkkivalo
+Common.502.AV                   = Automaattiajo kytketty päälle
+Common.502.SD                   = SD: Ovien tila (ovet ovat suljettu)
+Common.502.SDW                  = SD: Ovien tila (ovet ovat auki)
+Common.502.L3w                  = 3. sulake (täysi teho)
+Common.502.L4w                  = 4. sulake (ajosuunta taaksepäin)
+Common.502.L5w                  = 5. sulake (ajosuunta eteenpäin)
+Common.502.L16w                 = 16. sulake (Ovien lukitus )
+Common.502.L20w                 = 20. sulake (LK2 ja LK5 sulkeminen, vikatila)
+Common.502.L23w                 = 23. sulake (kompressorin ohjaus)
+Common.502.RK1                  = Ensimmäisen RK position hallinta
+Common.502.BRD                  = Ovivian merkkivalo
+Common.502.KOS                  = KB: Nopeusrajoitusnappi (huomionappi)
+Common.502.VAK                  = AK: Käynnistä hätäajomoodi
+Common.502.LRU                  = Hätäajomodin piirit aktivoitu
 #gmod_subway_81-502
-Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Autodrive battery on/off
+Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Automaattiajon virta päälle/pois
 
-Entities.gmod_subway_81-502.Buttons.AV.VRUToggle = VRU: Emergency driving mode
-Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle = KPVU: Turn off the pneumatic control disabler
-Entities.gmod_subway_81-502.Buttons.AV.KSDToggle = KSD: Disable door interlock control
+Entities.gmod_subway_81-502.Buttons.AV.VRUToggle = VRU: Hätäajomoodi
+Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle = KPVU: Paineilmajarrujen tietokonepohjainen hallinta pois
+Entities.gmod_subway_81-502.Buttons.AV.KSDToggle = KSD: Ovilukko pois käytöstä
 Entities.gmod_subway_81-502.Buttons.AV.KAHToggle = @[Common.ALL.VAH]
 Entities.gmod_subway_81-502.Buttons.AV.KADToggle = @[Common.ALL.VAD]
 Entities.gmod_subway_81-502.Buttons.AV.OVTToggle = @[Common.ALL.OVT]
 Entities.gmod_subway_81-502.Buttons.AV.VKFToggle = @[Common.ALL.VKF]
 
 
-Entities.gmod_subway_81-502.Buttons.RCAV3.RCAV3Toggle           = KSAUP circuits disconnector (AV3)
-Entities.gmod_subway_81-502.Buttons.RCAV4.RCAV4Toggle           = KSAUP circuits disconnector (AV4)
-Entities.gmod_subway_81-502.Buttons.RCAV5.RCAV5Toggle           = KSAUP circuits disconnector (AV5)
+Entities.gmod_subway_81-502.Buttons.RCAV3.RCAV3Toggle           = KSAUP viirtapiirin disablointi (AV3)
+Entities.gmod_subway_81-502.Buttons.RCAV4.RCAV4Toggle           = KSAUP viirtapiirin disablointi (AV4)
+Entities.gmod_subway_81-502.Buttons.RCAV5.RCAV5Toggle           = KSAUP viirtapiirin disablointi (AV5)
 Entities.gmod_subway_81-502.Buttons.RCARS.RCARSToggle           = @[Common.ALL.RCARS]
 Entities.gmod_subway_81-502.Buttons.RCBPS.RCBPSToggle           = @[Common.ALL.RCBPS]
 
@@ -187,14 +187,64 @@ Entities.gmod_subway_81-502.Buttons.HVMeters.!EnginesVoltage             = @[Com
 Entities.gmod_subway_81-502.Buttons.HVMeters.!EnginesCurrent             = @[Common.ALL.EnginesCurrent]
 Entities.gmod_subway_81-502.Buttons.BatteryVoltage.!BatteryVoltage       = @[Common.ALL.BatteryVoltage]
 
+#gmod_subway_81-501
+Entities.gmod_subway_81-501.Buttons.AV.KPVUToggle               = @[Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle]
+Entities.gmod_subway_81-501.Buttons.AV.KSDToggle                = @[Entities.gmod_subway_81-502.Buttons.AV.KSDToggle]
+
+Entities.gmod_subway_81-501.Buttons.AVMain.AVToggle             = @[Common.703.AV]
+Entities.gmod_subway_81-501.Buttons.Battery.VBToggle            = @[Common.ALL.VB] @[Common.ALL.VB2]
+Entities.gmod_subway_81-501.Buttons.AV1.VU1Toggle               = @[Common.703.VU1]
+Entities.gmod_subway_81-501.Buttons.AV1.VU2Toggle               = @[Common.703.VU2]
+Entities.gmod_subway_81-501.Buttons.AV1.VU3Toggle               = @[Common.703.VU3]
+
+Entities.gmod_subway_81-501.Buttons.VU.VUToggle                 = @[Common.ALL.VU]
+
+Entities.gmod_subway_81-501.Buttons.Main.!GRP                   = @[Common.ALL.RRP]
+Entities.gmod_subway_81-501.Buttons.Main.!RRP                   = @[Common.ALL.GRP]
+Entities.gmod_subway_81-501.Buttons.Main.!SD                    = @[Common.703.SD]
+Entities.gmod_subway_81-501.Buttons.Main.LOnSet                 = @[Common.703.LOn]
+Entities.gmod_subway_81-501.Buttons.Main.LOffSet                = @[Common.703.LOff]
+Entities.gmod_subway_81-501.Buttons.Main.VozvratRPSet           = @[Common.ALL.VRP]
+Entities.gmod_subway_81-501.Buttons.Main.KSNSet                 = @[Common.ALL.KSN]
+Entities.gmod_subway_81-501.Buttons.Main.KRZDSet                = @[Common.ALL.KRZD]
+Entities.gmod_subway_81-501.Buttons.Main.KDLSet                 = @[Common.ALL.KDL]
+Entities.gmod_subway_81-501.Buttons.Main.KDPSet                 = @[Common.ALL.KDP]
+Entities.gmod_subway_81-501.Buttons.Main.VMKToggle              = @[Common.ALL.VMK]
+Entities.gmod_subway_81-501.Buttons.Main.VUDToggle              = @[Common.ALL.VUD]
+
+Entities.gmod_subway_81-501.Buttons.HelperPanel.VDLSet          = @[Common.ALL.KDL]
+Entities.gmod_subway_81-501.Buttons.HelperPanel.KDPHSet         = @[Common.ALL.KDPH]
+
+Entities.gmod_subway_81-501.Buttons.Stopkran.EmergencyBrakeValveToggle                      = @[Common.ALL.EmergencyBrakeValve]
+Entities.gmod_subway_81-501.Buttons.ParkingBrake.ParkingBrakeLeft                           = @[Common.703.ParkingBrakeLeft]
+Entities.gmod_subway_81-501.Buttons.ParkingBrake.ParkingBrakeRight                          = @[Common.703.ParkingBrakeRight]
+Entities.gmod_subway_81-501.Buttons.DriverValveBLDisconnect.DriverValveBLDisconnectToggle   = @[Common.ALL.DriverValveBLDisconnect]
+Entities.gmod_subway_81-501.Buttons.DriverValveTLDisconnect.DriverValveTLDisconnectToggle   = @[Common.ALL.DriverValveTLDisconnect]
+Entities.gmod_subway_81-501.Buttons.FrontPneumatic.FrontBrakeLineIsolationToggle            = @[Common.ALL.FrontBrakeLineIsolationToggle]
+Entities.gmod_subway_81-501.Buttons.FrontPneumatic.FrontTrainLineIsolationToggle            = @[Common.ALL.FrontTrainLineIsolationToggle]
+Entities.gmod_subway_81-501.Buttons.RearPneumatic.RearTrainLineIsolationToggle              = @[Common.ALL.RearTrainLineIsolationToggle]
+Entities.gmod_subway_81-501.Buttons.RearPneumatic.RearBrakeLineIsolationToggle              = @[Common.ALL.RearBrakeLineIsolationToggle]
+Entities.gmod_subway_81-501.Buttons.GV.GVToggle                                             = @[Common.ALL.GV]
+Entities.gmod_subway_81-501.Buttons.AirDistributor.AirDistributorDisconnectToggle           = @[Common.ALL.AirDistributor]
+Entities.gmod_subway_81-501.Buttons.PassengerDoor.PassengerDoor                             = @[Common.ALL.CabinDoor]
+Entities.gmod_subway_81-501.Buttons.PassengerDoor1.PassengerDoor                            = @[Common.ALL.CabinDoor]
+Entities.gmod_subway_81-501.Buttons.FrontDoor.FrontDoor                                     = @[Common.ALL.FrontDoor]
+Entities.gmod_subway_81-501.Buttons.RearDoor.RearDoor                                       = @[Common.ALL.RearDoor]
+Entities.gmod_subway_81-501.Buttons.CabinDoor.CabinDoor                                     = @[Common.ALL.CabinDoor]
+
+Entities.gmod_subway_81-501.Buttons.BLTLPressure.!BLTLPressure           = @[Common.ALL.BLTLPressure]
+Entities.gmod_subway_81-501.Buttons.BCPressure.!BCPressure               = @[Common.ALL.BCPressure]
+Entities.gmod_subway_81-501.Buttons.HVMeters.!EnginesVoltage             = @[Common.ALL.EnginesVoltage]
+Entities.gmod_subway_81-501.Buttons.HVMeters.!EnginesCurrent             = @[Common.ALL.EnginesCurrent]
 #Cameras:
-Train.502.AV = Switches
+Train.502.AV = Kytkin
 Train.502.VBA = @[Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle]
 Train.502.VRD = VRD
 Train.502.RCARS = RC-ARS
 Train.502.RCAV5 = RC-AV5
-Train.502.RCBPS = RC-BPС
+Train.502.RCBPS = RC-BPS
 Train.502.RCAV3 = RC-AV3
 Train.502.RCAV4 = RC-AV4
 
 #Spawner:
+]]
