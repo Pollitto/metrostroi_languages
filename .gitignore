@@ -42,3 +42,6 @@ luac.out
 # Emacs backup files
 *~
 \#*\#
+
+# Test versions and notes
+*.txt
