@@ -442,7 +442,6 @@ Entities.gmod_subway_ezh.Buttons.Route.RouteNumber2-                            
 Entities.gmod_subway_ezh.Buttons.LastStation.LastStation+                                = @[Common.ALL.LastStation+]
 Entities.gmod_subway_ezh.Buttons.LastStation.LastStation-                                = @[Common.ALL.LastStation-]
 
-
 Entities.gmod_subway_ezh.Buttons.Speedometer.!Speedometer                                = @[Common.ALL.Speedometer]
 
 Entities.gmod_subway_ezh.Buttons.BLTLPressure.!BLTLPressure                              = @[Common.ALL.BLTLPressure]
