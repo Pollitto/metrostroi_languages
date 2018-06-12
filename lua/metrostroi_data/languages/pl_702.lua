@@ -1,7 +1,7 @@
 return [[
 #D/E-based types
 
-[en]
+[cz]
 
 #Cameras:
 Train.702.Breakers1 = Wyłącznik baterii akumulatorów
