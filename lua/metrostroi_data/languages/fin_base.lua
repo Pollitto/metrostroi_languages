@@ -45,6 +45,8 @@ Panel.ReloadLang        = Palauta kieli
 Panel.SoftDraw          = Elementtien "kevyt\lataus" prosentti
 Panel.SoftReloadLang    = Älä palauta "aloituspiste" valikkoa
 
+
+
 #Common train
 Train.Common.Camera0        = Kuljettajan istuin
 Train.Common.RouteNumber    = Linjanumero 
@@ -107,6 +109,7 @@ Common.Spawner.Type2        = Tyyppi 2
 Common.Spawner.Type3        = Tyyppi 3
 Common.Spawner.Type4        = Tyyppi 4
 
+
 #Trains common
 Common.ALL.Unsused1                         = ei käytös
 Common.ALL.Unsused2                         = (ei käytössä)
@@ -119,17 +122,22 @@ Common.ALL.VASNP                            = ASNP virta
 Common.ALL.UOS                              = RC-UOS: Nopeudenrajoitin (ajaminen ilman EPV/EPK)
 Common.ALL.VAH                              = VAH: Hätäajo 
 Common.ALL.KAH                              = KAH: Hätäajon nappula ilman ARS
+Common.ALL.KAHK                             = KAH button cover #FIXME
 Common.ALL.VAD                              = VAD: Ovien hätäsulkeminen (virhe KD sulakkeessa)
 Common.ALL.OVT                              = OVT: Poista paineilmajarrujen rele käytöstä
 Common.ALL.VOVT                             = VOVT: Sulje paineilmajarrujen ohituskytkin
 Common.ALL.EmergencyBrakeValve              = Hätäjarru
+Common.ALL.ParkingBrake                     = Parking brake #FIXME
 Common.ALL.VU                               = VU: Junan hallinta
 Common.ALL.KDP                              = KDP: Avaa oikeanpuoleiset ovet
+Common.ALL.KDPL                             = Right doors side is selected #FIXME
 Common.ALL.KDPK                             = Ovinappuloiden suoja
 Common.ALL.KDL                              = KDL: Avaa vasemmanpuoleiset ovet
+Common.ALL.KDLL                             = Left doors side is selected #FIXME
 Common.ALL.KDLK                             = Ovinappuloiden suoja
 Common.ALL.KDLPK                            = Ovinappuloiden suoja
 Common.ALL.KRZD                             = KRZD: Ovien hätäsulkeminen
+Common.ALL.VSD                              = Doors side selector #FIXME
 Common.ALL.Ring                             = Äänimerkki
 Common.ALL.VUD                              = VUD: Ovien hallinta(sulje ovet)
 Common.ALL.KDPH                             = Oikean puolen ovet auki viimeisestä vaunusta
@@ -137,14 +145,18 @@ Common.ALL.VUD2                             = VUD2: Ovien sulkeminen avustajan p
 Common.ALL.Program1                         = Ohjelma I
 Common.ALL.Program2                         = Ohjelma II
 Common.ALL.VRP                              = VRP: Ylikuormituksen resetointi
+Common.ALL.VRPBV                            = VRP: Reset overload relay, enable BV #FIXME
 Common.ALL.KSN                              = KSN: Vikavalo
 Common.ALL.VMK                              = VMK: Kompressori
+Common.ALL.MK                               = Compressor #FIXME (without acronym)
 Common.ALL.VF1                              = 1st ajovalo ryhmä
 Common.ALL.VF2                              = 2nd ajovalo ryhmä
 Common.ALL.VF                               = Ajovalojen kytkin
 Common.ALL.VUS                              = VUS: Ajovalot lyhyet/pitkät
 Common.ALL.GaugeLights                      = Matkustamon valo
 Common.ALL.CabLights                        = Ohjaamon valo
+Common.ALL.PassLights                       = Passenger compartment lighting #FIXME
+Common.ALL.PanelLights                      = Control panel lighting #FIXME
 Common.ALL.RMK                              = RMK: Hätäkompressori
 Common.ALL.KRP                              = KRP: Hätäkäynnistys
 Common.ALL.VZP                              = VZP: Ajokahvan viiveen 
@@ -164,10 +176,12 @@ Common.ALL.RP                               = RP: Punainen ylikuormituksen merkk
 Common.ALL.SN                               = LSN: Vian merkkivalo (virhe tehopiireissä)
 Common.ALL.PU                               = Tehoa vähennetty
 Common.ALL.BrT                              = Junan paineilmajarrut kytketään
+Common.ALL.BrW                              = Wagon pneumobrakes are engaged #FIXME
 Common.ALL.ARS                              = ARS: Nopeuden valvonta järjestelmän kytkin
 Common.ALL.ARSR                             = ARS-R: Nopeuden valvonta järjestelmä
 Common.ALL.ALS                              = ALS: Automaattinen singaalin tunnistus järjestelmä
-Common.ALL.RCARS                            = RC-1: ARS piirit kytketty pois
+Common.ALL.RCARS                            = RC-ARS: ARS circuits disconnect #FIXME (same as RC-1)
+Common.ALL.RC1                            = RC-1: ARS piirit kytketty pois
 Common.ALL.EPK                              = ARS sähköinen jarrutus venttiili(EPK)
 Common.ALL.EPV                              = ARS sähköinen jarrutus venttiili (EPV)
 Common.ARS.LN                               = LN: Suunta singaali
@@ -176,6 +190,7 @@ Common.ARS.VD                               = VD: Ajomodi kytketty pois päält�
 Common.ARS.Freq                             = ALS deaktivointi järjestelmä
 Common.ARS.FreqD                            = (ylös 1/5, alas 2/6)
 Common.ARS.FreqU                            = (ylös 2/6, alas 1/5)
+Common.ARS.VP                               = "Auxiliary train" mode #FIXME
 Common.ARS.RS                               = RS: Nopeus tasarvoinen (seuraava rajoitus sama tai suurempi kuin nykyinen)
 Common.ARS.AB                               = Automaattinen  ARS tila
 Common.ARS.ABButton                         = ARS tilan valinta
@@ -191,6 +206,7 @@ Common.ARS.KB                               = KB: Varoitus nappi
 Common.ARS.KVT                              = KVT: Jarrujen havannointi painike
 Common.ARS.KVTR                             = KVT: ARS-R pakkojarrun kuittaus
 Common.ARS.04                               = OCh: Ei ARS singaalia
+Common.ARS.N4                               = NCh: No ARS frequency #FIXME (same as OCh but NCh)
 Common.ARS.0                                = 0: ARS pysähtymiskäsky
 Common.ARS.40                               = Nopeusrajoitus 40 kmh/h
 Common.ARS.60                               = Nopeusrajoitus 60 kmh/h
@@ -202,24 +218,33 @@ Common.BPS.Err                              = "Anti-Rolling" vaunukohtainen toim
 Common.BPS.Fail                             ="Anti-Rolling" toimintahäiriö
 Commom.NMnUAVA.NMPressureLow                = Matala jarrupaine
 Commom.NMnUAVA.UAVATriggered                = UAVA:n yhteys auki
+Common.ALL.LSD                              = Train doors state light (doors are closed) #FIXME
 Common.ALL.L1w                              = 1st lamppu (ajo aktiivinen)
 Common.ALL.L2w                              = 2nd lamppu (resostanttisäädin aktiivinen)
 Common.ALL.L6w                              = 6th lamppu(jarrutus aktiivinen)
+Common.ALL.Horn                             = Horn #FIXME
 Common.ALL.DriverValveBLDisconnect          = Jarrujohdon irroitus venttiili
 Common.ALL.DriverValveTLDisconnect          = Junajarrun irroitus venttiili
+Common.ALL.DriverValveDisconnect            = Driver's valve disconnect valve #FIXME
+Common.ALL.KRMH                             = KRMSH: Driver's valve emergency enable #FIXME
 Common.ALL.FrontBrakeLineIsolationToggle    = Jarrujohdon eristysventtiili
 Common.ALL.FrontTrainLineIsolationToggle    = Junajarrun eristysventtiili
 Common.ALL.RearTrainLineIsolationToggle     = Junajarrun eristysventtiili
 Common.ALL.RearBrakeLineIsolationToggle     = Jarrujohdon eristysventtiili
 Common.ALL.UAVA                             = UAVA: Pakkojarrun vapautus\n(aktivoidaan kun paineet alhaalla)
+Common.ALL.UAVA2                            = UAVA: Enable automatic autostop disabler #FIXME
 Common.ALL.UAVAContact                      = UAVA resetointi
 Common.ALL.OAVU                             = OAVU: Poista AVU käytöstä
 Common.ALL.LAVU                             = AVU on aktivoitu
 Common.ALL.GV                               = Pääkytkin
 Common.ALL.AirDistributor                   = VRN: Ilmanjakojärjestelmä
 Common.ALL.CabinDoor                        = Ohjaamon ovi
+Common.ALL.PassDoor                         = Door to the passenger compartment #FIXME
 Common.ALL.FrontDoor                        = Etuovi
 Common.ALL.RearDoor                         = Takaovi
+Common.ALL.OtsekDoor1                       = 1st equipment cupboard handle #FIXME
+Common.ALL.OtsekDoor2                       = 2nd equipment cupboard handle #FIXME
+Common.ALL.CouchCap                         = Pull out the seat #FIXME
 
 Common.ALL.UNCh                             = UNCh: Alhainen taajuusvahvistin
 Common.ALL.ES                               = ES: Hätä kommunikaatio
@@ -247,6 +272,10 @@ Common.ASNP.ASNPUp          = ASNP: Ylös
 Common.ASNP.ASNPDown        = ASNP: Alas
 Common.ASNP.ASNPOn          = ASNP: Virta
 
+#PVK
+Common.CabVent.PVK-         = Decrease cabin ventilation power #FIXME
+Common.CabVent.PVK+         = Increase cabin ventilation power #FIXME
+
 #IGLA
 Train.Common.IGLA           = IGLA
 Common.IGLA.Button1Up       = IGLA: Nappula ylös
@@ -255,6 +284,9 @@ Common.IGLA.Button1Down     = IGLA: Nappula ylös
 Common.IGLA.Button2Up       = IGLA: Toinen nappula ylös
 Common.IGLA.Button2         = IGLA: Toinen nappula
 Common.IGLA.Button2Down     = IGLA: Toinen nappula alas
+Common.IGLA.Button23        = IGLA: Second and third buttons #FIXME
+Common.IGLA.Button3         = IGLA: Third button #FIXME
+Common.IGLA.Button4         = IGLA: Fourth button #FIXME
 Common.IGLA.IGLASR          = IGLA: Virta
 Common.IGLA.IGLARX          = IGLA: Ei yhteyttä
 Common.IGLA.IGLAErr         = IGLA: Virhe
@@ -262,11 +294,22 @@ Common.IGLA.IGLAOSP         = IGLA: Palonsammutusjärjestelmä päällä
 Common.IGLA.IGLAPI          = IGLA: Tulipalo
 Common.IGLA.IGLAOff         = IGLA: HV piirit pois
 
+#BZOS
+Common.BZOS.On      = Security alarm switch #FIXME
+Common.BZOS.VH1     = Security alarm is enabled #FIXME
+Common.BZOS.VH2     = Security alarm is triggered #FIXME
+Common.BZOS.Engaged = Security alarm is triggered #FIXME
+
 #Train helpers common
+Common.ALL.SpeedCurr        = Actual speed #FIXME
+Common.ALL.SpeedAccept      = Allowed speed #FIXME
+Common.ALL.SpeedAttent      = Allowed speed on the next section #FIXME
 Common.ALL.Speedometer      = Nopeusmittari
 Common.ALL.BLTLPressure     = Jarrupaineet(punainen: jarrupaine, musta: junanpaine)
 Common.ALL.BCPressure       = Jarru sylinterien paine
 Common.ALL.EnginesCurrent   = Moottoreiden sähkönkäyttö (A)
+Common.ALL.EnginesCurrent1  = 1st traction motors current (A) #FIXME
+Common.ALL.EnginesCurrent2  = 2nd traction motors current (A) #FIXME
 Common.ALL.EnginesVoltage   = Moottoreiden jännite (kV)
 Common.ALL.BatteryVoltage   = Akuston jännite (V)
 Common.ALL.HighVoltage      = Korkea jännite (kV)

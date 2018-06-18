@@ -1,8 +1,10 @@
 return [[
 #Base text for Czech language
+
 [cz]
 lang        = Czech                           				#Full language name
 AuthorText  = Autor překladu: Silverpilen_CZ |СПЕЦНАЗ|      #Author text
+
 #Workshop errors
 Workshop.Title              = Manažér součástí
 Workshop.FilesMissing       = Chybějící součásti nebo chybný addon.\nPokud jste nainstalovali addon z Workshopu, zkuste smazat soubor:\nGarrysMod/garrysmod/%s.
@@ -15,10 +17,13 @@ Workshop.Installed          = Nainstalováno
 Workshop.Open               = Workshop
 Workshop.ErrorGithub        = Zjištěna GitHub verze módu Metrostroi. Současná verze módu Metrostroi není kompatibilní a nebude fungovat s GitHub verzí módu Metrostroi.
 Workshop.ErrorLegacy        = Žjištěna Legacy verze módu Metrostroi. Současná verze módu Metrostroi není kompatibilní a nebude fungovat s Legacy verzí módu Metrostroi.
+
 Workshop.Error1             = Tento addon obsahuje starý script kód módu Metrostroi, který není kompatibilní se současnou verzí. Může se zobrazit hláška "Scrips errors", a může se projevit nestabilita addonu.
+
 #Client settings
 Panel.Admin             = Admin
 Panel.RequireThirdRail  = Zapnout nutnost přítomnosti přívodní kolejnice
+
 Panel.Client            = Klient
 Panel.Language          = Zvolit jazyk
 Panel.DrawCams          = Renderovací kamery
@@ -32,12 +37,16 @@ Panel.MinimizedShow     = Nenačítat znovu součásti\npři minimalizování
 Panel.FOV               = FOV
 Panel.RenderDistance    = Vykreslovací\nvzdálenost
 Panel.ReloadClient      = Znovu načíst klienta
+
 Panel.ClientAdvanced    = Klient (pokročilý)
 Panel.DrawDebugInfo     = Zobrazit informace pro vývojáře
 Panel.CheckAddons       = Zkontrolovat addony
 Panel.ReloadLang        = Znovu načíst jazyky
 Panel.SoftDraw          = Procento "plynulého"\nnačtení součástí
 Panel.SoftReloadLang    = Znovu nenahrávat spawnovací menu
+
+
+
 #Common train
 Train.Common.Camera0        = Sedadlo strojvedoucího
 Train.Common.RouteNumber    = Číslo turnusu
@@ -45,6 +54,7 @@ Train.Common.LastStation    = Konečná stanice
 Train.Common.HelpersPanel   = Pomocný panel
 Common.ARM.Monitor1         = Monitor 1 ARM
 Train.Buttons.Sealed        = Tlačítka (zaplombována)
+
 #Train entities
 Entities.gmod_subway_base.Name        = Vozová základna
 Entities.gmod_subway_81-502.Name      = 81-502 (Ema-502 čelní)
@@ -71,9 +81,11 @@ Entities.gmod_subway_81-724.Name      = 81-724 (Jubilejnij vložený nemotorový
 Entities.gmod_subway_81-7036.Name     = 81-7036 (nefunguje)
 Entities.gmod_subway_81-7037.Name     = 81-7037 (nefunguje)
 Entities.gmod_subway_tatra_t3.Name    = Tatra T3
+
 #Train util entities
 Entities.gmod_train_bogey.Name        = Podvozek
 Entities.gmod_train_couple.Name       = Spřáhlo
+
 #Other entities
 Entities.gmod_track_pui.Name                = PUI (Programovatelné zobrazovací zařízení)
 Entities.gmod_track_mus_elektronika7.Name   = Digitální hodiny
@@ -86,6 +98,7 @@ Entities.gmod_track_powermeter.Name         = Měříč výkonu
 Entities.gmod_track_arm.Name                = ARM DSCP
 Entities.gmod_track_udochka.Name            = Napájecí kabel
 Entities.gmod_train_spawner.Name            = Spawner vozů metra
+
 #Spawner common
 Common.Spawner.Texture      = Textura vozu
 Common.Spawner.PassTexture  = Textura interiéru
@@ -95,6 +108,8 @@ Common.Spawner.Type1        = Typ 1
 Common.Spawner.Type2        = Typ 2
 Common.Spawner.Type3        = Typ 3
 Common.Spawner.Type4        = Typ 4
+
+
 #Trains common
 Common.ALL.Unsused1                         = Nevyužito
 Common.ALL.Unsused2                         = (nevyužito)
@@ -107,17 +122,22 @@ Common.ALL.VASNP                            = Napájení ASNP
 Common.ALL.UOS                              = RC-UOS: Odpojovač obvodů omezovače rychlosti (jízda bez EPV/EPK)
 Common.ALL.VAH                              = VAH: Nouzová jízda
 Common.ALL.KAH                              = KAH: Tlačítko nouzové jízdy bez ARS
+Common.ALL.KAHK                             = KAH button cover #FIXME
 Common.ALL.VAD                              = VAD: Jízda bez kontroly zavření dveří
 Common.ALL.OVT                              = OVT: Odpojení vzduchových brzd
 Common.ALL.VOVT                             = VOVT: Vypnout odpojovač vzduchových brzd
 Common.ALL.EmergencyBrakeValve              = Záchraná brzda
+Common.ALL.ParkingBrake                     = Parking brake #FIXME
 Common.ALL.VU                               = VU: Řízení
 Common.ALL.KDP                              = KDP: Otevřít pravé dveře
+Common.ALL.KDPL                             = Right doors side is selected #FIXME
 Common.ALL.KDPK                             = Krytka tlačítka pravých dveří
 Common.ALL.KDL                              = KDL: Otevřít levé dveře
+Common.ALL.KDLL                             = Left doors side is selected #FIXME
 Common.ALL.KDLK                             = Krytka tlačítka levých dveří
 Common.ALL.KDLPK                            = Krytka tlačítek dveří
 Common.ALL.KRZD                             = KRZD: Dveře nouze
+Common.ALL.VSD                              = Doors side selector #FIXME
 Common.ALL.Ring                             = Zvonek
 Common.ALL.VUD                              = VUD: Zavření dveří
 Common.ALL.KDPH                             = Otevřít pravé dveře posledního vozu
@@ -125,14 +145,18 @@ Common.ALL.VUD2                             = VUD2: Zavření dveří z místa p
 Common.ALL.Program1                         = Start hlášení (Program 1)
 Common.ALL.Program2                         = Start hlášení (Program 2)
 Common.ALL.VRP                              = VRP: Korekce zátěže relé
+Common.ALL.VRPBV                            = VRP: Reset overload relay, enable BV #FIXME
 Common.ALL.KSN                              = KSN: Porucha řízení
 Common.ALL.VMK                              = VMK: Kompresor
+Common.ALL.MK                               = Compressor #FIXME (without acronym)
 Common.ALL.VF1                              = Světla 1. skupiny
 Common.ALL.VF2                              = Světla 2. skupiny
 Common.ALL.VF                               = Přepínač světel
 Common.ALL.VUS                              = VUS: Světla/Světla dálková
 Common.ALL.GaugeLights                      = Osvětlení přístojů
 Common.ALL.CabLights                        = Osvětlení kabiny
+Common.ALL.PassLights                       = Passenger compartment lighting #FIXME
+Common.ALL.PanelLights                      = Control panel lighting #FIXME
 Common.ALL.RMK                              = RMK: Kompresor nouze
 Common.ALL.KRP                              = KRP: Nouzové řízení
 Common.ALL.VZP                              = VZP: Tlačítko pozastavení odjezdu soupravy (režim RAV)
@@ -152,10 +176,12 @@ Common.ALL.RP                               = RP: Červené světlo přetížen�
 Common.ALL.SN                               = LSN: Přetížení relé (nelze zkompletovat jističe)
 Common.ALL.PU                               = Zjednodušené nastavení zapnuto
 Common.ALL.BrT                              = Pneumatické brzdy zapnuty
+Common.ALL.BrW                              = Wagon pneumobrakes are engaged #FIXME
 Common.ALL.ARS                              = ARS: Automatická regulace rychlosti
 Common.ALL.ARSR                             = ARS-R: Automatická regulace rychlosti (rezervní systém)
 Common.ALL.ALS                              = ALS: Automatická lokomotivní signalizace
-Common.ALL.RCARS                            = RC-1: Odpojovač řídicích obvodů ARS
+Common.ALL.RCARS                            = RC-ARS: ARS circuits disconnect #FIXME (same as RC-1)
+Common.ALL.RC1                            = RC-1: Odpojovač řídicích obvodů ARS
 Common.ALL.EPK                              = Elektropneumatický ventil ARS (EPK)
 Common.ALL.EPV                              = Elektropneumatický ventil ARS (EPV)
 Common.ARS.LN                               = LN: Kontrolka směru jízdy
@@ -164,6 +190,7 @@ Common.ARS.VD                               = VD: Řízení vypnuto systémem AR
 Common.ARS.Freq                             = Dekodér: Přepínač kódování frekvencí ALS
 Common.ARS.FreqD                            = (nahoru - 1/5, dolů - 2/6)
 Common.ARS.FreqU                            = (nahoru - 2/6, dolů - 1/5)
+Common.ARS.VP                               = "Auxiliary train" mode #FIXME
 Common.ARS.RS                               = RS: Předvěst (rychlost v dalším oddílu je stejná nebo vyšší)
 Common.ARS.AB                               = Provoz v režimu automatického bloku
 Common.ARS.ABButton                         = Provoz v režimu automatického bloku (tlačítko)
@@ -179,6 +206,7 @@ Common.ARS.KB                               = KB: Tlačítko bdělosti
 Common.ARS.KVT                              = KVT: Tlačítko bdělosti
 Common.ARS.KVTR                             = KVT: Tlačítko bdělosti v režimu ARS-R
 Common.ARS.04                               = OČ: Bez kódu
+Common.ARS.N4                               = NCh: No ARS frequency #FIXME (same as OCh but NCh)
 Common.ARS.0                                = 0: Kód 0 (Návěst zastavení)
 Common.ARS.40                               = Rychlost 40 km/h
 Common.ARS.60                               = Rychlost 60 km/h
@@ -190,30 +218,41 @@ Common.BPS.Err                              = Chyba protiskluzového bloku
 Common.BPS.Fail                             = Závada protiskluzového bloku
 Commom.NMnUAVA.NMPressureLow                = Kontrolka: Nízký tlaku vzduchu (brzdy)
 Commom.NMnUAVA.UAVATriggered                = Kontrolka: Kontakty Autostopu (UAVA) jsou rozpojeny
+Common.ALL.LSD                              = Train doors state light (doors are closed) #FIXME
 Common.ALL.L1w                              = Kontrolka 1. vodiče (řídící režím zapojen)
 Common.ALL.L2w                              = Kontrolka 2. vodiče (rotace reostatu)
 Common.ALL.L6w                              = Kontrolka 6. vodiče (brzdový režim zapojen)
+Common.ALL.Horn                             = Horn #FIXME
 Common.ALL.DriverValveBLDisconnect          = Ventil brzdového potrubí
 Common.ALL.DriverValveTLDisconnect          = Ventil hlavního potrubí
+Common.ALL.DriverValveDisconnect            = Driver's valve disconnect valve #FIXME
+Common.ALL.KRMH                             = KRMSH: Driver's valve emergency enable #FIXME
 Common.ALL.FrontBrakeLineIsolationToggle    = Izolační ventil brzdového potrubí
 Common.ALL.FrontTrainLineIsolationToggle    = Izolační ventil hlavního potrubí
 Common.ALL.RearTrainLineIsolationToggle     = Izolační ventil hlavního potrubí
 Common.ALL.RearBrakeLineIsolationToggle     = Izolační ventil brzdového potrubí
 Common.ALL.UAVA                             = UAVA: Autostop (zapnutí autostopu)\n(lze zapnout po snížení tlaku v hlavním potrubí)
+Common.ALL.UAVA2                            = UAVA: Enable automatic autostop disabler #FIXME
 Common.ALL.UAVAContact                      = UAVA: Autostop (obnovení kontaktů)
 Common.ALL.OAVU                             = OAVU: Tlačitko vypnutí AVU (Automatický odpojovač řízení)
 Common.ALL.LAVU                             = AVU (Automatický odpojovač řízení) je aktivováno
 Common.ALL.GV                               = Hlavní vypínač
 Common.ALL.AirDistributor                   = VRN: Vypínač rozdělovače vzduchu
 Common.ALL.CabinDoor                        = Dveře kabiny
+Common.ALL.PassDoor                         = Door to the passenger compartment #FIXME
 Common.ALL.FrontDoor                        = Přední dveře
 Common.ALL.RearDoor                         = Zadní dveře
+Common.ALL.OtsekDoor1                       = 1st equipment cupboard handle #FIXME
+Common.ALL.OtsekDoor2                       = 2nd equipment cupboard handle #FIXME
+Common.ALL.CouchCap                         = Pull out the seat #FIXME
+
 Common.ALL.UNCh                             = UNCh: Zesilovač nízké frekvence
 Common.ALL.ES                               = ES: Tlačítko nouzového komunikačního zařízení
 Common.ALL.GCab                             = Vlakový rozhlas v kabině
 Common.ALL.UPO                              = UPO: Vlakový rozhlas
 Common.ALL.R_Radio                          = Vlakový rozhlas
 Common.ALL.AnnPlay                          = Kontrolka přehrávání vlakového rozhlasu
+
 #RRI
 Train.Common.RRI                            = RRI: Radioreléový rozhlas
 Common.RRI.RRIUp                            = RRI: Nastavení nahoru
@@ -225,12 +264,18 @@ Common.RRI.RRIRewindSet2                    = RRI: Přetočit dopředu
 Common.RRI.RRIRewindSet0                    = RRI: Přetočit dozadu
 Common.RRI.RRIAmplifierToggle               = RRI: Zesilovač
 Common.RRI.RRIOn                            = Kontrolka chodu RRI
+
 #ASNP
 Train.Common.ASNP           = ASNP
 Common.ASNP.ASNPMenu        = ASNP: Menu
 Common.ASNP.ASNPUp          = ASNP: Nahoru
 Common.ASNP.ASNPDown        = ASNP: Dolů
 Common.ASNP.ASNPOn          = ASNP: Napájení
+
+#PVK
+Common.CabVent.PVK-         = Decrease cabin ventilation power #FIXME
+Common.CabVent.PVK+         = Increase cabin ventilation power #FIXME
+
 #IGLA
 Train.Common.IGLA           = IGLA
 Common.IGLA.Button1Up       = IGLA: První tlačítko (nahoru)
@@ -239,17 +284,32 @@ Common.IGLA.Button1Down     = IGLA: První tlačítko (dolů)
 Common.IGLA.Button2Up       = IGLA: Druhé tlačítko (nahoru)
 Common.IGLA.Button2         = IGLA: Druhé tlačítko
 Common.IGLA.Button2Down     = IGLA: Druhé tlačítko (dolů)
+Common.IGLA.Button23        = IGLA: Second and third buttons #FIXME
+Common.IGLA.Button3         = IGLA: Third button #FIXME
+Common.IGLA.Button4         = IGLA: Fourth button #FIXME
 Common.IGLA.IGLASR          = IGLA: Napájení
 Common.IGLA.IGLARX          = IGLA: Bez připojení
 Common.IGLA.IGLAErr         = IGLA: Chyba
 Common.IGLA.IGLAOSP         = IGLA: Protipožární systém aktivován
 Common.IGLA.IGLAPI          = IGLA: Požár
 Common.IGLA.IGLAOff         = IGLA: Obvody hlavního vypínače odpojeny
+
+#BZOS
+Common.BZOS.On      = Security alarm switch #FIXME
+Common.BZOS.VH1     = Security alarm is enabled #FIXME
+Common.BZOS.VH2     = Security alarm is triggered #FIXME
+Common.BZOS.Engaged = Security alarm is triggered #FIXME
+
 #Train helpers common
+Common.ALL.SpeedCurr        = Actual speed #FIXME
+Common.ALL.SpeedAccept      = Allowed speed #FIXME
+Common.ALL.SpeedAttent      = Allowed speed on the next section #FIXME
 Common.ALL.Speedometer      = Rychloměr
 Common.ALL.BLTLPressure     = Napájecí-brzdové potrubí (červená: brzdové potrubí, černá: hlavní potrubí)
 Common.ALL.BCPressure       = Tlak v brzdovém válci
 Common.ALL.EnginesCurrent   = Výkon trakčních motorů (A)
+Common.ALL.EnginesCurrent1  = 1st traction motors current (A) #FIXME
+Common.ALL.EnginesCurrent2  = 2nd traction motors current (A) #FIXME
 Common.ALL.EnginesVoltage   = Napětí trakčních motorů (kV)
 Common.ALL.BatteryVoltage   = Napětí baterie (V)
 Common.ALL.HighVoltage      = Vysoké napětí (kV)

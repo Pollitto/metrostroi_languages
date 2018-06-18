@@ -252,6 +252,7 @@ Common.ALL.GCab                             = Loudspeaker: Sound in cabin switch
 Common.ALL.UPO                              = UPO: Announcer
 Common.ALL.R_Radio                          = Announcer
 Common.ALL.AnnPlay                          = Announcer playback lamp
+
 #RRI
 Train.Common.RRI                            = RRI: Radio-relay announcer
 Common.RRI.RRIUp                            = RRI: Setup up
@@ -263,6 +264,7 @@ Common.RRI.RRIRewindSet2                    = RRI: Fast forward
 Common.RRI.RRIRewindSet0                    = RRI: Rewind
 Common.RRI.RRIAmplifierToggle               = RRI: Amplifier
 Common.RRI.RRIOn                            = RRI operation lamp
+
 #ASNP
 Train.Common.ASNP           = ASNP
 Common.ASNP.ASNPMenu        = ASNP: Menu
@@ -282,9 +284,9 @@ Common.IGLA.Button1Down     = IGLA: First button down
 Common.IGLA.Button2Up       = IGLA: Second button up
 Common.IGLA.Button2         = IGLA: Second button
 Common.IGLA.Button2Down     = IGLA: Second button down
-Common.IGLA.Button23        = ИГЛА: Second and third buttons #FIXME
-Common.IGLA.Button3         = ИГЛА: Third button #FIXME
-Common.IGLA.Button4         = ИГЛА: Fourth button #FIXME
+Common.IGLA.Button23        = IGLA: Second and third buttons #FIXME
+Common.IGLA.Button3         = IGLA: Third button #FIXME
+Common.IGLA.Button4         = IGLA: Fourth button #FIXME
 Common.IGLA.IGLASR          = IGLA: Power
 Common.IGLA.IGLARX          = IGLA: No connection
 Common.IGLA.IGLAErr         = IGLA: Error
@@ -299,15 +301,15 @@ Common.BZOS.VH2     = Security alarm is triggered #FIXME
 Common.BZOS.Engaged = Security alarm is triggered #FIXME
 
 #Train helpers common
-Common.ALL.SpeedCurr            = Actual speed #FIXME
-Common.ALL.SpeedAccept          = Allowed speed #FIXME
-Common.ALL.SpeedAttent          = Allowed speed on the next section #FIXME
+Common.ALL.SpeedCurr        = Actual speed #FIXME
+Common.ALL.SpeedAccept      = Allowed speed #FIXME
+Common.ALL.SpeedAttent      = Allowed speed on the next section #FIXME
 Common.ALL.Speedometer      = Speedometer
 Common.ALL.BLTLPressure     = Pressure in pneumatic lines (red: brake line, black: train line)
 Common.ALL.BCPressure       = Brake cylinder pressure
 Common.ALL.EnginesCurrent   = Engines current (A)
-Common.ALL.EnginesCurrent1   = 1st traction motors current (A) #FIXME
-Common.ALL.EnginesCurrent2   = 2nd traction motors current (A) #FIXME
+Common.ALL.EnginesCurrent1  = 1st traction motors current (A) #FIXME
+Common.ALL.EnginesCurrent2  = 2nd traction motors current (A) #FIXME
 Common.ALL.EnginesVoltage   = Engines voltage (kV)
 Common.ALL.BatteryVoltage   = Battery voltage (V)
 Common.ALL.HighVoltage      = High voltage (kV)

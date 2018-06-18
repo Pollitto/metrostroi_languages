@@ -45,6 +45,8 @@ Panel.ReloadLang        = Sprachen laden
 Panel.SoftDraw          = Element "weiches\nLaden" in Prozent
 Panel.SoftReloadLang    = Spawnmenue nicht neuladen
 
+
+
 #Common train
 Train.Common.Camera0        = Fahrersitz
 Train.Common.RouteNumber    = Umlauf
@@ -107,6 +109,7 @@ Common.Spawner.Type2        = Typ 2
 Common.Spawner.Type3        = Typ 3
 Common.Spawner.Type4        = Typ 4
 
+
 #Trains common
 Common.ALL.Unsused1                         = Nicht im Gebrauch
 Common.ALL.Unsused2                         = (Gebrauch)
@@ -119,17 +122,22 @@ Common.ALL.VASNP                            = ASNP Strom
 Common.ALL.UOS                              = RC-UOS: Geschwindigkeitsbegrenzer (Fahren ohne EPV/EPK)
 Common.ALL.VAH                              = VAH: Fahrmodus fuer Notfaelle (Stoerung des RPB relais)
 Common.ALL.KAH                              = KAH: Zwangsbeschleunigung bei der Fahrt ohne ARS
+Common.ALL.KAHK                             = KAH button cover #FIXME
 Common.ALL.VAD                              = VAD: Zwangsschliessen der Tueren ueberbruecken (Stoerung des KD relais)
 Common.ALL.OVT                              = OVT: Druckluftbremsen deaktivieren
 Common.ALL.VOVT                             = VOVT: ueberbruecken der deaktivierten Druckluftbremsen
 Common.ALL.EmergencyBrakeValve              = Notbremsung
+Common.ALL.ParkingBrake                     = Parking brake #FIXME
 Common.ALL.VU                               = VU: Zugsteuerung
 Common.ALL.KDP                              = KDP: Tueren rechts oeffnen
+Common.ALL.KDPL                             = Right doors side is selected #FIXME
 Common.ALL.KDPK                             = Verdeckung fuer Tueren Rechts
 Common.ALL.KDL                              = KDL: Tueren links oeffnen
+Common.ALL.KDLL                             = Left doors side is selected #FIXME
 Common.ALL.KDLK                             = Verdeckung fuer Tueren links
 Common.ALL.KDLPK                            = Verdeckung der Tuerknoepfe
 Common.ALL.KRZD                             = KRZD: Zwangsschliessen
+Common.ALL.VSD                              = Doors side selector #FIXME
 Common.ALL.Ring                             = Klingeln
 Common.ALL.VUD                              = VUD: Tueren Freigeben bzw. Verriegeln (Tueren schliessen)
 Common.ALL.KDPH                             = Im letzten Wagon Tueren rechts oeffnen
@@ -137,14 +145,18 @@ Common.ALL.VUD2                             = VUD2: Tueren schliessen fuer den Z
 Common.ALL.Program1                         = Program I
 Common.ALL.Program2                         = Program II
 Common.ALL.VRP                              = VRP: Uberspannungsschutz zuruecksetzen
+Common.ALL.VRPBV                            = VRP: Reset overload relay, enable BV #FIXME
 Common.ALL.KSN                              = KSN: Störungsmelder
 Common.ALL.VMK                              = VMK: Luftpresser
+Common.ALL.MK                               = Compressor #FIXME (without acronym)
 Common.ALL.VF1                              = 1. Scheinwerfergruppe
 Common.ALL.VF2                              = 2. Scheinwerfergruppe
 Common.ALL.VF                               = Spitzenlicht ein/aus
 Common.ALL.VUS                              = VUS: Fernlicht
 Common.ALL.GaugeLights                      = Beleuchtung fuer Armaturen
 Common.ALL.CabLights                        = Licht im Fuehrerstand
+Common.ALL.PassLights                       = Passenger compartment lighting #FIXME
+Common.ALL.PanelLights                      = Control panel lighting #FIXME
 Common.ALL.RMK                              = RMK: Notfall Luftpresser
 Common.ALL.KRP                              = KRP: Zwangsstart
 Common.ALL.VZP                              = VZP: Relais fuer das Fahren deaktivieren
@@ -164,10 +176,12 @@ Common.ALL.RP                               = RP: Leuchtmelder fuer ueberspannun
 Common.ALL.SN                               = LSN: Stoerungsmelder (Stromkreise konnten nicht geschlossen werden)
 Common.ALL.PU                               = Leuchtmelder fuer Stromsparmodus
 Common.ALL.BrT                              = Druckluftbremsen angelegt
+Common.ALL.BrW                              = Wagon pneumobrakes are engaged #FIXME
 Common.ALL.ARS                              = ARS: Automatische Geschwindigkeitsregelung
 Common.ALL.ARSR                             = ARS-R: Automatische Geschwindigkeitsregelung im ARS-R modus
 Common.ALL.ALS                              = ALS: Automatische Anzeige der Signalgeschwindigkeiten
-Common.ALL.RCARS                            = RC-1: ARS deaktivieren
+Common.ALL.RCARS                            = RC-ARS: ARS circuits disconnect #FIXME (same as RC-1)
+Common.ALL.RC1                            = RC-1: ARS deaktivieren
 Common.ALL.EPK                              = ARS Elektropneumatische Ventil (EPK)
 Common.ALL.EPV                              = ARS Elektropneumatische Ventil (EPV)
 Common.ARS.LN                               = LN: Richtungssignal
@@ -176,6 +190,7 @@ Common.ARS.VD                               = VD: Beschleunigung vom ARS unterbr
 Common.ARS.Freq                             = ALS decoder
 Common.ARS.FreqD                            = (hoch 1/5, runter 2/6)
 Common.ARS.FreqU                            = (hoch 2/6, runter 1/5)
+Common.ARS.VP                               = "Auxiliary train" mode #FIXME
 Common.ARS.RS                               = RS: Naechste Begrenzung ist groesser oder gleich zu der jetzigen
 Common.ARS.AB                               = Autoblockieren ARS modus
 Common.ARS.ABButton                         = Autoblockieren ARS modus Schalter
@@ -191,6 +206,7 @@ Common.ARS.KB                               = KB: Wachsam-Knopf
 Common.ARS.KVT                              = KVT: Bremsempfehlung wahrgenommen
 Common.ARS.KVTR                             = KVT: ARS-R Bremsempfehlung wahrgenommen
 Common.ARS.04                               = OCh: Keine ARS Frequenz
+Common.ARS.N4                               = NCh: No ARS frequency #FIXME (same as OCh but NCh)
 Common.ARS.0                                = 0: ARS Zwangshalt
 Common.ARS.40                               = Tempolimit 40 kmh
 Common.ARS.60                               = Tempolimit 60 kmh
@@ -202,24 +218,34 @@ Common.BPS.Err                              = Rollschutz Stoerung
 Common.BPS.Fail                             = Rollschutz fehlfunktion
 Commom.NMnUAVA.NMPressureLow                = Bremsdruck in Hauptluftleitung zu gering
 Commom.NMnUAVA.UAVATriggered                = UAVA kontakte offen
+Common.ALL.LSD                              = Train doors state light (doors are closed) #FIXME
 Common.ALL.L1w                              = 1. Leuchtmelder (Fahrmotoren aktiv)
 Common.ALL.L2w                              = 2. Leuchtmelder (Schaltwerk ist in Bewegung)
 Common.ALL.L6w                              = 6. Leuchtmelder (Bremse aktiv)
+Common.ALL.Horn                             = Horn #FIXME
 Common.ALL.DriverValveBLDisconnect          = Absperrhahn fuer Bremsleitung
 Common.ALL.DriverValveTLDisconnect          = Absperrhahn fuer Hauptluftleitung
+Common.ALL.DriverValveDisconnect            = Driver's valve disconnect valve #FIXME
+Common.ALL.KRMH                             = KRMSH: Driver's valve emergency enable #FIXME
 Common.ALL.FrontBrakeLineIsolationToggle    = Absperrhahn fuer Bremsleitung
 Common.ALL.FrontTrainLineIsolationToggle    = Absperrhahn fuer Hauptluftleitung
 Common.ALL.RearTrainLineIsolationToggle     = Absperrhahn fuer Hauptluftleitung
 Common.ALL.RearBrakeLineIsolationToggle     = Absperrhahn fuer Bremsleitung
 Common.ALL.UAVA                             = UAVA: Uberbrueckung d. Zwangsbremsungen von Signalen\n(kann reaktiviert werden wenn Bremsleitung abfaellt)
+Common.ALL.UAVA2                            = UAVA: Enable automatic autostop disabler #FIXME
 Common.ALL.UAVAContact                      = UAVA reset der Kontakte
 Common.ALL.OAVU                             = OAVU:  AVU Schalter deaktivieren
 Common.ALL.LAVU                             = AVU ist aktiv
 Common.ALL.GV                               = Hauptschalter
 Common.ALL.AirDistributor                   = VRN: Luftverteiler deaktivieren
 Common.ALL.CabinDoor                        = Kabinentuer
+Common.ALL.PassDoor                         = Door to the passenger compartment #FIXME
 Common.ALL.FrontDoor                        = Vordertuer
 Common.ALL.RearDoor                         = Hintertuer
+Common.ALL.OtsekDoor1                       = 1st equipment cupboard handle #FIXME
+Common.ALL.OtsekDoor2                       = 2nd equipment cupboard handle #FIXME
+Common.ALL.CouchCap                         = Pull out the seat #FIXME
+
 Common.ALL.UNCh                             = UNCh: Verstaerker fuer niedrige Frequenzen
 Common.ALL.ES                               = ES: Schalter fuer Notfall Kommunikation
 Common.ALL.GCab                             = Lautsprecher: Sound im Fuehrerstand
@@ -246,6 +272,10 @@ Common.ASNP.ASNPUp          = ASNP: Hoch
 Common.ASNP.ASNPDown        = ASNP: Runter
 Common.ASNP.ASNPOn          = ASNP: Strom
 
+#PVK
+Common.CabVent.PVK-         = Decrease cabin ventilation power #FIXME
+Common.CabVent.PVK+         = Increase cabin ventilation power #FIXME
+
 #IGLA
 Train.Common.IGLA           = IGLA
 Common.IGLA.Button1Up       = IGLA: Erster Knopf hoch
@@ -254,6 +284,9 @@ Common.IGLA.Button1Down     = IGLA: Erster Knopf runter
 Common.IGLA.Button2Up       = IGLA: Zweiter Knopf hoch
 Common.IGLA.Button2         = IGLA: Zweiter Knopf
 Common.IGLA.Button2Down     = IGLA: Zweiter Knopf runter
+Common.IGLA.Button23        = IGLA: Second and third buttons #FIXME
+Common.IGLA.Button3         = IGLA: Third button #FIXME
+Common.IGLA.Button4         = IGLA: Fourth button #FIXME
 Common.IGLA.IGLASR          = IGLA: Strom
 Common.IGLA.IGLARX          = IGLA: Keine Verbindung
 Common.IGLA.IGLAErr         = IGLA: Stoerung
@@ -261,11 +294,22 @@ Common.IGLA.IGLAOSP         = IGLA: Feuerloeschsystem aktiv
 Common.IGLA.IGLAPI          = IGLA: Feuer
 Common.IGLA.IGLAOff         = IGLA: Hochspannung nicht aktiv
 
+#BZOS
+Common.BZOS.On      = Security alarm switch #FIXME
+Common.BZOS.VH1     = Security alarm is enabled #FIXME
+Common.BZOS.VH2     = Security alarm is triggered #FIXME
+Common.BZOS.Engaged = Security alarm is triggered #FIXME
+
 #Train helpers common
+Common.ALL.SpeedCurr        = Actual speed #FIXME
+Common.ALL.SpeedAccept      = Allowed speed #FIXME
+Common.ALL.SpeedAttent      = Allowed speed on the next section #FIXME
 Common.ALL.Speedometer      = Geschwindigkeit
 Common.ALL.BLTLPressure     = Druck in den Leitungen (rot: Bremsleitung, schwarz: Hauptluftleitung)
 Common.ALL.BCPressure       = Druck in den Bremszylindern
 Common.ALL.EnginesCurrent   = Spannung auf Fahrmotoren (A)
+Common.ALL.EnginesCurrent1  = 1st traction motors current (A) #FIXME
+Common.ALL.EnginesCurrent2  = 2nd traction motors current (A) #FIXME
 Common.ALL.EnginesVoltage   = Spannung auf Fahrmotoren in Volt (kV)
 Common.ALL.BatteryVoltage   = Battriespannung (V)
 Common.ALL.HighVoltage      = Hochspannung (kV)

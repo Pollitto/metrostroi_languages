@@ -45,6 +45,8 @@ Panel.ReloadLang        = Przeładuj języki
 Panel.SoftDraw          = Opóźnienie między rysowaniami
 Panel.SoftReloadLang    = Nie przeładowywuj spawnmenu
 
+
+
 #Common train
 Train.Common.Camera0        = Miejsce maszynisty
 Train.Common.RouteNumber    = Numer brygady
@@ -120,17 +122,22 @@ Common.ALL.VASNP                            = Wyłącznik ASNP
 Common.ALL.UOS                              = RC-UOS: Urządzenie ograniczenia prędkości (jazda bez EPV/EPK)
 Common.ALL.VAH                              = VAH: Wyłącznik jazdy awaryjnej
 Common.ALL.KAH                              = KAH: Przycisk jazdy awaryjnej bez ARS
+Common.ALL.KAHK                             = KAH button cover #FIXME
 Common.ALL.VAD                              = VAD: Wyłącznik awaryjny drzwi
 Common.ALL.OVT                              = OVT: Odłączenie hamulców pneumatycznych
 Common.ALL.VOVT                             = VOVT: Wyłącznik odłączenia hamulców pneumatycznych
 Common.ALL.EmergencyBrakeValve              = Hamulec bezpieczeństwa
+Common.ALL.ParkingBrake                     = Parking brake #FIXME
 Common.ALL.VU                               = VU: Wyłącznik sterowania
 Common.ALL.KDP                              = KDP: Otwarcie drzwi prawych
+Common.ALL.KDPL                             = Right doors side is selected #FIXME
 Common.ALL.KDPK                             = Klapka przycisku drzwi prawych
 Common.ALL.KDL                              = KDL: Otwarcie drzwi lewych
+Common.ALL.KDLL                             = Left doors side is selected #FIXME
 Common.ALL.KDLK                             = Klapka przycisku drzwi prawych
 Common.ALL.KDLPK                            = Klapka przycisków drzwi
 Common.ALL.KRZD                             = KRZD: Rezerwowe zamykanie drzwi
+Common.ALL.VSD                              = Doors side selector #FIXME
 Common.ALL.Ring                             = Dzwonek
 Common.ALL.VUD                              = VUD: Zamykanie drzwi
 Common.ALL.KDPH                             = Otwarcie prawych drzwi ostatniego wagonu
@@ -138,14 +145,18 @@ Common.ALL.VUD2                             = VUD2: Zamykanie drzwi od strony po
 Common.ALL.Program1                         = Program I
 Common.ALL.Program2                         = Program II
 Common.ALL.VRP                              = VRP: Odblokowanie RP
+Common.ALL.VRPBV                            = VRP: Reset overload relay, enable BV #FIXME
 Common.ALL.KSN                              = KSN: Sygnał awarii
 Common.ALL.VMK                              = VMK: Sprężarka
+Common.ALL.MK                               = Compressor #FIXME (without acronym)
 Common.ALL.VF1                              = Wyłącznik pierwszej grupy reflektorów
 Common.ALL.VF2                              = Wyłącznik drugiej grupy reflektorów
 Common.ALL.VF                               = Wyłącznik reflektorów
 Common.ALL.VUS                              = VUS: Wyłącznik silniejszego światła reflektorów
 Common.ALL.GaugeLights                      = Oświetlenie pulpitu
 Common.ALL.CabLights                        = Oświetlenie kabiny
+Common.ALL.PassLights                       = Passenger compartment lighting #FIXME
+Common.ALL.PanelLights                      = Control panel lighting #FIXME
 Common.ALL.RMK                              = RMK: Rezerwowe sterowanie sprężarki
 Common.ALL.KRP                              = KRP: Rozruch rezerwowy
 Common.ALL.VZP                              = VZP: Wyłącznik wstrzymania odjazdu systemu jazdy samoczynnej
@@ -165,10 +176,12 @@ Common.ALL.RP                               = RP: Czerwona kontrolka RP (zadzia�
 Common.ALL.SN                               = LSN: Czerwona kontrolka RP (brak załączenia obwodu głównego jednego lub więcej wagonów)
 Common.ALL.PU                               = Kontrolka niskiego rozruchu
 Common.ALL.BrT                              = Kontrolka działania hamulca pneumatycznego pociągu
+Common.ALL.BrW                              = Wagon pneumobrakes are engaged #FIXME
 Common.ALL.ARS                              = ARS: Wyłącznik systemu ARS
 Common.ALL.ARSR                             = ARS-R: Wyłącznik pracy systemu ARS w trybie ARS-R
 Common.ALL.ALS                              = ALS: Wyłącznik ALS
-Common.ALL.RCARS                            = RC-1: Odłącznik obwodów ARS
+Common.ALL.RCARS                            = RC-ARS: ARS circuits disconnect #FIXME (same as RC-1)
+Common.ALL.RC1                            = RC-1: Odłącznik obwodów ARS
 Common.ALL.EPK                              = EPK: elektropneumatyczny zawór ARS
 Common.ALL.EPV                              = EPV: elektropneumatyczny zawór ARS
 Common.ARS.LN                               = LN: Kontrolka jazdy w kierunku właściwym
@@ -177,6 +190,7 @@ Common.ARS.VD                               = VD: Kontrolka wyłączenia
 Common.ARS.Freq                             = Przełączenie trybu pracy ALS
 Common.ARS.FreqD                            = (w górę 1/5, w dół 2/6)
 Common.ARS.FreqU                            = (w górę 2/6, w dół 1/5)
+Common.ARS.VP                               = "Auxiliary train" mode #FIXME
 Common.ARS.RS                               = RS: Lampa równości ograniczeń prędkości
 Common.ARS.AB                               = Praca systemu ARS w trybie blokady liniowej
 Common.ARS.ABButton                         = Przycisk przejścia w tryb blokady liniowej
@@ -192,6 +206,7 @@ Common.ARS.KB                               = KB: Przycisk czuwaka
 Common.ARS.KVT                              = KVT: Przycisk kasowania hamowania
 Common.ARS.KVTR                             = KVT: Przycisk kasowania hamowania w trybie ARS-R
 Common.ARS.04                               = OCh: Brak sygnału ARS
+Common.ARS.N4                               = NCh: No ARS frequency #FIXME (same as OCh but NCh)
 Common.ARS.0                                = 0: Sygnał "stój"
 Common.ARS.40                               = 40: Ograniczenie 40 km/h
 Common.ARS.60                               = 60: Ograniczenie 60 km/h
@@ -203,24 +218,33 @@ Common.BPS.Err                              = Błąd systemu przeciwpoślizgoweg
 Common.BPS.Fail                             = Awaria systemu przeciwpoślizgowego
 Commom.NMnUAVA.NMPressureLow                = Kontrolka niskiego ciśnienia w przewodzie zasilającym
 Commom.NMnUAVA.UAVATriggered                = Kontrolka otwarcia styków UAVA
+Common.ALL.LSD                              = Train doors state light (doors are closed) #FIXME
 Common.ALL.L1w                              = Kontrolka przewodu 1. (załączenie obwodu głównego - rozruch)
 Common.ALL.L2w                              = Kontrolka przewodu 2. (praca kontrolera reostatu (PSR))
 Common.ALL.L6w                              = Kontrolka przewodu 6. (załączenie obwodu głównego - hamowanie ED)
+Common.ALL.Horn                             = Horn #FIXME
 Common.ALL.DriverValveBLDisconnect          = Zawór dwudrożny przewodu głównego
 Common.ALL.DriverValveTLDisconnect          = Zawór dwudrożny przewodu zasilającego
+Common.ALL.DriverValveDisconnect            = Driver's valve disconnect valve #FIXME
+Common.ALL.KRMH                             = KRMSH: Driver's valve emergency enable #FIXME
 Common.ALL.FrontBrakeLineIsolationToggle    = Zawór przewodu głównego sprzęgu powietrznego
 Common.ALL.FrontTrainLineIsolationToggle    = Zawór przewodu zasilającego sprzęgu powietrznego
 Common.ALL.RearBrakeLineIsolationToggle     = Zawór przewodu głównego sprzęgu powietrznego
 Common.ALL.RearTrainLineIsolationToggle     = Zawór przewodu zasilającego sprzęgu powietrznego
 Common.ALL.UAVA                             = UAVA: Włączenie samoczynnego wyłącznika autostopu\n(możliwe dopiero po zmniejszeniu ciśnienia w przewodzie głównym)
+Common.ALL.UAVA2                            = UAVA: Enable automatic autostop disabler #FIXME
 Common.ALL.UAVAContact                      = Przywrócenie styków UAVA
 Common.ALL.OAVU                             = OAVU: Wyłącznik odłączenia AVU
 Common.ALL.LAVU                             = Kontrolka działania AVU
 Common.ALL.GV                               = GV: Główny odłącznik
 Common.ALL.AirDistributor                   = VRN: Wyłącznik zaworu rozrządrzego
 Common.ALL.CabinDoor                        = Drzwi do kabiny
+Common.ALL.PassDoor                         = Door to the passenger compartment #FIXME
 Common.ALL.FrontDoor                        = Drzwi przednie
 Common.ALL.RearDoor                         = Drzwi tylne
+Common.ALL.OtsekDoor1                       = 1st equipment cupboard handle #FIXME
+Common.ALL.OtsekDoor2                       = 2nd equipment cupboard handle #FIXME
+Common.ALL.CouchCap                         = Pull out the seat #FIXME
 
 Common.ALL.UNCh                             = UNCh: Włączenie wzmacniacza niskich częstotliwości
 Common.ALL.ES                               = ES: Przełącznik kontroli łączności alarmowej
@@ -228,6 +252,7 @@ Common.ALL.GCab                             = Włączenie głośnika w kabinie
 Common.ALL.UPO                              = UPO: Włączenie urządzeń rozgłaszania komunikatów dźwiękowych
 Common.ALL.R_Radio                          = Włączenie systemu zapowiedzi głosowych
 Common.ALL.AnnPlay                          = Kontrolka odtwarzania zapowiedzi głosowej
+
 #RRI
 Train.Common.RRI                            = RRI: Przekaźnikowy system zapowiedzi głosowych
 Common.RRI.RRIUp                            = RRI: Konfiguracja w górę
@@ -239,12 +264,17 @@ Common.RRI.RRIRewindSet2                    = RRI: Przewijanie do przodu
 Common.RRI.RRIRewindSet0                    = RRI: Przewijanie do tyłu
 Common.RRI.RRIAmplifierToggle               = RRI: Wzmacniacz
 Common.RRI.RRIOn                            = RRI: Kontrolka pracy RRI 
+
 #ASNP
 Train.Common.ASNP           = ASNP
 Common.ASNP.ASNPMenu        = ASNP: Menu
 Common.ASNP.ASNPUp          = ASNP: W górę
 Common.ASNP.ASNPDown        = ASNP: W dół
 Common.ASNP.ASNPOn          = Wyłącznik ASNP
+
+#PVK
+Common.CabVent.PVK-         = Decrease cabin ventilation power #FIXME
+Common.CabVent.PVK+         = Increase cabin ventilation power #FIXME
 
 #IGLA
 Train.Common.IGLA           = IGLA
@@ -254,18 +284,32 @@ Common.IGLA.Button1Down     = IGLA: Pierwszy przycisk w dół
 Common.IGLA.Button2Up       = IGLA: Drugi przycisk w górę
 Common.IGLA.Button2         = IGLA: Drugi przycisk
 Common.IGLA.Button2Down     = IGLA: Drugi przycisk w górę
+Common.IGLA.Button23        = IGLA: Second and third buttons #FIXME
+Common.IGLA.Button3         = IGLA: Third button #FIXME
+Common.IGLA.Button4         = IGLA: Fourth button #FIXME
 Common.IGLA.IGLASR          = IGLA: Zasilanie
 Common.IGLA.IGLARX          = IGLA: Brak łączności
 Common.IGLA.IGLAErr         = IGLA: Błąd
 Common.IGLA.IGLAOSP         = IGLA: Zadziałanie systemu przeciwpożarowego
 Common.IGLA.IGLAPI          = IGLA: Pożar
 Common.IGLA.IGLAOff         = IGLA: Odłączenie obwodów WN
-#Train helpers common
 
+#BZOS
+Common.BZOS.On      = Security alarm switch #FIXME
+Common.BZOS.VH1     = Security alarm is enabled #FIXME
+Common.BZOS.VH2     = Security alarm is triggered #FIXME
+Common.BZOS.Engaged = Security alarm is triggered #FIXME
+
+#Train helpers common
+Common.ALL.SpeedCurr        = Actual speed #FIXME
+Common.ALL.SpeedAccept      = Allowed speed #FIXME
+Common.ALL.SpeedAttent      = Allowed speed on the next section #FIXME
 Common.ALL.Speedometer      = Prędkościomierz
 Common.ALL.BLTLPressure     = Ciśnienie w przewodach: głównym (wsk. czerwona) i zasilającym (wsk. czarna)
 Common.ALL.BCPressure       = Ciśnienie w cylindrach hamulcowych
 Common.ALL.EnginesCurrent   = Prąd trakcyjny [A]
+Common.ALL.EnginesCurrent1  = 1st traction motors current (A) #FIXME
+Common.ALL.EnginesCurrent2  = 2nd traction motors current (A) #FIXME
 Common.ALL.EnginesVoltage   = Napięcie trakcyjne [kV]
 Common.ALL.BatteryVoltage   = Napięcie baterii [V]
 Common.ALL.HighVoltage      = Woltomierz WN [kV]
