@@ -1,4 +1,4 @@
-﻿eturn [[
+﻿return [[
 #D/E-based types
 [de]
 #Cameras:
