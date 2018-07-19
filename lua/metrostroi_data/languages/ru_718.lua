@@ -34,6 +34,7 @@ Common.718.RIP      = РИП: Работа индикации пожара
 Common.718.VS1      = ВС1: Лампа выключенного состояния вентиляции 1 группы
 Common.718.VS2      = ВС2: Лампа выключенного состояния вентиляции 2 группы
 
+#Autobreakers
 Common.718.SF51  = SF51: Основное питание АРС
 Common.718.SF52  = SF52: Резервное питание АРС
 Common.718.SF53  = SF53: Тормозные цепи АРС
@@ -88,6 +89,7 @@ Common.718.SF35  = SF35: Питание вентиляции II группы
 Common.718.SF23  = SF23: Контактор вентиляции I группы
 Common.718.SF24  = SF24: Контактор вентиляции II группы
 
+#Names
 Common.718.MVSU  = БУП МВСУ
 Common.718.MLUP  = БУП МЛУП
 Common.718.MUVS1 = БУП МУВС1
@@ -95,6 +97,7 @@ Common.718.MUVS2 = БУП МУВС2
 Common.718.MP    = БУП МП
 Common.718.MS    = БУП МС
 
+#A lot of indicators
 Common.718.MVSUARSX     = @[Common.718.MVSU]: Разрешение режима Ход от БКБД
 Common.718.MVSUARST     = @[Common.718.MVSU]: Режим Тормоз от БКБД
 Common.718.MVSUARSX3    = @[Common.718.MVSU]: Режим Х3 от блока автоведения
