@@ -17,7 +17,7 @@ Workshop.Installed          = Установлен
 Workshop.Open               = Workshop
 Workshop.ErrorGithub        = Обнаружены скрипты GitHub версии мода Metrostroi. Текущая версия Metrostroi не совместима и не может работать одновременно с GitHub версией.
 Workshop.ErrorLegacy        = Обнаружена Legacy версия мода Metrostroi. Текущая версия Metrostroi не совместима и не может работать одновременно с Legacy версией.
-
+Workshop.ErrorEnhancers     = Этот аддон содержит улучшения графики, которые могут помешать комфортной игре.
 Workshop.Error1             = Данный аддон содержит в себе старый код мода Metrostroi, который конфликтует с текущим. Возможны "Script errors"(ошибки скриптов) и неопределённое поведение аддона.
 
 #Client settings

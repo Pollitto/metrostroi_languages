@@ -83,10 +83,10 @@ Common.717.A73                  = A73: Failure signalling
 Common.717.A20                  = A20: LK-2, LK-5
 Common.717.A25                  = A25: Manual braking
 
-Common.717.A11                  = A11: Equipment cupboard and cabin lighting
+Common.717.A11                  = A11: Equipment compartment and cabin lighting
 Common.717.A37                  = A37: Power supply protection relay reset
 Common.717.A45                  = A45: BPSN control
-Common.717.A38                  = A38: Wagon circuits faulure signalling lamp
+Common.717.A38                  = A38: Wagon circuits failure signalling lamp
 Common.717.A51                  = A51: KPP and KVP contactors
 Common.717.A65                  = A65: Secondary BPSN converter
 Common.717.A66                  = A66: BV disabling
