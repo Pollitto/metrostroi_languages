@@ -47,7 +47,7 @@ Common.717.A12                  = A12: Dveře nouze
 
 Common.717.A24                  = A24: Dobíjení baterie
 Common.717.A49                  = A49: Osvětlení nouze
-Common.717.A27                  = A27: Osv. kabiny, kontr. MR, park. brzda
+Common.717.A27                  = A27: Osv. kabiny, interiéru, kontr. MR, park. brzda
 Common.717.A72                  = A72: Pneumatický ventil č. 1
 Common.717.A50                  = A50: Přídrž PBO
 Common.717.AV3                  = AВ3: Nouzové napájení ventilace
@@ -102,7 +102,7 @@ Common.717.A58                  = A58: Jízda nouze (KAH-1)
 Common.717.A57                  = A57: Reostat kontroléru (HRK)
 Common.717.A59                  = A59: Jízda nouze (KAH-2)
 Common.717.A28                  = A28: Napájení jednotky tyristor. reg. výkonu
-Common.717.A55                  = A55: Elektrické rozvody
+Common.717.A55                  = A55: Sběrače proudu
 Common.717.A68                  = A68: Sběrače
 Common.717.A80                  = A80: Zapnutí BV
 Common.717.A81                  = A81: Ovládání BV
