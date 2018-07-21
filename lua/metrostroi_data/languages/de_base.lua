@@ -1,7 +1,10 @@
-﻿#Base text for German language
+﻿return [[
+#Base text for German language
+
 [de]
 lang        = Deutsch								#Full language name
 AuthorText  = Translation Author: Davids_Trains		#Author text
+
 #Workshop errors
 Workshop.Title              = Content manager
 Workshop.FilesMissing       = Einige Addons fehlen oder sind beschaedigt!.\nIf addons wurden installiert. Versuche Datei zu loeschen:\nGarrysMod/garrysmod/%s.

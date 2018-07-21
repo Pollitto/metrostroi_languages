@@ -187,8 +187,8 @@ Common.718.MALP1SN       = @[Common.718.MALP1]: 전원 회로 미연결
 Common.718.MALP1VN       = @[Common.718.MALP1]: 환풍기 고장
 
 
-Common.718.MVDOTK        = @[Common.718.MALP1]: 구동/제동 모드 고장
-Common.718.MVDRP         = @[Common.718.MALP1]: RP 작동
+Common.718.MVDOTK        = @[Common.718.MVD]: 구동/제동 모드 고장
+Common.718.MVDRP         = @[Common.718.MVD]: RP 작동
 
 Common.718.MALP2MSU      = @[Common.718.MALP1]: 순간 전류 설정값 리셋
 Common.718.MALP2800      = @[Common.718.MALP1]: 3궤조 전압 800V 집전중

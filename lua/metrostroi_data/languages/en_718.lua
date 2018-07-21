@@ -187,8 +187,8 @@ Common.718.MALP1SN       = @[Common.718.MALP1]: Power circuit is not assembled
 Common.718.MALP1VN       = @[Common.718.MALP1]: Fans malfunction
 
 
-Common.718.MVDOTK        = @[Common.718.MALP1]: Drive/brake modes malfunction
-Common.718.MVDRP         = @[Common.718.MALP1]: RP actuation
+Common.718.MVDOTK        = @[Common.718.MVD]: Drive/brake modes malfunction
+Common.718.MVDRP         = @[Common.718.MVD]: RP actuation
 
 Common.718.MALP2MSU      = @[Common.718.MALP1]: Instant current setpoint reset
 Common.718.MALP2800      = @[Common.718.MALP1]: 800V on the third rail is available

@@ -187,8 +187,8 @@ Common.718.MALP1SN       = @[Common.718.MALP1]: Силовая схема не �
 Common.718.MALP1VN       = @[Common.718.MALP1]: Неисправность вентиляторов
 
 
-Common.718.MVDOTK        = @[Common.718.MALP1]: Отказ режимов
-Common.718.MVDRP         = @[Common.718.MALP1]: Сработка РП
+Common.718.MVDOTK        = @[Common.718.MVD]: Отказ режимов
+Common.718.MVDRP         = @[Common.718.MVD]: Сработка РП
 
 Common.718.MALP2MSU      = @[Common.718.MALP1]: Мгновенный сброс уставки
 Common.718.MALP2800      = @[Common.718.MALP1]: Напряжение сети 800В

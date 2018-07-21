@@ -187,8 +187,8 @@ Common.718.MALP1SN       = @[Common.718.MALP1]: Elektrické obvody nezkompletov�
 Common.718.MALP1VN       = @[Common.718.MALP1]: Závada ventilace
 
 
-Common.718.MVDOTK        = @[Common.718.MALP1]: Porucha režimů Jízda/Brzda
-Common.718.MVDRP         = @[Common.718.MALP1]: Vybavení RP
+Common.718.MVDOTK        = @[Common.718.MVD]: Porucha režimů Jízda/Brzda
+Common.718.MVDRP         = @[Common.718.MVD]: Vybavení RP
 
 Common.718.MALP2MSU      = @[Common.718.MALP1]: Okamžité vynulování požadované hodnoty
 Common.718.MALP2800      = @[Common.718.MALP1]: 800V dostupno v přívodní kolejnici

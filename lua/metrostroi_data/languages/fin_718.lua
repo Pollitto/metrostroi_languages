@@ -366,9 +366,9 @@ Common.718.MALP1VN       = @[Common.718.MALP1]: Tuulettimen vika
 
 
 
-Common.718.MVDOTK        = @[Common.718.MALP1]: Ajo/jarrutus tilan vikatila
+Common.718.MVDOTK        = @[Common.718.MVD]: Ajo/jarrutus tilan vikatila
 
-Common.718.MVDRP         = @[Common.718.MALP1]: RP painallus
+Common.718.MVDRP         = @[Common.718.MVD]: RP painallus
 
 
 Common.718.MALP2MSU      = @[Common.718.MALP1]: Virran asetusarvon nollaus
