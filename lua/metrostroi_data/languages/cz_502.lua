@@ -20,6 +20,13 @@ Common.502.BRD                  = Kontrolka: Porucha dveří
 Common.502.KOS                  = KB: Tlačítko bdělosti
 Common.502.VAK                  = AK: Tlačítko zkompletování obvodů v režimu nouzové jízdy
 Common.502.LRU                  = Kontrolka: Jističe pro režim nouzové jízdy jsou zapojeny
+
+#Spawner
+Spawner.502.TypeNVL         = Train from NVL #FIXME
+Spawner.502.TypeKVLO        = Old train from KVL #FIXME
+Spawner.502.TypeKVLN        = New train from KVL #FIXME
+Spawner.502.EWagons         = Add "E" type wagons #FIXME
+
 #gmod_subway_81-502
 Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Přepínač baterie autovedení
 
@@ -187,6 +194,55 @@ Entities.gmod_subway_81-502.Buttons.HVMeters.!EnginesVoltage             = @[Com
 Entities.gmod_subway_81-502.Buttons.HVMeters.!EnginesCurrent             = @[Common.ALL.EnginesCurrent]
 Entities.gmod_subway_81-502.Buttons.BatteryVoltage.!BatteryVoltage       = @[Common.ALL.BatteryVoltage]
 
+#gmod_subway_81-501
+Entities.gmod_subway_81-501.Buttons.AV.KPVUToggle               = @[Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle]
+Entities.gmod_subway_81-501.Buttons.AV.KSDToggle                = @[Entities.gmod_subway_81-502.Buttons.AV.KSDToggle]
+
+Entities.gmod_subway_81-501.Buttons.AVMain.AVToggle             = @[Common.703.AV]
+Entities.gmod_subway_81-501.Buttons.Battery.VBToggle            = @[Common.ALL.VB] @[Common.ALL.VB2]
+Entities.gmod_subway_81-501.Buttons.AV1.VU1Toggle               = @[Common.703.VU1]
+Entities.gmod_subway_81-501.Buttons.AV1.VU2Toggle               = @[Common.703.VU2]
+Entities.gmod_subway_81-501.Buttons.AV1.VU3Toggle               = @[Common.703.VU3]
+
+Entities.gmod_subway_81-501.Buttons.VU.VUToggle                 = @[Common.ALL.VU]
+
+Entities.gmod_subway_81-501.Buttons.Main.!GRP                   = @[Common.ALL.RRP]
+Entities.gmod_subway_81-501.Buttons.Main.!RRP                   = @[Common.ALL.GRP]
+Entities.gmod_subway_81-501.Buttons.Main.!SD                    = @[Common.703.SD]
+Entities.gmod_subway_81-501.Buttons.Main.LOnSet                 = @[Common.703.LOn]
+Entities.gmod_subway_81-501.Buttons.Main.LOffSet                = @[Common.703.LOff]
+Entities.gmod_subway_81-501.Buttons.Main.VozvratRPSet           = @[Common.ALL.VRP]
+Entities.gmod_subway_81-501.Buttons.Main.KSNSet                 = @[Common.ALL.KSN]
+Entities.gmod_subway_81-501.Buttons.Main.KRZDSet                = @[Common.ALL.KRZD]
+Entities.gmod_subway_81-501.Buttons.Main.KDLSet                 = @[Common.ALL.KDL]
+Entities.gmod_subway_81-501.Buttons.Main.KDPSet                 = @[Common.ALL.KDP]
+Entities.gmod_subway_81-501.Buttons.Main.VMKToggle              = @[Common.ALL.VMK]
+Entities.gmod_subway_81-501.Buttons.Main.VUDToggle              = @[Common.ALL.VUD]
+
+Entities.gmod_subway_81-501.Buttons.HelperPanel.VDLSet          = @[Common.ALL.KDL]
+Entities.gmod_subway_81-501.Buttons.HelperPanel.KDPHSet         = @[Common.ALL.KDPH]
+
+Entities.gmod_subway_81-501.Buttons.Stopkran.EmergencyBrakeValveToggle                      = @[Common.ALL.EmergencyBrakeValve]
+Entities.gmod_subway_81-501.Buttons.ParkingBrake.ParkingBrakeLeft                           = @[Common.703.ParkingBrakeLeft]
+Entities.gmod_subway_81-501.Buttons.ParkingBrake.ParkingBrakeRight                          = @[Common.703.ParkingBrakeRight]
+Entities.gmod_subway_81-501.Buttons.DriverValveBLDisconnect.DriverValveBLDisconnectToggle   = @[Common.ALL.DriverValveBLDisconnect]
+Entities.gmod_subway_81-501.Buttons.DriverValveTLDisconnect.DriverValveTLDisconnectToggle   = @[Common.ALL.DriverValveTLDisconnect]
+Entities.gmod_subway_81-501.Buttons.FrontPneumatic.FrontBrakeLineIsolationToggle            = @[Common.ALL.FrontBrakeLineIsolationToggle]
+Entities.gmod_subway_81-501.Buttons.FrontPneumatic.FrontTrainLineIsolationToggle            = @[Common.ALL.FrontTrainLineIsolationToggle]
+Entities.gmod_subway_81-501.Buttons.RearPneumatic.RearTrainLineIsolationToggle              = @[Common.ALL.RearTrainLineIsolationToggle]
+Entities.gmod_subway_81-501.Buttons.RearPneumatic.RearBrakeLineIsolationToggle              = @[Common.ALL.RearBrakeLineIsolationToggle]
+Entities.gmod_subway_81-501.Buttons.GV.GVToggle                                             = @[Common.ALL.GV]
+Entities.gmod_subway_81-501.Buttons.AirDistributor.AirDistributorDisconnectToggle           = @[Common.ALL.AirDistributor]
+Entities.gmod_subway_81-501.Buttons.PassengerDoor.PassengerDoor                             = @[Common.ALL.CabinDoor]
+Entities.gmod_subway_81-501.Buttons.PassengerDoor1.PassengerDoor                            = @[Common.ALL.CabinDoor]
+Entities.gmod_subway_81-501.Buttons.FrontDoor.FrontDoor                                     = @[Common.ALL.FrontDoor]
+Entities.gmod_subway_81-501.Buttons.RearDoor.RearDoor                                       = @[Common.ALL.RearDoor]
+Entities.gmod_subway_81-501.Buttons.CabinDoor.CabinDoor                                     = @[Common.ALL.CabinDoor]
+
+Entities.gmod_subway_81-501.Buttons.BLTLPressure.!BLTLPressure           = @[Common.ALL.BLTLPressure]
+Entities.gmod_subway_81-501.Buttons.BCPressure.!BCPressure               = @[Common.ALL.BCPressure]
+Entities.gmod_subway_81-501.Buttons.HVMeters.!EnginesVoltage             = @[Common.ALL.EnginesVoltage]
+Entities.gmod_subway_81-501.Buttons.HVMeters.!EnginesCurrent             = @[Common.ALL.EnginesCurrent]
 #Cameras:
 Train.502.AV = Elektrické jističe
 Train.502.VBA = @[Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle]
@@ -198,4 +254,17 @@ Train.502.RCAV3 = RC-AV3
 Train.502.RCAV4 = RC-AV4
 
 #Spawner:
+Entities.gmod_subway_81-502.Spawner.Texture.Name        = @[Common.Spawner.Texture]
+Entities.gmod_subway_81-502.Spawner.PassTexture.Name    = @[Common.Spawner.PassTexture]
+Entities.gmod_subway_81-502.Spawner.CabTexture.Name     = @[Common.Spawner.CabTexture]
+Entities.gmod_subway_81-502.Spawner.EMAType.Name        = @[Spawner.Common.EType]
+Entities.gmod_subway_81-502.Spawner.EMAType.1           = @[Spawner.502.TypeNVL]
+Entities.gmod_subway_81-502.Spawner.EMAType.2           = @[Spawner.502.TypeKVLO]
+Entities.gmod_subway_81-502.Spawner.EMAType.3           = @[Spawner.502.TypeKVLN]
+Entities.gmod_subway_81-502.Spawner.EWagons.Name        = @[Spawner.502.EWagons]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.Name      = @[Common.Spawner.SpawnMode]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.1         = @[Common.Spawner.SpawnMode.Deadlock]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.2         = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.3         = @[Common.Spawner.SpawnMode.NightDeadlock]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.4         = @[Common.Spawner.SpawnMode.Depot]
 ]]

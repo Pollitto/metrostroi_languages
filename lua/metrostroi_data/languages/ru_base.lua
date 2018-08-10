@@ -52,6 +52,11 @@ Train.Common.Camera0        = Место машиниста
 Train.Common.RouteNumber    = Номер маршрута
 Train.Common.LastStation    = Конечная станция
 Train.Common.HelpersPanel   = Панель помощника машиниста
+Train.Common.UAVA           = УАВА
+Train.Common.PneumoPanels   = Краны разобщения и ЭПК
+Train.Common.Voltmeters     = Вольтметры и амперметры
+Common.Spawner.Scheme       = Схема в салоне
+Common.Spawner.SchemeInvert = Инвертировать наддверные схемы
 Common.ARM.Monitor1         = Монитор 1 АРМ
 Train.Buttons.Sealed        = Запломбировано
 
@@ -100,19 +105,50 @@ Entities.gmod_track_udochka.Name            = Удочка
 Entities.gmod_train_spawner.Name            = Спавнер поездов
 
 #Spawner common
-Common.Spawner.Texture      = Окраска кузова
-Common.Spawner.PassTexture  = Окраска салона
-Common.Spawner.CabTexture   = Окраска кабины
-Common.Spawner.Announcer    = Тип информатора
-Common.Spawner.Type1        = Тип 1
-Common.Spawner.Type2        = Тип 2
-Common.Spawner.Type3        = Тип 3
-Common.Spawner.Type4        = Тип 4
+Spawner.Trains1                         = Разрешено ваг.
+Spawner.Trains2                         = На человека
+Spawner.WagNum                          = Количество вагонов
+Common.Spawner.Texture                  = Окраска кузова
+Common.Spawner.PassTexture              = Окраска салона
+Common.Spawner.CabTexture               = Окраска кабины
+Common.Spawner.Announcer                = Тип информатора
+Common.Spawner.Type1                    = Тип 1
+Common.Spawner.Type2                    = Тип 2
+Common.Spawner.Type3                    = Тип 3
+Common.Spawner.Type4                    = Тип 4
+Common.Spawner.SpawnMode                = Состояние поезда
+Common.Spawner.SpawnMode.Deadlock       = Тупик
+Common.Spawner.SpawnMode.Full           = Запущен полностью
+Common.Spawner.SpawnMode.NightDeadlock  = Ночной отстой
+Common.Spawner.SpawnMode.Depot          = Депо
+Spawner.Common.EType                    = Тип электросхем
 
+#Coupler common
+Common.Couple.Title         = Меню сцепки
+Common.Couple.CoupleState   = Состояние сцепки
+Common.Couple.Coupled       = Сцеплено
+Common.Couple.Uncoupled     = Расцеплено
+Common.Couple.Uncouple      = Расцепить
+Common.Couple.IsolState     = Состояние концевых кранов
+Common.Couple.Isolated      = Закрыты
+Common.Couple.Opened        = Открыты
+Common.Couple.Open          = Открыть
+Common.Couple.Isolate       = Закрыть
+Common.Couple.EKKState      = Состояние ЭКК
+Common.Couple.Disconnected  = Разъединена
+Common.Couple.Connected     = Соединена
+Common.Couple.Connect       = Соединить
+Common.Couple.Disconnect    = Разъединить
 
 #Trains common
 Common.ALL.Unsused1                         = Не используется
 Common.ALL.Unsused2                         = (не используется)
+Common.ALL.Up                               = (вверх)
+Common.ALL.Down                             = (вниз)
+Common.ALL.Left                             = (влево)
+Common.ALL.Right                            = (вправо)
+Common.ALL.CW                               = (по часовой)
+Common.ALL.CCW                              = (против часовой)
 Common.ALL.VB                               = ВБ: Выключатель батарей
 Common.ALL.VSOSD                            = СОСД: Выключатель светильника открытия станционных дверей
 Common.ALL.VKF                              = ВКФ: Выключатель питания красных фар от батареи
@@ -227,6 +263,7 @@ Common.ALL.DriverValveBLDisconnect          = Кран двойной тяги �
 Common.ALL.DriverValveTLDisconnect          = Кран двойной тяги напорной магистрали
 Common.ALL.DriverValveDisconnect            = Разобщительный кран крана машиниста
 Common.ALL.KRMH                             = КРМШ: Резервное включение крана машиниста
+Common.ALL.RVTB                             = РВТБ: Резервный вентиль тормоза безопасности
 Common.ALL.FrontBrakeLineIsolationToggle    = Концевой кран напорной магистрали
 Common.ALL.FrontTrainLineIsolationToggle    = Концевой кран тормозной магистрали
 Common.ALL.RearTrainLineIsolationToggle     = Концевой кран напорной магистрали
@@ -312,5 +349,6 @@ Common.ALL.EnginesCurrent1   = Ток I группы тяговых двигат
 Common.ALL.EnginesCurrent2   = Ток II группы тяговых двигателей (А)
 Common.ALL.EnginesVoltage   = Напряжение на тяговом двигателе (кВ)
 Common.ALL.BatteryVoltage   = Напряжение на аккумуляторной батарее (В)
+Common.ALL.BatteryCurrent   = Ток поздаряда аккумуляторной батареи (А)
 Common.ALL.HighVoltage      = Напряжение на контактном рельсе (кВ)
 ]]

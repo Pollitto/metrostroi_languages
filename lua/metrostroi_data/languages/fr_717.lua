@@ -2,6 +2,21 @@ return [[
 #81-717
 
 [fr]
+#Cameras:
+Train.717.Breakers  = Autobreakers #FIXME
+Train.717.VB        = Battery and RC #FIXME
+Train.717.VBD       = VBD and UPPS #FIXME
+
+Train.717.VRD       = VRD #FIXME
+Train.717.SOSD      = SOSD #FIXME
+Train.717.PUAV      = PUAV #FIXME
+Train.717.PA        = PA #FIXME
+Train.717.PAScreen  = PA screen #FIXME
+
+#Spawner
+Spawner.717.Line2   = Train from MPL #FIXME
+Spawner.717.Line4   = Train from PBL #FIXME
+Spawner.717.Line5   = Train from FPL #FIXME
 
 #######Buttons###########
 #Common
@@ -25,6 +40,8 @@ Common.717.V13                  = Ventilation d'urgence
 Common.717.V11                  = 1er groupe de ventilation
 Common.717.V12                  = 2ème groupe de ventilation
 Common.717.RZPL                 = RZP: Relai de protection d'alimentation
+Common.717.VPAOn                = VPA: Enable train unit #FIXME
+Common.717.VPAOff               = VPA: Disable train unit #FIXME
 
 Common.717.A53                  = A53: Contacteur des circuits auxiliaires
 Common.717.A56                  = A56: Batterie
@@ -172,6 +189,7 @@ Entities.gmod_subway_81-717_mvm.Buttons.Block1.VMKToggle        = @[Common.ALL.V
 Entities.gmod_subway_81-717_mvm.Buttons.Block1.BPSNonToggle     = @[Common.717.BPSN]
 Entities.gmod_subway_81-717_mvm.Buttons.Block1.RezMKSet         = @[Common.ALL.RMK]
 Entities.gmod_subway_81-717_mvm.Buttons.Block1.ARS13Set         = @[Common.717.ARS13V]
+Entities.gmod_subway_81-717_mvm.Buttons.Block1.!BatteryVoltage  = @[Common.ALL.BatteryVoltage]
 
 Entities.gmod_subway_81-717_mvm.Buttons.Block2_1.!Speedometer1  = @[Common.ALL.Speedometer]
 Entities.gmod_subway_81-717_mvm.Buttons.Block2_1.!Speedometer2  = @[Common.ALL.Speedometer]
@@ -229,6 +247,9 @@ Entities.gmod_subway_81-717_mvm.Buttons.Block2_3.!LRP           = @[Common.ALL.R
 Entities.gmod_subway_81-717_mvm.Buttons.Block2_3.!LKVC          = @[Common.717.KVC]
 Entities.gmod_subway_81-717_mvm.Buttons.Block2_3.!LVD           = @[Common.717.LVD]
 Entities.gmod_subway_81-717_mvm.Buttons.Block2_3.!LST           = @[Common.717.LST]
+
+Entities.gmod_subway_81-717_mvm.Buttons.Block3.!BLTLPressure    = @[Common.ALL.BLTLPressure]
+Entities.gmod_subway_81-717_mvm.Buttons.Block3.!BCPressure      = @[Common.ALL.BCPressure]
 
 Entities.gmod_subway_81-717_mvm.Buttons.Block4.R_ASNPMenuSet    = @[Common.ASNP.ASNPMenu]
 Entities.gmod_subway_81-717_mvm.Buttons.Block4.R_ASNPUpSet      = @[Common.ASNP.ASNPUp]
@@ -290,6 +311,9 @@ Entities.gmod_subway_81-717_mvm.Buttons.Block7.!PNT                     = @[Comm
 Entities.gmod_subway_81-717_mvm.Buttons.Block7.KDPSet                   = @[Common.ALL.KDP]
 Entities.gmod_subway_81-717_mvm.Buttons.Block7.KDPKToggle               = @[Common.ALL.KDPK]
 Entities.gmod_subway_81-717_mvm.Buttons.Block7.!PNW                     = @[Common.ALL.BrW]
+
+Entities.gmod_subway_81-717_mvm.Buttons.HVMeters.!EnginesCurrent        = @[Common.ALL.EnginesCurrent]
+Entities.gmod_subway_81-717_mvm.Buttons.HVMeters.!HighVoltage           = @[Common.ALL.HighVoltage]
 
 Entities.gmod_subway_81-717_mvm.Buttons.HelperPanel_C.VUD2Toggle        = @[Common.ALL.VUD2]
 Entities.gmod_subway_81-717_mvm.Buttons.HelperPanel_C.VDLSet            = @[Common.ALL.KDL]
@@ -516,13 +540,13 @@ Entities.gmod_subway_81-717_lvz.Buttons.Battery_R.2:VAUToggle   = @[Common.717.V
 Entities.gmod_subway_81-717_lvz.Buttons.Battery_R.2:VRDToggle   = @[Common.ARS.VRD]
 
 Entities.gmod_subway_81-717_lvz.Buttons.VRD_C.1:VRDToggle       = @[Common.ARS.VRD]
-Entities.gmod_subway_81-717_lvz.Buttons.SOSD_C.1:SOSDToggle     = @[Common.ALL.VSOSD]
-Entities.gmod_subway_81-717_lvz.Buttons.SOSD_R.2:SOSDToggle     = @[Common.ALL.VSOSD]
+Entities.gmod_subway_81-717_lvz.Buttons.SOSD_C.1:VSOSDToggle     = @[Common.ALL.VSOSD]
+Entities.gmod_subway_81-717_lvz.Buttons.SOSD_R.2:VSOSDToggle     = @[Common.ALL.VSOSD]
 
-Entities.gmod_subway_81-717_lvz.Buttons.Block1.!Voltage         = @[Common.ALL.BatteryVoltage]
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.VMKToggle        = @[Common.ALL.VMK]
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.BPSNonToggle     = @[Common.717.BPSN]
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.ARS13Set         = @[Common.717.ARS13V]
+Entities.gmod_subway_81-717_lvz.Buttons.Block1.!BatteryVoltage  = @[Common.ALL.BatteryVoltage]
 
 Entities.gmod_subway_81-717_lvz.Buttons.Block2.!Speedometer1    = @[Common.ALL.Speedometer]
 Entities.gmod_subway_81-717_lvz.Buttons.Block2.!Speedometer2    = @[Common.ALL.Speedometer]
@@ -550,6 +574,9 @@ Entities.gmod_subway_81-717_lvz.Buttons.Block2.!ARSL40          = @[Common.717.A
 Entities.gmod_subway_81-717_lvz.Buttons.Block2.!ARSL60          = @[Common.717.ARSL60]
 Entities.gmod_subway_81-717_lvz.Buttons.Block2.!ARSL70          = @[Common.717.ARSL70]
 Entities.gmod_subway_81-717_lvz.Buttons.Block2.!ARSL80          = @[Common.717.ARSL80]
+
+Entities.gmod_subway_81-717_lvz.Buttons.Block3.!BLTLPressure    = @[Common.ALL.BLTLPressure]
+Entities.gmod_subway_81-717_lvz.Buttons.Block3.!BCPressure      = @[Common.ALL.BCPressure]
 
 Entities.gmod_subway_81-717_lvz.Buttons.PUAVO.!OK16             = @[Common.PUAV.K16]
 Entities.gmod_subway_81-717_lvz.Buttons.PUAVO.!OLRS             = @[Common.PUAV.RS]
@@ -656,12 +683,44 @@ Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:KSNSet                   
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:RingSet                  = @[Common.ALL.Ring]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:ARSToggle                = @[Common.ALL.ARS]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:ALSToggle                = @[Common.ALL.ALS]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:VPAOnSet                 = @[Common.717.VPAOn]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:VPAOffSet                = @[Common.717.VPAOff]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:OVTToggle                = @[Common.ALL.OVT]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:OtklAVUToggle            = @[Common.ALL.OAVU]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.!AVULight2                 = @[Common.ALL.LAVU]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:L_1Toggle                = @[Common.ALL.PassLights]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:L_2Toggle                = @[Common.ALL.CabLights]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:L_3Toggle                = @[Common.ALL.PanelLights]
+
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old.!RZPLight1                     = @[Common.717.RZPL]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:R_ZSToggle             = @[Common.ALL.ES]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:R_GToggle              = @[Common.ALL.GCab]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:R_UPOToggle            = @[Common.ALL.UPO]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KVTSet                 = @[Common.ARS.KVT]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:VZ1Set                 = @[Common.717.VZ1]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.!SPLight3                = @[Common.717.LSP]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.!AVULight3               = @[Common.ALL.LAVU]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:VUD1Toggle             = @[Common.ALL.VUD]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KDLSet                 = @[Common.ALL.KDL]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KDLKToggle             = @[Common.ALL.KDLK]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KDLRSet                = @[Common.ALL.KDL]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KDLRKToggle            = @[Common.ALL.KDLK]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:DoorSelectToggle       = @[Common.ALL.VSD]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KRZDSet                = @[Common.ALL.KRZD]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:VozvratRPSet           = @[Common.ALL.VRPBV]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.!GreenRPLight3           = @[Common.ALL.GRP]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.!RZPLight3               = @[Common.717.RZPL]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.!LKVPLight3              = @[Common.717.RZPL]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:OtklAVUToggle          = @[Common.ALL.OAVU]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:ConverterProtectionSet = @[Common.717.ConverterProtection]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KSNSet                 = @[Common.ALL.KSN]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:RingSet                = @[Common.ALL.Ring]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.1:VPAOnSet               = @[Common.717.VPAOn]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.1:VPAOffSet              = @[Common.717.VPAOff]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:OVTToggle              = @[Common.ALL.VOVT]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:L_1Toggle              = @[Common.ALL.PassLights]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:L_2Toggle              = @[Common.ALL.CabLights]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:L_3Toggle              = @[Common.ALL.PanelLights]
 
 Entities.gmod_subway_81-717_lvz.Buttons.Block7_old.1:L_4Toggle                  = @[Common.ALL.VF]
 Entities.gmod_subway_81-717_lvz.Buttons.Block7_old.1:VUSToggle                  = @[Common.ALL.VUS]
@@ -693,6 +752,11 @@ Entities.gmod_subway_81-717_lvz.Buttons.HelperPanel_R.1:VOPDSet                 
 
 Entities.gmod_subway_81-717_lvz.Buttons.CabVent_C.PVK-                          = @[Common.CabVent.PVK-]
 Entities.gmod_subway_81-717_lvz.Buttons.CabVent_C.PVK+                          = @[Common.CabVent.PVK+]
+
+Entities.gmod_subway_81-717_lvz.Buttons.HVMeters_N.!EnginesCurrent  = @[Common.ALL.EnginesCurrent]
+Entities.gmod_subway_81-717_lvz.Buttons.HVMeters_N.!HighVoltage     = @[Common.ALL.HighVoltage]
+Entities.gmod_subway_81-717_lvz.Buttons.HVMeters_O.!EnginesCurrent  = @[Common.ALL.EnginesCurrent]
+Entities.gmod_subway_81-717_lvz.Buttons.HVMeters_O.!HighVoltage     = @[Common.ALL.HighVoltage]
 
 Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:A53Toggle    = @[Common.717.A53]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:A56Toggle    = @[Common.717.A56]
@@ -873,9 +937,9 @@ Entities.gmod_subway_81-717_lvz.Buttons.Meters.!TotalAmpermeter                 
 #gmod_subway_81-714_mvm
 Entities.gmod_subway_81-714_mvm.Buttons.FrontPneumatic.FrontBrakeLineIsolationToggle            = @[Common.ALL.FrontBrakeLineIsolationToggle]
 Entities.gmod_subway_81-714_mvm.Buttons.FrontPneumatic.FrontTrainLineIsolationToggle            = @[Common.ALL.FrontTrainLineIsolationToggle]
-Entities.gmod_subway_81-714_mvm.Buttons.FrontPneumatic.ParkingBrakeToggle                       = @[Common.ALL.ParkingBrake]
 Entities.gmod_subway_81-714_mvm.Buttons.RearPneumatic.RearTrainLineIsolationToggle              = @[Common.ALL.RearTrainLineIsolationToggle]
 Entities.gmod_subway_81-714_mvm.Buttons.RearPneumatic.RearBrakeLineIsolationToggle              = @[Common.ALL.RearBrakeLineIsolationToggle]
+Entities.gmod_subway_81-714_mvm.Buttons.RearPneumatic.ParkingBrakeToggle                        = @[Common.ALL.ParkingBrake]
 Entities.gmod_subway_81-714_mvm.Buttons.GV.GVToggle                                             = @[Common.ALL.GV]
 Entities.gmod_subway_81-714_mvm.Buttons.AirDistributor.AirDistributorDisconnectToggle           = @[Common.ALL.AirDistributor]
 Entities.gmod_subway_81-714_mvm.Buttons.RearDoor.RearDoor                                       = @[Common.ALL.RearDoor]
@@ -893,6 +957,7 @@ Entities.gmod_subway_81-714_mvm.Buttons.AV_T.1:AV5Toggle    = @[Common.717.AV5]
 Entities.gmod_subway_81-714_mvm.Buttons.AV_T.1:A81Toggle    = @[Common.717.A81]
 Entities.gmod_subway_81-714_mvm.Buttons.AV_T.1:AV6Toggle    = @[Common.717.AV6]
 Entities.gmod_subway_81-714_mvm.Buttons.AV_T.1:A80Toggle    = @[Common.717.A80]
+Entities.gmod_subway_81-714_mvm.Buttons.AV_T.1:A18Toggle    = @[Common.717.A18]
 
 Entities.gmod_subway_81-714_mvm.Buttons.AV_S.1:A53Toggle    = @[Common.717.A53]
 Entities.gmod_subway_81-714_mvm.Buttons.AV_S.1:A56Toggle    = @[Common.717.A56]
@@ -938,9 +1003,9 @@ Entities.gmod_subway_81-714_mvm.Buttons.AV_S.1:A28Toggle    = @[Common.717.A28]
 #gmod_subway_81-714_lvz
 Entities.gmod_subway_81-714_lvz.Buttons.FrontPneumatic.FrontBrakeLineIsolationToggle            = @[Common.ALL.FrontBrakeLineIsolationToggle]
 Entities.gmod_subway_81-714_lvz.Buttons.FrontPneumatic.FrontTrainLineIsolationToggle            = @[Common.ALL.FrontTrainLineIsolationToggle]
-Entities.gmod_subway_81-714_lvz.Buttons.FrontPneumatic.ParkingBrakeToggle                       = @[Common.ALL.ParkingBrake]
 Entities.gmod_subway_81-714_lvz.Buttons.RearPneumatic.RearTrainLineIsolationToggle              = @[Common.ALL.RearTrainLineIsolationToggle]
 Entities.gmod_subway_81-714_lvz.Buttons.RearPneumatic.RearBrakeLineIsolationToggle              = @[Common.ALL.RearBrakeLineIsolationToggle]
+Entities.gmod_subway_81-714_lvz.Buttons.RearPneumatic.ParkingBrakeToggle                        = @[Common.ALL.ParkingBrake]
 Entities.gmod_subway_81-714_lvz.Buttons.GV.GVToggle                                             = @[Common.ALL.GV]
 Entities.gmod_subway_81-714_lvz.Buttons.AirDistributor.AirDistributorDisconnectToggle           = @[Common.ALL.AirDistributor]
 Entities.gmod_subway_81-714_lvz.Buttons.RearDoor.RearDoor                                       = @[Common.ALL.RearDoor]
@@ -953,6 +1018,7 @@ Entities.gmod_subway_81-714_lvz.Buttons.Battery.VBToggle    = @[Common.ALL.VB]
 Entities.gmod_subway_81-714_lvz.Buttons.AV_T.1:A70Toggle    = @[Common.717.A70]
 Entities.gmod_subway_81-714_lvz.Buttons.AV_T.1:A81Toggle    = @[Common.717.A81]
 Entities.gmod_subway_81-714_lvz.Buttons.AV_T.1:A80Toggle    = @[Common.717.A80]
+Entities.gmod_subway_81-714_lvz.Buttons.AV_T.1:A18Toggle    = @[Common.717.A18]
 
 Entities.gmod_subway_81-714_lvz.Buttons.AV_S.1:A53Toggle    = @[Common.717.A53]
 Entities.gmod_subway_81-714_lvz.Buttons.AV_S.1:A56Toggle    = @[Common.717.A56]
@@ -994,7 +1060,25 @@ Entities.gmod_subway_81-714_lvz.Buttons.AV_S.1:A51Toggle    = @[Common.717.A51]
 Entities.gmod_subway_81-714_lvz.Buttons.AV_S.1:A65Toggle    = @[Common.717.A65]
 Entities.gmod_subway_81-714_lvz.Buttons.AV_S.1:A28Toggle    = @[Common.717.A28]
 
-#Cameras:
+#Spawner:
+Entities.gmod_subway_81-717_mvm.Spawner.Announcer.Name  = @[Common.Spawner.Announcer]
+Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.Name  = @[Common.Spawner.SpawnMode]
+Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.1     = @[Common.Spawner.SpawnMode.Deadlock]
+Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.2     = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.3     = @[Common.Spawner.SpawnMode.NightDeadlock]
+Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.4     = @[Common.Spawner.SpawnMode.Depot]
 
 #Spawner:
+Entities.gmod_subway_81-717_lvz.Spawner.Texture.Name        = @[Common.Spawner.Texture]
+Entities.gmod_subway_81-717_lvz.Spawner.PassTexture.Name    = @[Common.Spawner.PassTexture]
+Entities.gmod_subway_81-717_lvz.Spawner.CabTexture.Name     = @[Common.Spawner.CabTexture]
+Entities.gmod_subway_81-717_lvz.Spawner.Type.Name           = @[Spawner.Common.EType]
+Entities.gmod_subway_81-717_lvz.Spawner.Type.1              = @[Spawner.717.Line2]
+Entities.gmod_subway_81-717_lvz.Spawner.Type.2              = @[Spawner.717.Line4]
+Entities.gmod_subway_81-717_lvz.Spawner.Type.3              = @[Spawner.717.Line5]
+Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.Name      = @[Common.Spawner.SpawnMode]
+Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.1         = @[Common.Spawner.SpawnMode.Deadlock]
+Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.2         = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.3         = @[Common.Spawner.SpawnMode.NightDeadlock]
+Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.4         = @[Common.Spawner.SpawnMode.Depot]
 ]]

@@ -20,6 +20,13 @@ Common.502.BRD                  = Lampe d'échec de manoeuvre des portes
 Common.502.KOS                  = KB: Limitation de vitesse (bouton d'avertissement)
 Common.502.VAK                  = AK: Assembly emergency drive mode circuits
 Common.502.LRU                  = Les circuits du mode de conduite d'urgence sont enclenchés
+
+#Spawner
+Spawner.502.TypeNVL         = Train from NVL #FIXME
+Spawner.502.TypeKVLO        = Old train from KVL #FIXME
+Spawner.502.TypeKVLN        = New train from KVL #FIXME
+Spawner.502.EWagons         = Add "E" type wagons #FIXME
+
 #gmod_subway_81-502
 Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Batterie de conduite automatique on/off
 
@@ -242,9 +249,22 @@ Train.502.VBA = @[Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle]
 Train.502.VRD = VRD
 Train.502.RCARS = RC-ARS
 Train.502.RCAV5 = RC-AV5
-Train.502.RCBPS = RC-BPС
+Train.502.RCBPS = RC-BPS
 Train.502.RCAV3 = RC-AV3
 Train.502.RCAV4 = RC-AV4
 
 #Spawner:
+Entities.gmod_subway_81-502.Spawner.Texture.Name        = @[Common.Spawner.Texture]
+Entities.gmod_subway_81-502.Spawner.PassTexture.Name    = @[Common.Spawner.PassTexture]
+Entities.gmod_subway_81-502.Spawner.CabTexture.Name     = @[Common.Spawner.CabTexture]
+Entities.gmod_subway_81-502.Spawner.EMAType.Name        = @[Spawner.Common.EType]
+Entities.gmod_subway_81-502.Spawner.EMAType.1           = @[Spawner.502.TypeNVL]
+Entities.gmod_subway_81-502.Spawner.EMAType.2           = @[Spawner.502.TypeKVLO]
+Entities.gmod_subway_81-502.Spawner.EMAType.3           = @[Spawner.502.TypeKVLN]
+Entities.gmod_subway_81-502.Spawner.EWagons.Name        = @[Spawner.502.EWagons]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.Name      = @[Common.Spawner.SpawnMode]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.1         = @[Common.Spawner.SpawnMode.Deadlock]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.2         = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.3         = @[Common.Spawner.SpawnMode.NightDeadlock]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.4         = @[Common.Spawner.SpawnMode.Depot]
 ]]

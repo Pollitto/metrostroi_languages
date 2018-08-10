@@ -20,6 +20,13 @@ Common.502.BRD                  = Лампа неисправности двер
 Common.502.KOS                  = Кнопка ограничения скорости (кнопка бдительности)
 Common.502.VAK                  = Кнопка сбора схемы аварийного хода
 Common.502.LRU                  = Лампа сбора схемы резервного управления
+
+#Spawner
+Spawner.502.TypeNVL         = Состав с НВЛ
+Spawner.502.TypeKVLO        = Состав с КВЛ старый
+Spawner.502.TypeKVLN        = Состав с КВЛ новый
+Spawner.502.EWagons         = Вцепить вагоны типа Е
+
 #gmod_subway_81-502
 Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Выключатель батарей автоведения
 
@@ -247,4 +254,17 @@ Train.502.RCAV3 = РЦ-АВ3
 Train.502.RCAV4 = РЦ-АВ4
 
 #Spawner:
+Entities.gmod_subway_81-502.Spawner.Texture.Name        = @[Common.Spawner.Texture]
+Entities.gmod_subway_81-502.Spawner.PassTexture.Name    = @[Common.Spawner.PassTexture]
+Entities.gmod_subway_81-502.Spawner.CabTexture.Name     = @[Common.Spawner.CabTexture]
+Entities.gmod_subway_81-502.Spawner.EMAType.Name        = @[Spawner.Common.EType]
+Entities.gmod_subway_81-502.Spawner.EMAType.1           = @[Spawner.502.TypeNVL]
+Entities.gmod_subway_81-502.Spawner.EMAType.2           = @[Spawner.502.TypeKVLO]
+Entities.gmod_subway_81-502.Spawner.EMAType.3           = @[Spawner.502.TypeKVLN]
+Entities.gmod_subway_81-502.Spawner.EWagons.Name        = @[Spawner.502.EWagons]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.Name      = @[Common.Spawner.SpawnMode]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.1         = @[Common.Spawner.SpawnMode.Deadlock]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.2         = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.3         = @[Common.Spawner.SpawnMode.NightDeadlock]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.4         = @[Common.Spawner.SpawnMode.Depot]
 ]]

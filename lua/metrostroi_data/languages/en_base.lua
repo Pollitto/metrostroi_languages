@@ -52,6 +52,9 @@ Train.Common.Camera0        = Driver's seat
 Train.Common.RouteNumber    = Route number
 Train.Common.LastStation    = Last station
 Train.Common.HelpersPanel   = Helper's panel
+Train.Common.UAVA           = UAVA #FIXME
+Train.Common.PneumoPanels   = Pneumatic valves #FIXME
+Train.Common.Voltmeters     = Voltmeters and amperemeters #FIXME
 Common.ARM.Monitor1         = Monitor 1 ARM
 Train.Buttons.Sealed        = Sealed
 
@@ -100,6 +103,9 @@ Entities.gmod_track_udochka.Name            = Power connector
 Entities.gmod_train_spawner.Name            = Train spawner
 
 #Spawner common
+Spawner.Trains1                         = Wags. allowed #FIXME
+Spawner.Trains2                         = Per player #FIXME
+Spawner.WagNum                          = Wagons amount #FIXME
 Common.Spawner.Texture      = Body skin
 Common.Spawner.PassTexture  = Interior skin
 Common.Spawner.CabTexture   = Cabin skin
@@ -108,11 +114,41 @@ Common.Spawner.Type1        = Type 1
 Common.Spawner.Type2        = Type 2
 Common.Spawner.Type3        = Type 3
 Common.Spawner.Type4        = Type 4
+Common.Spawner.SpawnMode                = Train state #FIXME
+Common.Spawner.SpawnMode.Deadlock       = Dead-end #FIXME
+Common.Spawner.SpawnMode.Full           = Fully started #FIXME
+Common.Spawner.SpawnMode.NightDeadlock  = Cold & dark #FIXME
+Common.Spawner.SpawnMode.Depot          = Depot #FIXME
+Spawner.Common.EType                    = Electric circuits type #FIXME
+Common.Spawner.Scheme       = Line schemes
+Common.Spawner.SchemeInvert = Invert line schemes
 
+#Coupler common
+Common.Couple.Title         = Coupler menu #FIXME
+Common.Couple.CoupleState   = Coupler state #FIXME
+Common.Couple.Coupled       = Coupled #FIXME
+Common.Couple.Uncoupled     = Not coupled #FIXME
+Common.Couple.Uncouple      = Uncouple #FIXME
+Common.Couple.IsolState     = Isolation valves state #FIXME
+Common.Couple.Isolated      = Closed #FIXME
+Common.Couple.Opened        = Opened #FIXME
+Common.Couple.Open          = Open #FIXME
+Common.Couple.Isolate       = Close #FIXME
+Common.Couple.EKKState      = EKK state (electrical connection) #FIXME
+Common.Couple.Disconnected  = Disconnected #FIXME
+Common.Couple.Connected     = Connected #FIXME
+Common.Couple.Connect       = Connect #FIXME
+Common.Couple.Disconnect    = Disconnect #FIXME
 
 #Trains common
 Common.ALL.Unsused1                         = Unused
 Common.ALL.Unsused2                         = (unused)
+Common.ALL.Up                               = (up) #FIXME
+Common.ALL.Down                             = (down) #FIXME
+Common.ALL.Left                             = (left) #FIXME
+Common.ALL.Right                            = (right) #FIXME
+Common.ALL.CW                               = (clockwise) #FIXME
+Common.ALL.CCW                              = (counter-clockwise) #FIXME
 Common.ALL.VB                               = VB: Battery on/off
 Common.ALL.VSOSD                            = SOSD: Station doors opening lamp
 Common.ALL.VKF                              = VKF: Battery power for red lights
@@ -227,6 +263,7 @@ Common.ALL.DriverValveBLDisconnect          = Brake line disconnect valve
 Common.ALL.DriverValveTLDisconnect          = Train line disconnect valve
 Common.ALL.DriverValveDisconnect            = Driver's valve disconnect valve #FIXME
 Common.ALL.KRMH                             = KRMSH: Driver's valve emergency enable #FIXME
+Common.ALL.RVTB                             = RVTB: Reserved valve of safety brake #FIXME
 Common.ALL.FrontBrakeLineIsolationToggle    = Brake line isolation valve
 Common.ALL.FrontTrainLineIsolationToggle    = Train line isolation valve
 Common.ALL.RearTrainLineIsolationToggle     = Train line isolation valve
@@ -312,5 +349,6 @@ Common.ALL.EnginesCurrent1  = 1st traction motors current (A) #FIXME
 Common.ALL.EnginesCurrent2  = 2nd traction motors current (A) #FIXME
 Common.ALL.EnginesVoltage   = Engines voltage (kV)
 Common.ALL.BatteryVoltage   = Battery voltage (V)
+Common.ALL.BatteryCurrent   = Battery current (A) #FIXME
 Common.ALL.HighVoltage      = High voltage (kV)
 ]]
