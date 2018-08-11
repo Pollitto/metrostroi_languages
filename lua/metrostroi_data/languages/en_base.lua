@@ -17,7 +17,7 @@ Workshop.Installed          = Installed
 Workshop.Open               = Workshop
 Workshop.ErrorGithub        = Detected GitHub version of the Metrostroi. Current Metrostroi version is not compatible and cannot work with GitHub version of Metrostroi.
 Workshop.ErrorLegacy        = Detected Legacy version of the Metrostroi. Current Metrostroi version is not compatible and cannot work with Legacy version of Metrostroi.
-
+Workshop.ErrorEnhancers     = This addon contain a graphic enhancers that may interfere comfortable game.
 Workshop.Error1             = This addon contain an old script code of the Metrostroi that conflicts with current. May be "Scripts errors" and unstable work of the addon.
 
 #Client settings
@@ -55,6 +55,7 @@ Train.Common.HelpersPanel   = Helper's panel
 Train.Common.UAVA           = UAVA #FIXME
 Train.Common.PneumoPanels   = Pneumatic valves #FIXME
 Train.Common.Voltmeters     = Voltmeters and amperemeters #FIXME
+Train.Common.CouplerCamera  = Coupler
 Common.ARM.Monitor1         = Monitor 1 ARM
 Train.Buttons.Sealed        = Sealed
 
@@ -120,8 +121,8 @@ Common.Spawner.SpawnMode.Full           = Fully started #FIXME
 Common.Spawner.SpawnMode.NightDeadlock  = Cold & dark #FIXME
 Common.Spawner.SpawnMode.Depot          = Depot #FIXME
 Spawner.Common.EType                    = Electric circuits type #FIXME
-Common.Spawner.Scheme       = Line schemes
-Common.Spawner.SchemeInvert = Invert line schemes
+Common.Spawner.Scheme                   = Line schemes
+Common.Spawner.SchemeInvert             = Invert line schemes
 
 #Coupler common
 Common.Couple.Title         = Coupler menu #FIXME

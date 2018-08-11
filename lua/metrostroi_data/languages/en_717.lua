@@ -24,6 +24,7 @@ Common.717.VBD                  = ASNP doors blocking switch
 Common.717.UPPS                 = UPPS system switch
 Common.717.BPSN                 = BPSN: Train power supply
 Common.717.ARS13V               = ARS 13V: ARS stabilized voltage check
+Common.717.Radio13V             = Radio stabilized 13V voltage check
 Common.717.LVD                  = LVD: 1st wire lamp (motors enabled)
 Common.717.LHRK                 = LHRK: 2nd wire lamp (RK is rotating)
 Common.717.LST                  = LST: 6th wire lamp (braking light)
@@ -546,6 +547,7 @@ Entities.gmod_subway_81-717_lvz.Buttons.SOSD_R.2:VSOSDToggle     = @[Common.ALL.
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.VMKToggle        = @[Common.ALL.VMK]
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.BPSNonToggle     = @[Common.717.BPSN]
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.ARS13Set         = @[Common.717.ARS13V]
+Entities.gmod_subway_81-717_lvz.Buttons.Block1.Radio13Set       = @[Common.717.Radio13V]
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.!BatteryVoltage  = @[Common.ALL.BatteryVoltage]
 
 Entities.gmod_subway_81-717_lvz.Buttons.Block2.!Speedometer1    = @[Common.ALL.Speedometer]

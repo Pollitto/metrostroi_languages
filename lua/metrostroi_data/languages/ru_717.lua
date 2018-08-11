@@ -24,6 +24,7 @@ Common.717.VBD                  = Выключатель блокировки д
 Common.717.UPPS                 = Выключатель системы УППС
 Common.717.BPSN                 = Выключатель БПСН
 Common.717.ARS13V               = Проверка напряжения АРС 13В
+Common.717.Radio13V             = Проверка напряжения Радио 13В
 Common.717.LVD                  = ЛВД: Лампа 1 провода (сбор схемы на ход)
 Common.717.LHRK                 = ЛХРК: Лампа 2 провода (вращение РК)
 Common.717.LST                  = ЛСТ: Лампа 6 провода (сбор схемы на тормоз)
@@ -546,6 +547,7 @@ Entities.gmod_subway_81-717_lvz.Buttons.SOSD_R.2:VSOSDToggle     = @[Common.ALL.
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.VMKToggle        = @[Common.ALL.VMK]
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.BPSNonToggle     = @[Common.717.BPSN]
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.ARS13Set         = @[Common.717.ARS13V]
+Entities.gmod_subway_81-717_lvz.Buttons.Block1.Radio13Set       = @[Common.717.Radio13V]
 Entities.gmod_subway_81-717_lvz.Buttons.Block1.!BatteryVoltage  = @[Common.ALL.BatteryVoltage]
 
 Entities.gmod_subway_81-717_lvz.Buttons.Block2.!Speedometer1    = @[Common.ALL.Speedometer]

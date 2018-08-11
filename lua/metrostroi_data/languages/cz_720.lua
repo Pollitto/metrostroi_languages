@@ -69,8 +69,8 @@ Common.720.VentHMode-       = Snížit výkon topení
 Common.720.VentSMode-       = Zvýšit chod ventilace
 Common.720.VentSMode+       = Snížit chod ventilace
 
-Common.720.Pant1            = Odpojení sběračů proudů 1. skupiny
-Common.720.Pant2            = Odpojení sběračů proudů 2. skupiny
+Common.720.Pant1            = Odpojení sběračů proudu 1. skupiny
+Common.720.Pant2            = Odpojení sběračů proudu 2. skupiny
 Common.720.Vent1            = Ventilace 1. skupiny
 Common.720.Vent2            = Ventilace 2. skupiny
 Common.720.TorecDoors       = Zadní dveře

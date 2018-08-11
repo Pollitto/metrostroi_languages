@@ -55,8 +55,7 @@ Train.Common.HelpersPanel   = Панель помощника машиниста
 Train.Common.UAVA           = УАВА
 Train.Common.PneumoPanels   = Краны разобщения и ЭПК
 Train.Common.Voltmeters     = Вольтметры и амперметры
-Common.Spawner.Scheme       = Схема в салоне
-Common.Spawner.SchemeInvert = Инвертировать наддверные схемы
+Train.Common.CouplerCamera  = Сцепка
 Common.ARM.Monitor1         = Монитор 1 АРМ
 Train.Buttons.Sealed        = Запломбировано
 
@@ -122,6 +121,8 @@ Common.Spawner.SpawnMode.Full           = Запущен полностью
 Common.Spawner.SpawnMode.NightDeadlock  = Ночной отстой
 Common.Spawner.SpawnMode.Depot          = Депо
 Spawner.Common.EType                    = Тип электросхем
+Common.Spawner.Scheme                   = Схема в салоне
+Common.Spawner.SchemeInvert             = Инвертировать наддверные схемы
 
 #Coupler common
 Common.Couple.Title         = Меню сцепки

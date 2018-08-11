@@ -4,6 +4,14 @@ return [[
 [ru]
 
 #######Buttons###########
+#Cameras
+Train.720.CameraCond    = Управление кондиционером, ИГЛА
+Train.720.CameraPPZ     = ППЗ
+Train.720.CameraPV      = ВПУ
+Train.720.CameraVityaz  = САУ "Витязь"
+Train.720.CameraKRMH    = Краны КРМШ и УАВА
+Train.720.CameraPVZ     = ПВЗ
+
 #Common
 Common.720.SF1              = SF1: Питание общее
 Common.720.SF2              = SF2: Управление основное
@@ -62,8 +70,7 @@ Common.720.SFV31            = SF31: Резерв
 Common.720.SFV32            = SF32: Резерв
 Common.720.SFV33            = SF33: Резерв
 
-Common.720.VentCMode-       = Режим работы вентилятора (против часовой)
-Common.720.VentCMode+       = Режим работы вентилятора (по часовой)
+Common.720.VentCMode        = Режим работы вентилятора
 Common.720.VentHMode+       = Увеличение силы обогрева
 Common.720.VentHMode-       = Уменьшение силы обогрева
 Common.720.VentSMode-       = Увеличение силы вентилятора
@@ -78,8 +85,7 @@ Common.720.BBER             = Резервное включение ББЭ
 Common.720.BBE              = Включение ББЭ
 Common.720.CabLightStrength = Яркость освещения кабины
 Common.720.AppLights        = Освещение аппаратного отсека
-Common.720.BARSBlock-       = Блокировка неисправных БАРСов (против часовой)
-Common.720.BARSBlock+       = Блокировка неисправных БАРСов (по часовой)
+Common.720.BARSBlock        = Блокировка неисправных БАРСов
 
 Common.720.Accel                = Текущее ускорение
 Common.720.Forward              = Движение вепрёд
@@ -112,8 +118,6 @@ Common.720.EBrakeToggle         = Включение резервного тор
 Common.720.EmergencyBrake       = Включение экстренного тормоза
 Common.720.DoorClose            = Закрытие дверей
 Common.720.AttentionMessage     = Кнопка восприятия сообщения
-Common.720.KB                   = Кнопка бдительности
-Common.720.KVT                  = Кнопка восприятия торможения
 
 
 Common.720.DoorSelectL          = Выбор левых дверей
@@ -151,8 +155,8 @@ Common.720.BRU              = Разъединитель БРУ (ГВ)
 #gmod_subway_81-720
 #Buttons:
 
-Entities.gmod_subway_81-720.Buttons.BackVent.VentCondMode-      = @[Common.720.VentCMode-]
-Entities.gmod_subway_81-720.Buttons.BackVent.VentCondMode+      = @[Common.720.VentCMode+]
+Entities.gmod_subway_81-720.Buttons.BackVent.VentCondMode-      = @[Common.720.VentCMode] @[Common.ALL.CCW]
+Entities.gmod_subway_81-720.Buttons.BackVent.VentCondMode+      = @[Common.720.VentCMode] @[Common.ALL.CW]
 Entities.gmod_subway_81-720.Buttons.BackVent.VentHeatMode+      = @[Common.720.VentHMode+]
 Entities.gmod_subway_81-720.Buttons.BackVent.VentHeatMode-      = @[Common.720.VentHMode-]
 Entities.gmod_subway_81-720.Buttons.BackVent.VentStrengthMode-  = @[Common.720.VentSMode-]
@@ -221,8 +225,8 @@ Entities.gmod_subway_81-720.Buttons.BackDown.BBEToggle              = @[Common.7
 Entities.gmod_subway_81-720.Buttons.BackDown.CompressorToggle       = @[Common.ALL.MK]
 Entities.gmod_subway_81-720.Buttons.BackDown.CabLightStrengthToggle = @[Common.720.CabLightStrength]
 Entities.gmod_subway_81-720.Buttons.BackDown.AppLights1Toggle       = @[Common.720.AppLights]
-Entities.gmod_subway_81-720.Buttons.BackDown.BARSBlock-             = @[Common.720.BARSBlock-]
-Entities.gmod_subway_81-720.Buttons.BackDown.BARSBlock+             = @[Common.720.BARSBlock+]
+Entities.gmod_subway_81-720.Buttons.BackDown.BARSBlock-             = @[Common.720.BARSBlock] @[Common.ALL.CCW]
+Entities.gmod_subway_81-720.Buttons.BackDown.BARSBlock+             = @[Common.720.BARSBlock] @[Common.ALL.CW]
 Entities.gmod_subway_81-720.Buttons.BackDown.BatteryToggle          = @[Common.ALL.VB]
 Entities.gmod_subway_81-720.Buttons.BackDown.ALSFreqToggle          = @[Common.ARS.Freq]
 
@@ -263,8 +267,8 @@ Entities.gmod_subway_81-720.Buttons.PUR.EmerBrakeToggle             = @[Common.7
 Entities.gmod_subway_81-720.Buttons.PUR.EmergencyBrakeToggle        = @[Common.720.EmergencyBrake]
 Entities.gmod_subway_81-720.Buttons.PUR.DoorCloseToggle             = @[Common.720.DoorClose]
 Entities.gmod_subway_81-720.Buttons.PUR.AttentionMessageSet         = @[Common.720.AttentionMessage]
-Entities.gmod_subway_81-720.Buttons.PUR.AttentionSet                = @[Common.720.KB]
-Entities.gmod_subway_81-720.Buttons.PUR.AttentionBrakeSet           = @[Common.720.KVT]
+Entities.gmod_subway_81-720.Buttons.PUR.AttentionSet                = @[Common.ARS.KB]
+Entities.gmod_subway_81-720.Buttons.PUR.AttentionBrakeSet           = @[Common.ARS.KVT]
 Entities.gmod_subway_81-720.Buttons.PUR.HornBSet                    = @[Common.ALL.Horn]
 Entities.gmod_subway_81-720.Buttons.PUR.DoorRightSet                = @[Common.720.KDP]
 Entities.gmod_subway_81-720.Buttons.PUR.!DoorRightLamp              = @[Common.ALL.KDPL]
@@ -394,7 +398,17 @@ Entities.gmod_subway_81-721.Buttons.FrontPneumatic.FrontTrainLineIsolationToggle
 Entities.gmod_subway_81-721.Buttons.RearPneumatic.RearTrainLineIsolationToggle      = @[Common.ALL.RearTrainLineIsolationToggle]
 Entities.gmod_subway_81-721.Buttons.RearPneumatic.RearBrakeLineIsolationToggle      = @[Common.ALL.RearBrakeLineIsolationToggle]
 
-#Cameras:
-
 #Spawner:
+
+Entities.gmod_subway_81-720.Spawner.Texture.Name            = @[Common.Spawner.Texture]
+Entities.gmod_subway_81-720.Spawner.PassTexture.Name        = @[Common.Spawner.PassTexture]
+Entities.gmod_subway_81-720.Spawner.CabTexture.Name         = @[Common.Spawner.CabTexture]
+Entities.gmod_subway_81-720.Spawner.Announcer.Name          = @[Common.Spawner.Announcer]
+Entities.gmod_subway_81-720.Spawner.Scheme.Name             = @[Common.Spawner.Scheme]
+Entities.gmod_subway_81-720.Spawner.PassSchemesInvert.Name  = @[Common.Spawner.SchemeInvert]
+Entities.gmod_subway_81-720.Spawner.SpawnMode.Name          = @[Common.Spawner.SpawnMode]
+Entities.gmod_subway_81-720.Spawner.SpawnMode.1             = @[Common.Spawner.SpawnMode.Deadlock]
+Entities.gmod_subway_81-720.Spawner.SpawnMode.2             = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-720.Spawner.SpawnMode.3             = @[Common.Spawner.SpawnMode.NightDeadlock]
+Entities.gmod_subway_81-720.Spawner.SpawnMode.4             = @[Common.Spawner.SpawnMode.Depot]
 ]]
