@@ -72,6 +72,7 @@ Entities.gmod_subway_ezh1.Name        = 81-708 (Еж1 промежуточный
 Entities.gmod_subway_ezh3.Name        = 81-710 (Еж3 головной)
 Entities.gmod_subway_em508t.Name      = 81-508Т (Ем-508Т промежуточный)
 Entities.gmod_subway_81-717_mvm.Name  = 81-717 (Номерной МСК головной)
+Entities.gmod_subway_81-717_mvm_custom.Name     = 81-717 (Номерной МСК кастом)
 Entities.gmod_subway_81-714_mvm.Name  = 81-714 (Номерной МСК промежуточный)
 Entities.gmod_subway_81-717_lvz.Name  = 81-717 (Номерной СПБ головной)
 Entities.gmod_subway_81-714_lvz.Name  = 81-714 (Номерной СПБ промежуточный)
@@ -104,6 +105,9 @@ Entities.gmod_track_udochka.Name            = Удочка
 Entities.gmod_train_spawner.Name            = Спавнер поездов
 
 #Spawner common
+Spawner.Title                           = Спавнер поездов #FIXME
+Spawner.Spawn                           = Создать #FIXME
+Spawner.Close                           = Закрыть #FIXME
 Spawner.Trains1                         = Разрешено ваг.
 Spawner.Trains2                         = На человека
 Spawner.WagNum                          = Количество вагонов
@@ -122,6 +126,10 @@ Common.Spawner.SpawnMode.NightDeadlock  = Ночной отстой
 Common.Spawner.SpawnMode.Depot          = Депо
 Spawner.Common.EType                    = Тип электросхем
 Common.Spawner.Scheme                   = Схема в салоне
+Common.Spawner.Random                   = Случайно #FIXME
+Common.Spawner.Old                      = Старые #FIXME
+Common.Spawner.New                      = Новые #FIXME
+Common.Spawner.Type                     = Тип #FIXME
 Common.Spawner.SchemeInvert             = Инвертировать наддверные схемы
 
 #Coupler common
@@ -140,6 +148,19 @@ Common.Couple.Disconnected  = Разъединена
 Common.Couple.Connected     = Соединена
 Common.Couple.Connect       = Соединить
 Common.Couple.Disconnect    = Разъединить
+
+#Bogey common
+Common.Bogey.Title              = Меню тележки
+Common.Bogey.ContactState       = Состояние токоприёмников
+Common.Bogey.CReleased          = Отжаты
+Common.Bogey.CPressed           = Прижаты
+Common.Bogey.CPress             = Прижать
+Common.Bogey.CRelease           = Отжать
+Common.Bogey.ParkingBrakeState  = Состояние стояночного тормоза
+Common.Bogey.PBDisabled         = Отключен вручную
+Common.Bogey.PBEnabled          = Включен
+Common.Bogey.PBEnable           = Включить
+Common.Bogey.PBDisable          = Отключить вручную
 
 #Trains common
 Common.ALL.Unsused1                         = Не используется

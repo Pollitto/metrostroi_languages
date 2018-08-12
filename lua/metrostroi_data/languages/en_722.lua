@@ -352,8 +352,8 @@ Entities.gmod_subway_81-722.Spawner.Announcer.Name          = @[Common.Spawner.A
 Entities.gmod_subway_81-722.Spawner.Scheme.Name             = @[Common.Spawner.Scheme]
 Entities.gmod_subway_81-722.Spawner.SarmatInvert.Name       = @[Common.Spawner.SchemeInvert]
 Entities.gmod_subway_81-722.Spawner.SpawnMode.Name          = @[Common.Spawner.SpawnMode]
-Entities.gmod_subway_81-722.Spawner.SpawnMode.1             = @[Common.Spawner.SpawnMode.Deadlock]
-Entities.gmod_subway_81-722.Spawner.SpawnMode.2             = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-722.Spawner.SpawnMode.1             = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-722.Spawner.SpawnMode.2             = @[Common.Spawner.SpawnMode.Deadlock]
 Entities.gmod_subway_81-722.Spawner.SpawnMode.3             = @[Common.Spawner.SpawnMode.NightDeadlock]
 Entities.gmod_subway_81-722.Spawner.SpawnMode.4             = @[Common.Spawner.SpawnMode.Depot]
 

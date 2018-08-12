@@ -18,6 +18,20 @@ Spawner.717.Line2   = Состав с МПЛ
 Spawner.717.Line4   = Состав с ПБЛ
 Spawner.717.Line5   = Состав с ФПЛ
 
+Spawner.717.Type        = Тип состава
+Spawner.717.BodyType    = Тип кузова
+Spawner.717.MVM         = МВМ
+Spawner.717.LVZ         = ЛВЗ
+Spawner.717.MaskType    = Тип маски
+Spawner.717.CranType    = Тип крана машиниста
+Spawner.717.LampType    = Тип ламп
+Spawner.717.Lamp1       = ЛПВ-02
+Spawner.717.Lamp2       = ЛЛВ-01
+Spawner.717.SeatType    = Тип сидений
+Spawner.717.ARS         = Тип панели АРС
+Spawner.717.RingType    = Тип звонка
+Spawner.717.BPSNType    = Тип БПСН
+
 #######Buttons###########
 #Common
 Common.717.VBD                  = Выключатель блокировки дверей от АСНП
@@ -277,7 +291,7 @@ Entities.gmod_subway_81-717_mvm.Buttons.Block5_6.KDLRSet                = @[Comm
 Entities.gmod_subway_81-717_mvm.Buttons.Block5_6.KDLRKToggle            = @[Common.ALL.KDLK]
 Entities.gmod_subway_81-717_mvm.Buttons.Block5_6.DoorSelectToggle       = @[Common.ALL.VSD]
 Entities.gmod_subway_81-717_mvm.Buttons.Block5_6.KRZDSet                = @[Common.ALL.KRZD]
-Entities.gmod_subway_81-717_mvm.Buttons.Block5_6.VPRToggle              = @[Common.ALL.VPR]
+Entities.gmod_subway_81-717_mvm.Buttons.Block5_6.R_VPRToggle            = @[Common.ALL.VPR]
 Entities.gmod_subway_81-717_mvm.Buttons.Block5_6.VozvratRPSet           = @[Common.ALL.VRPBV]
 Entities.gmod_subway_81-717_mvm.Buttons.Block5_6.!GreenRPLight          = @[Common.ALL.GRP]
 Entities.gmod_subway_81-717_mvm.Buttons.Block5_6.!AVULight              = @[Common.ALL.LAVU]
@@ -1064,23 +1078,83 @@ Entities.gmod_subway_81-714_lvz.Buttons.AV_S.1:A28Toggle    = @[Common.717.A28]
 
 #Spawner:
 Entities.gmod_subway_81-717_mvm.Spawner.Announcer.Name  = @[Common.Spawner.Announcer]
+Entities.gmod_subway_81-717_mvm.Spawner.Scheme.Name     = @[Common.Spawner.Scheme]
 Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.Name  = @[Common.Spawner.SpawnMode]
-Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.1     = @[Common.Spawner.SpawnMode.Deadlock]
-Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.2     = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.1     = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.2     = @[Common.Spawner.SpawnMode.Deadlock]
 Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.3     = @[Common.Spawner.SpawnMode.NightDeadlock]
 Entities.gmod_subway_81-717_mvm.Spawner.SpawnMode.4     = @[Common.Spawner.SpawnMode.Depot]
+
+
+Entities.gmod_subway_81-717_mvm_custom.Spawner.Type.Name        = @[Spawner.717.Type]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BodyType.Name    = @[Spawner.717.BodyType]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BodyType.1       = @[Spawner.717.MVM]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BodyType.2       = @[Spawner.717.LVZ]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.Scheme.Name      = @[Common.Spawner.Scheme]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.MaskType.Name    = @[Spawner.717.MaskType]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.Cran.Name        = @[Spawner.717.CranType]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.Announcer.Name   = @[Common.Spawner.Announcer]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.LampType.Name    = @[Spawner.717.LampType]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.LampType.1       = @[Common.Spawner.Random]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.LampType.2       = @[Spawner.717.Lamp1]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.LampType.3       = @[Spawner.717.Lamp2]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.SeatType.Name    = @[Spawner.717.SeatType]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.SeatType.1       = @[Common.Spawner.Random]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.SeatType.2       = @[Common.Spawner.Old]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.SeatType.3       = @[Common.Spawner.New]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.ARSType.Name     = @[Spawner.717.ARS]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.ARSType.1        = @[Common.Spawner.Random]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.ARSType.2        = @[Common.Spawner.Type] 1
+Entities.gmod_subway_81-717_mvm_custom.Spawner.ARSType.3        = @[Common.Spawner.Type] 2
+Entities.gmod_subway_81-717_mvm_custom.Spawner.ARSType.4        = @[Common.Spawner.Type] 3
+Entities.gmod_subway_81-717_mvm_custom.Spawner.ARSType.5        = @[Common.Spawner.Type] 4
+Entities.gmod_subway_81-717_mvm_custom.Spawner.ARSType.6        = @[Common.Spawner.Type] 5
+Entities.gmod_subway_81-717_mvm_custom.Spawner.Texture.Name     = @[Common.Spawner.Texture]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.PassTexture.Name = @[Common.Spawner.PassTexture]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.CabTexture.Name  = @[Common.Spawner.CabTexture]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.RingType.Name    = @[Spawner.717.RingType]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.RingType.1       = @[Common.Spawner.Random]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.RingType.2       = @[Common.Spawner.Type] 1
+Entities.gmod_subway_81-717_mvm_custom.Spawner.RingType.3       = @[Common.Spawner.Type] 2
+Entities.gmod_subway_81-717_mvm_custom.Spawner.RingType.4       = @[Common.Spawner.Type] 3
+Entities.gmod_subway_81-717_mvm_custom.Spawner.RingType.5       = @[Common.Spawner.Type] 4
+Entities.gmod_subway_81-717_mvm_custom.Spawner.RingType.6       = @[Common.Spawner.Type] 5
+Entities.gmod_subway_81-717_mvm_custom.Spawner.RingType.7       = @[Common.Spawner.Type] 6
+Entities.gmod_subway_81-717_mvm_custom.Spawner.RingType.8       = @[Common.Spawner.Type] 7
+Entities.gmod_subway_81-717_mvm_custom.Spawner.RingType.9       = @[Common.Spawner.Type] 8
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.Name    = @[Spawner.717.BPSNType]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.1       = @[Common.Spawner.Random]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.2       = @[Common.Spawner.Type] 1
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.3       = @[Common.Spawner.Type] 2
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.4       = @[Common.Spawner.Type] 3
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.5       = @[Common.Spawner.Type] 4
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.6       = @[Common.Spawner.Type] 5
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.7       = @[Common.Spawner.Type] 6
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.8       = @[Common.Spawner.Type] 7
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.9       = @[Common.Spawner.Type] 8
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.10      = @[Common.Spawner.Type] 9
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.11      = @[Common.Spawner.Type] 10
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.12      = @[Common.Spawner.Type] 11
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.13      = @[Common.Spawner.Type] 12
+Entities.gmod_subway_81-717_mvm_custom.Spawner.BPSNType.14      = @[Common.Spawner.Type] 13
+Entities.gmod_subway_81-717_mvm_custom.Spawner.SpawnMode.Name   = @[Common.Spawner.SpawnMode]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.SpawnMode.1      = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.SpawnMode.2      = @[Common.Spawner.SpawnMode.Deadlock]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.SpawnMode.3      = @[Common.Spawner.SpawnMode.NightDeadlock]
+Entities.gmod_subway_81-717_mvm_custom.Spawner.SpawnMode.4      = @[Common.Spawner.SpawnMode.Depot]
 
 #Spawner:
 Entities.gmod_subway_81-717_lvz.Spawner.Texture.Name        = @[Common.Spawner.Texture]
 Entities.gmod_subway_81-717_lvz.Spawner.PassTexture.Name    = @[Common.Spawner.PassTexture]
 Entities.gmod_subway_81-717_lvz.Spawner.CabTexture.Name     = @[Common.Spawner.CabTexture]
+Entities.gmod_subway_81-717_lvz.Spawner.Scheme.Name         = @[Common.Spawner.Scheme]
 Entities.gmod_subway_81-717_lvz.Spawner.Type.Name           = @[Spawner.Common.EType]
 Entities.gmod_subway_81-717_lvz.Spawner.Type.1              = @[Spawner.717.Line2]
 Entities.gmod_subway_81-717_lvz.Spawner.Type.2              = @[Spawner.717.Line4]
 Entities.gmod_subway_81-717_lvz.Spawner.Type.3              = @[Spawner.717.Line5]
 Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.Name      = @[Common.Spawner.SpawnMode]
-Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.1         = @[Common.Spawner.SpawnMode.Deadlock]
-Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.2         = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.1         = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.2         = @[Common.Spawner.SpawnMode.Deadlock]
 Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.3         = @[Common.Spawner.SpawnMode.NightDeadlock]
 Entities.gmod_subway_81-717_lvz.Spawner.SpawnMode.4         = @[Common.Spawner.SpawnMode.Depot]
 ]]

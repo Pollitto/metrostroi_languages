@@ -33,7 +33,7 @@ Panel.DisableHoverText  = Disable hover text
 Panel.ScreenshotMode    = Screenshot mode (LOW FPS)
 Panel.ShadowsHeadlight  = Enable headlight shadows
 Panel.ShadowsOther      = Enable shadows from other\nlight sources
-Panel.MinimizedShow     = Don't unload an elements\nwhile minimized
+Panel.MinimizedShow     = Don't unload an elements\nwhen minimized
 Panel.FOV               = FOV
 Panel.RenderDistance    = Render distance
 Panel.ReloadClient      = Reload client side
@@ -72,6 +72,7 @@ Entities.gmod_subway_ezh1.Name        = 81-708 (Ezh1 intermediate)
 Entities.gmod_subway_ezh3.Name        = 81-710 (Ezh3 head)
 Entities.gmod_subway_em508t.Name      = 81-508T (Em-508T intermediate)
 Entities.gmod_subway_81-717_mvm.Name  = 81-717 (Moscow head)
+Entities.gmod_subway_81-717_mvm_custom.Name     = 81-717 (Moscow custom) #FIXME
 Entities.gmod_subway_81-714_mvm.Name  = 81-714 (Moscow intermediate)
 Entities.gmod_subway_81-717_lvz.Name  = 81-717 (St. Petersburg head)
 Entities.gmod_subway_81-714_lvz.Name  = 81-714 (St. Petersburg intermediate)
@@ -104,24 +105,31 @@ Entities.gmod_track_udochka.Name            = Power connector
 Entities.gmod_train_spawner.Name            = Train spawner
 
 #Spawner common
+Spawner.Title                           = Train spawner #FIXME
+Spawner.Spawn                           = Spawn #FIXME
+Spawner.Close                           = Close #FIXME
 Spawner.Trains1                         = Wags. allowed #FIXME
 Spawner.Trains2                         = Per player #FIXME
 Spawner.WagNum                          = Wagons amount #FIXME
-Common.Spawner.Texture      = Body skin
-Common.Spawner.PassTexture  = Interior skin
-Common.Spawner.CabTexture   = Cabin skin
-Common.Spawner.Announcer    = Announcer type
-Common.Spawner.Type1        = Type 1
-Common.Spawner.Type2        = Type 2
-Common.Spawner.Type3        = Type 3
-Common.Spawner.Type4        = Type 4
+Common.Spawner.Texture                  = Body skin
+Common.Spawner.PassTexture              = Interior skin
+Common.Spawner.CabTexture               = Cabin skin
+Common.Spawner.Announcer                = Announcer type
+Common.Spawner.Type1                    = Type 1
+Common.Spawner.Type2                    = Type 2
+Common.Spawner.Type3                    = Type 3
+Common.Spawner.Type4                    = Type 4
 Common.Spawner.SpawnMode                = Train state #FIXME
 Common.Spawner.SpawnMode.Deadlock       = Dead-end #FIXME
 Common.Spawner.SpawnMode.Full           = Fully started #FIXME
-Common.Spawner.SpawnMode.NightDeadlock  = Cold & dark #FIXME
+Common.Spawner.SpawnMode.NightDeadlock  = Dead-end after night #FIXME
 Common.Spawner.SpawnMode.Depot          = Depot #FIXME
 Spawner.Common.EType                    = Electric circuits type #FIXME
 Common.Spawner.Scheme                   = Line schemes
+Common.Spawner.Random                   = Random #FIXME
+Common.Spawner.Old                      = Old #FIXME
+Common.Spawner.New                      = New #FIXME
+Common.Spawner.Type                     = Type #FIXME
 Common.Spawner.SchemeInvert             = Invert line schemes
 
 #Coupler common
@@ -140,6 +148,19 @@ Common.Couple.Disconnected  = Disconnected #FIXME
 Common.Couple.Connected     = Connected #FIXME
 Common.Couple.Connect       = Connect #FIXME
 Common.Couple.Disconnect    = Disconnect #FIXME
+
+#Bogey common
+Common.Bogey.Title              = Bogie menu #FIXME
+Common.Bogey.ContactState       = Current collectors state #FIXME
+Common.Bogey.CReleased          = Released #FIXME
+Common.Bogey.CPressed           = Pressed #FIXME
+Common.Bogey.CPress             = Press #FIXME
+Common.Bogey.CRelease           = Release #FIXME
+Common.Bogey.ParkingBrakeState  = Parking brake state #FIXME
+Common.Bogey.PBDisabled         = Manually disabled #FIXME
+Common.Bogey.PBEnabled          = Enabled #FIXME
+Common.Bogey.PBEnable           = Enable #FIXME
+Common.Bogey.PBDisable          = Manual disable #FIXME
 
 #Trains common
 Common.ALL.Unsused1                         = Unused
