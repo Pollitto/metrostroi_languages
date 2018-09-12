@@ -52,6 +52,10 @@ Train.Common.Camera0        = Sedadlo strojvedoucího
 Train.Common.RouteNumber    = Číslo turnusu
 Train.Common.LastStation    = Konečná stanice
 Train.Common.HelpersPanel   = Pomocný panel
+Train.Common.UAVA           = UAVA #FIXME
+Train.Common.PneumoPanels   = Pneumatic valves #FIXME
+Train.Common.Voltmeters     = Voltmeters and amperemeters #FIXME
+Train.Common.CouplerCamera  = Coupler
 Common.ARM.Monitor1         = Monitor 1 ARM
 Train.Buttons.Sealed        = Tlačítka (zaplombována)
 
@@ -68,6 +72,7 @@ Entities.gmod_subway_ezh1.Name        = 81-708 (Ež1 vložený)
 Entities.gmod_subway_ezh3.Name        = 81-710 (Ež3 čelní)
 Entities.gmod_subway_em508t.Name      = 81-508T (Em-508T vložený)
 Entities.gmod_subway_81-717_mvm.Name  = 81-717 (Moskevský čelní)
+Entities.gmod_subway_81-717_mvm_custom.Name     = 81-717 (Moscow custom) #FIXME
 Entities.gmod_subway_81-714_mvm.Name  = 81-714 (Moskevský vložený)
 Entities.gmod_subway_81-717_lvz.Name  = 81-717 (Petrohradský čelní)
 Entities.gmod_subway_81-714_lvz.Name  = 81-714 (Petrohradský vložený)
@@ -98,8 +103,30 @@ Entities.gmod_track_powermeter.Name         = Měříč výkonu
 Entities.gmod_track_arm.Name                = ARM DSCP
 Entities.gmod_track_udochka.Name            = Napájecí kabel
 Entities.gmod_train_spawner.Name            = Spawner vozů metra
+Entities.gmod_train_special_box.Name        = Special delivery #FIXME
+
+#Weapons
+Weapons.button_presser.Name                 = Button presser #FIXME
+Weapons.button_presser.Purpose              = Used to press buttons on the maps. #FIXME
+Weapons.button_presser.Instructions         = Hold to the button and click "Attack" button. #FIXME
+Weapons.train_key.Name                      = Administrator key #FIXME
+Weapons.train_key.Purpose                   = Used to activate the administrators buttons. #FIXME
+Weapons.train_key.Instructions              = Hold to administrator button and press "Attack" button. #FIXME
+Weapons.train_kv_wrench.Name                = Reverser wrench #FIXME
+Weapons.train_kv_wrench.Purpose             = Used in metro train and for pressing buttons in them. #FIXME
+Weapons.train_kv_wrench.Instructions        = Hold to button in the train and press "Attack" button. #FIXME
+Weapons.train_kv_wrench_gold.Name           = The golden reverser wrench #FIXME
+
+Weapons.train_kv_wrench_gold.Purpose        = @[Weapons.train_kv_wrench.Purpose]
+Weapons.train_kv_wrench_gold.Instructions   = @[Weapons.train_kv_wrench.Instructions]
 
 #Spawner common
+Spawner.Title                           = Train spawner #FIXME
+Spawner.Spawn                           = Spawn #FIXME
+Spawner.Close                           = Close #FIXME
+Spawner.Trains1                         = Wags. allowed #FIXME
+Spawner.Trains2                         = Per player #FIXME
+Spawner.WagNum                          = Wagons amount #FIXME
 Common.Spawner.Texture      = Textura vozu
 Common.Spawner.PassTexture  = Textura interiéru
 Common.Spawner.CabTexture   = Textura kabiny
@@ -108,11 +135,58 @@ Common.Spawner.Type1        = Typ 1
 Common.Spawner.Type2        = Typ 2
 Common.Spawner.Type3        = Typ 3
 Common.Spawner.Type4        = Typ 4
+Common.Spawner.SpawnMode                = Train state #FIXME
+Common.Spawner.SpawnMode.Deadlock       = Dead-end #FIXME
+Common.Spawner.SpawnMode.Full           = Fully started #FIXME
+Common.Spawner.SpawnMode.NightDeadlock  = Dead-end after night #FIXME
+Common.Spawner.SpawnMode.Depot          = Depot #FIXME
+Spawner.Common.EType                    = Electric circuits type #FIXME
+Common.Spawner.Scheme                   = Line schemes
+Common.Spawner.Random                   = Random #FIXME
+Common.Spawner.Old                      = Old #FIXME
+Common.Spawner.New                      = New #FIXME
+Common.Spawner.Type                     = Type #FIXME
+Common.Spawner.SchemeInvert             = Invert line schemes
 
+#Coupler common
+Common.Couple.Title         = Coupler menu #FIXME
+Common.Couple.CoupleState   = Coupler state #FIXME
+Common.Couple.Coupled       = Coupled #FIXME
+Common.Couple.Uncoupled     = Not coupled #FIXME
+Common.Couple.Uncouple      = Uncouple #FIXME
+Common.Couple.IsolState     = Isolation valves state #FIXME
+Common.Couple.Isolated      = Closed #FIXME
+Common.Couple.Opened        = Opened #FIXME
+Common.Couple.Open          = Open #FIXME
+Common.Couple.Isolate       = Close #FIXME
+Common.Couple.EKKState      = EKK state (electrical connection) #FIXME
+Common.Couple.Disconnected  = Disconnected #FIXME
+Common.Couple.Connected     = Connected #FIXME
+Common.Couple.Connect       = Connect #FIXME
+Common.Couple.Disconnect    = Disconnect #FIXME
+
+#Bogey common
+Common.Bogey.Title              = Bogie menu #FIXME
+Common.Bogey.ContactState       = Current collectors state #FIXME
+Common.Bogey.CReleased          = Released #FIXME
+Common.Bogey.CPressed           = Pressed #FIXME
+Common.Bogey.CPress             = Press #FIXME
+Common.Bogey.CRelease           = Release #FIXME
+Common.Bogey.ParkingBrakeState  = Parking brake state #FIXME
+Common.Bogey.PBDisabled         = Manually disabled #FIXME
+Common.Bogey.PBEnabled          = Enabled #FIXME
+Common.Bogey.PBEnable           = Enable #FIXME
+Common.Bogey.PBDisable          = Manual disable #FIXME
 
 #Trains common
 Common.ALL.Unsused1                         = Nevyužito
 Common.ALL.Unsused2                         = (nevyužito)
+Common.ALL.Up                               = (up) #FIXME
+Common.ALL.Down                             = (down) #FIXME
+Common.ALL.Left                             = (left) #FIXME
+Common.ALL.Right                            = (right) #FIXME
+Common.ALL.CW                               = (clockwise) #FIXME
+Common.ALL.CCW                              = (counter-clockwise) #FIXME
 Common.ALL.VB                               = VB: Baterie zapnuto/vypnuto
 Common.ALL.VSOSD                            = SOSD: Kontrolka otevření dveří ve stanici
 Common.ALL.VKF                              = VKF: Napájení baterie (červená světla)
@@ -227,6 +301,7 @@ Common.ALL.DriverValveBLDisconnect          = Ventil brzdového potrubí
 Common.ALL.DriverValveTLDisconnect          = Ventil hlavního potrubí
 Common.ALL.DriverValveDisconnect            = Ventil brzdiče
 Common.ALL.KRMH                             = KRMSH: Nouzové zprovoznění brzdiče
+Common.ALL.RVTB                             = RVTB: Reserved valve of safety brake #FIXME
 Common.ALL.FrontBrakeLineIsolationToggle    = Izolační ventil brzdového potrubí
 Common.ALL.FrontTrainLineIsolationToggle    = Izolační ventil hlavního potrubí
 Common.ALL.RearTrainLineIsolationToggle     = Izolační ventil hlavního potrubí
@@ -312,5 +387,6 @@ Common.ALL.EnginesCurrent1  = Výkon 1. skupiny trakčních motorů (A)
 Common.ALL.EnginesCurrent2  = Výkon 2. skupiny trakčních motorů (A)
 Common.ALL.EnginesVoltage   = Napětí trakčních motorů (kV)
 Common.ALL.BatteryVoltage   = Napětí baterie (V)
+Common.ALL.BatteryCurrent   = Battery current (A) #FIXME
 Common.ALL.HighVoltage      = Vysoké napětí (kV)
 ]]

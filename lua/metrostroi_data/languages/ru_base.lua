@@ -103,6 +103,22 @@ Entities.gmod_track_powermeter.Name         = Измеритель напряж�
 Entities.gmod_track_arm.Name                = АРМ ДСЦП
 Entities.gmod_track_udochka.Name            = Удочка
 Entities.gmod_train_spawner.Name            = Спавнер поездов
+Entities.gmod_train_special_box.Name        = Особая доставка
+
+#Weapons
+Weapons.button_presser.Name                 = Нажиматель кнопок
+Weapons.button_presser.Purpose              = Предназначен для удобного нажимания кнопок на карте.
+Weapons.button_presser.Instructions         = Наведитесь на кнопку и нажмите кнопку атаки.
+Weapons.train_key.Name                      = Ключ администратора
+Weapons.train_key.Purpose                   = Предназначен для использования на заблокированных только для аднимистратора кнопок.
+Weapons.train_key.Instructions              = Наведитесь на кнопку для администратора и нажмите кнопку атаки.
+Weapons.train_kv_wrench.Name                = Реверсивная рукоятка
+Weapons.train_kv_wrench.Purpose             = Предназначена для использования в поездах метрополитена или нажатия различных кнопок в них.
+Weapons.train_kv_wrench.Instructions        = Наведитесь на кнопку в поезде и нажмите кнопку атаки.
+Weapons.train_kv_wrench_gold.Name           = Золотая реверсивная рукоятка
+
+Weapons.train_kv_wrench_gold.Purpose        = @[Weapons.train_kv_wrench.Purpose]
+Weapons.train_kv_wrench_gold.Instructions   = @[Weapons.train_kv_wrench.Instructions]
 
 #Spawner common
 Spawner.Title                           = Спавнер поездов #FIXME

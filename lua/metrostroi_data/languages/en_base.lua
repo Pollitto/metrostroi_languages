@@ -103,6 +103,22 @@ Entities.gmod_track_powermeter.Name         = Power meter
 Entities.gmod_track_arm.Name                = ARM DSCP
 Entities.gmod_track_udochka.Name            = Power connector
 Entities.gmod_train_spawner.Name            = Train spawner
+Entities.gmod_train_special_box.Name        = Special delivery #FIXME
+
+#Weapons
+Weapons.button_presser.Name                 = Button presser #FIXME
+Weapons.button_presser.Purpose              = Used to press buttons on the maps. #FIXME
+Weapons.button_presser.Instructions         = Hold to the button and click "Attack" button. #FIXME
+Weapons.train_key.Name                      = Administrator key #FIXME
+Weapons.train_key.Purpose                   = Used to activate the administrators buttons. #FIXME
+Weapons.train_key.Instructions              = Hold to administrator button and press "Attack" button. #FIXME
+Weapons.train_kv_wrench.Name                = Reverser wrench #FIXME
+Weapons.train_kv_wrench.Purpose             = Used in metro train and for pressing buttons in them. #FIXME
+Weapons.train_kv_wrench.Instructions        = Hold to button in the train and press "Attack" button. #FIXME
+Weapons.train_kv_wrench_gold.Name           = The golden reverser wrench #FIXME
+
+Weapons.train_kv_wrench_gold.Purpose        = @[Weapons.train_kv_wrench.Purpose]
+Weapons.train_kv_wrench_gold.Instructions   = @[Weapons.train_kv_wrench.Instructions]
 
 #Spawner common
 Spawner.Title                           = Train spawner #FIXME

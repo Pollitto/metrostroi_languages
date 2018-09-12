@@ -57,6 +57,7 @@ Common.717.V12                  = 2nd ventilation group switch
 Common.717.RZPL                 = RZP: Power supply protection relay
 Common.717.VPAOn                = VPA: Enable train unit
 Common.717.VPAOff               = VPA: Disable train unit
+Common.717.VZD                  = VZD: Door control toggle (close doors) #FIXME
 
 Common.717.A53                  = A53: Auxiliary circuits contactor
 Common.717.A56                  = A56: Battery
@@ -339,9 +340,14 @@ Entities.gmod_subway_81-717_mvm.Buttons.HelperPanel_R.1:VDLSet          = @[Comm
 Entities.gmod_subway_81-717_mvm.Buttons.HelperPanel_R.1:R_Program1HSet  = @[Common.ALL.Program1]
 Entities.gmod_subway_81-717_mvm.Buttons.HelperPanel_R.1:R_Program2HSet  = @[Common.ALL.Program2]
 
-Entities.gmod_subway_81-717_mvm.Buttons.BZOS.SAB1Toggle                 = @[Common.BZOS.On]
-Entities.gmod_subway_81-717_mvm.Buttons.BZOS.!VH1                       = @[Common.BZOS.VH1]
-Entities.gmod_subway_81-717_mvm.Buttons.BZOS.!VH2                       = @[Common.BZOS.VH2]
+Entities.gmod_subway_81-717_mvm.Buttons.BZOS_C.SAB1Toggle                 = @[Common.BZOS.On]
+Entities.gmod_subway_81-717_mvm.Buttons.BZOS_C.!VH1                       = @[Common.BZOS.VH1]
+Entities.gmod_subway_81-717_mvm.Buttons.BZOS_C.!VH2                       = @[Common.BZOS.VH2]
+
+Entities.gmod_subway_81-717_mvm.Buttons.BZOS_R.SAB1Toggle                 = @[Common.BZOS.On]
+Entities.gmod_subway_81-717_mvm.Buttons.BZOS_R.!VH1                       = @[Common.BZOS.VH1]
+Entities.gmod_subway_81-717_mvm.Buttons.BZOS_R.!VH2                       = @[Common.BZOS.VH2]
+
 
 Entities.gmod_subway_81-717_mvm.Buttons.CabVent_C.PVK-                  = @[Common.CabVent.PVK-]
 Entities.gmod_subway_81-717_mvm.Buttons.CabVent_C.PVK+                  = @[Common.CabVent.PVK+]
@@ -650,7 +656,7 @@ Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old.1:R_UPOToggle              
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old.1:KVTSet                   = @[Common.ARS.KVT]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old.1:VZ1Set                   = @[Common.717.VZ1]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old.!OhSigLamp1                = @[Common.BZOS.Engaged]
-Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old.1:VUD1Toggle               = @[Common.ALL.VUD]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old.1:VUD1Toggle               = @[Common.717.VZD]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old.1:KDLSet                   = @[Common.ALL.KDL]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old.1:KDLKToggle               = @[Common.ALL.KDLK]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old.1:KDLRSet                  = @[Common.ALL.KDL]
@@ -680,7 +686,7 @@ Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:R_UPOToggle              
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:KVTSet                   = @[Common.ARS.KVT]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:VZ1Set                   = @[Common.717.VZ1]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.!OhSigLamp2                = @[Common.BZOS.Engaged]
-Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:VUD1Toggle               = @[Common.ALL.VUD]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:VUD1Toggle               = @[Common.717.VZD]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:KDLSet                   = @[Common.ALL.KDL]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.!KDLLight2                 = @[Common.ALL.KDLL]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_kvr.2:KDLKToggle               = @[Common.ALL.KDLK]
@@ -716,7 +722,7 @@ Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KVTSet             
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:VZ1Set                 = @[Common.717.VZ1]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.!SPLight3                = @[Common.717.LSP]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.!AVULight3               = @[Common.ALL.LAVU]
-Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:VUD1Toggle             = @[Common.ALL.VUD]
+Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:VUD1Toggle             = @[Common.717.VZD]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KDLSet                 = @[Common.ALL.KDL]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KDLKToggle             = @[Common.ALL.KDLK]
 Entities.gmod_subway_81-717_lvz.Buttons.Block5_6_old_paksd.3:KDLRSet                = @[Common.ALL.KDL]
@@ -804,6 +810,9 @@ Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:AV1Toggle    = @[Common.717.AV1]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:A58Toggle    = @[Common.717.A58PU]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:A59Toggle    = @[Common.717.A59PU]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:A61Toggle    = @[Common.717.A61PU]
+Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:P:A58Toggle  = @[Common.717.A58PA]
+Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:P:A59Toggle  = @[Common.717.A59PA]
+Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:P:A61Toggle  = @[Common.717.A61PA]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:A29Toggle    = @[Common.717.A29]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:A46Toggle    = @[Common.717.A46]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_C.1:A47Toggle    = @[Common.717.A47]
@@ -853,6 +862,9 @@ Entities.gmod_subway_81-717_lvz.Buttons.AV_R.A44Toggle      = @[Common.717.A44]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_R.A58Toggle      = @[Common.717.A58PU]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_R.A59Toggle      = @[Common.717.A59PU]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_R.A61Toggle      = @[Common.717.A61PU]
+Entities.gmod_subway_81-717_lvz.Buttons.AV_R.P:A58Toggle    = @[Common.717.A58PA]
+Entities.gmod_subway_81-717_lvz.Buttons.AV_R.P:A59Toggle    = @[Common.717.A59PA]
+Entities.gmod_subway_81-717_lvz.Buttons.AV_R.P:A61Toggle    = @[Common.717.A61PA]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_R.A21Toggle      = @[Common.717.A21]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_R.A49Toggle      = @[Common.717.A49]
 Entities.gmod_subway_81-717_lvz.Buttons.AV_R.A27Toggle      = @[Common.717.A27]

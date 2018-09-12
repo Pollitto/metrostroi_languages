@@ -17,7 +17,7 @@ Workshop.Installed          = Installé
 Workshop.Open               = Workshop
 Workshop.ErrorGithub        = Version GitHub de Metrostroi détectée. La version actuelle de Metrostroi n'est pas pas compatible et ne fonctionne pas en version GitHub.
 Workshop.ErrorLegacy        = Version Legacy (alpha) de Metrostroi détectée. La version actuelle de Metrostroi n'est pas pas compatible et ne fonctionne pas en version Legacy (alpha).
-
+Workshop.ErrorEnhancers     = This addon contain a graphic enhancers that may interfere comfortable game.
 Workshop.Error1             = Cette extension contient un ancien code de script de Metrostroi qui crée un conflit avec l'actuel. Cela peut créer des "Scripts errors" et une instabilité de l'extension.
 
 #Client settings
@@ -52,6 +52,10 @@ Train.Common.Camera0        = Siège du conducteur
 Train.Common.RouteNumber    = Numéro de route
 Train.Common.LastStation    = Dernière station
 Train.Common.HelpersPanel   = Tableau de bord de l'assistant
+Train.Common.UAVA           = UAVA #FIXME
+Train.Common.PneumoPanels   = Pneumatic valves #FIXME
+Train.Common.Voltmeters     = Voltmeters and amperemeters #FIXME
+Train.Common.CouplerCamera  = Coupler #FIXME
 Common.ARM.Monitor1         = Moniteur ARM 1
 Train.Buttons.Sealed        = Scellé
 
@@ -68,6 +72,7 @@ Entities.gmod_subway_ezh1.Name        = 81-708 (Ezh1, intermédiaire)
 Entities.gmod_subway_ezh3.Name        = 81-710 (Ezh3, tête)
 Entities.gmod_subway_em508t.Name      = 81-508T (Em-508T intermédiaire)
 Entities.gmod_subway_81-717_mvm.Name  = 81-717 (Moscou, tête)
+Entities.gmod_subway_81-717_mvm_custom.Name     = 81-717 (Moscow custom) #FIXME
 Entities.gmod_subway_81-714_mvm.Name  = 81-714 (Moscou, intermédiaire)
 Entities.gmod_subway_81-717_lvz.Name  = 81-717 (St. Petersbourg, tête)
 Entities.gmod_subway_81-714_lvz.Name  = 81-714 (St. Petersbourg, intermédiaire)
@@ -98,8 +103,30 @@ Entities.gmod_track_powermeter.Name         = Capteur de puissance
 Entities.gmod_track_arm.Name                = ARM DSCP
 Entities.gmod_track_udochka.Name            = Connecteur d'alimentation
 Entities.gmod_train_spawner.Name            = Train spawneur
+Entities.gmod_train_special_box.Name        = Special delivery #FIXME
+
+#Weapons
+Weapons.button_presser.Name                 = Button presser #FIXME
+Weapons.button_presser.Purpose              = Used to press buttons on the maps. #FIXME
+Weapons.button_presser.Instructions         = Hold to the button and click "Attack" button. #FIXME
+Weapons.train_key.Name                      = Administrator key #FIXME
+Weapons.train_key.Purpose                   = Used to activate the administrators buttons. #FIXME
+Weapons.train_key.Instructions              = Hold to administrator button and press "Attack" button. #FIXME
+Weapons.train_kv_wrench.Name                = Reverser wrench #FIXME
+Weapons.train_kv_wrench.Purpose             = Used in metro train and for pressing buttons in them. #FIXME
+Weapons.train_kv_wrench.Instructions        = Hold to button in the train and press "Attack" button. #FIXME
+Weapons.train_kv_wrench_gold.Name           = The golden reverser wrench #FIXME
+
+Weapons.train_kv_wrench_gold.Purpose        = @[Weapons.train_kv_wrench.Purpose]
+Weapons.train_kv_wrench_gold.Instructions   = @[Weapons.train_kv_wrench.Instructions]
 
 #Spawner common
+Spawner.Title                           = Train spawner #FIXME
+Spawner.Spawn                           = Spawn #FIXME
+Spawner.Close                           = Close #FIXME
+Spawner.Trains1                         = Wags. allowed #FIXME
+Spawner.Trains2                         = Per player #FIXME
+Spawner.WagNum                          = Wagons amount #FIXME
 Common.Spawner.Texture      = Skin d'extérieur
 Common.Spawner.PassTexture  = Skin d'intérieur
 Common.Spawner.CabTexture   = Skin de cabine
@@ -108,11 +135,58 @@ Common.Spawner.Type1        = Type 1
 Common.Spawner.Type2        = Type 2
 Common.Spawner.Type3        = Type 3
 Common.Spawner.Type4        = Type 4
+Common.Spawner.SpawnMode                = Train state #FIXME
+Common.Spawner.SpawnMode.Deadlock       = Dead-end #FIXME
+Common.Spawner.SpawnMode.Full           = Fully started #FIXME
+Common.Spawner.SpawnMode.NightDeadlock  = Dead-end after night #FIXME
+Common.Spawner.SpawnMode.Depot          = Depot #FIXME
+Spawner.Common.EType                    = Electric circuits type #FIXME
+Common.Spawner.Scheme                   = Line schemes
+Common.Spawner.Random                   = Random #FIXME
+Common.Spawner.Old                      = Old #FIXME
+Common.Spawner.New                      = New #FIXME
+Common.Spawner.Type                     = Type #FIXME
+Common.Spawner.SchemeInvert             = Invert line schemes #FIXME
 
+#Coupler common
+Common.Couple.Title         = Coupler menu #FIXME
+Common.Couple.CoupleState   = Coupler state #FIXME
+Common.Couple.Coupled       = Coupled #FIXME
+Common.Couple.Uncoupled     = Not coupled #FIXME
+Common.Couple.Uncouple      = Uncouple #FIXME
+Common.Couple.IsolState     = Isolation valves state #FIXME
+Common.Couple.Isolated      = Closed #FIXME
+Common.Couple.Opened        = Opened #FIXME
+Common.Couple.Open          = Open #FIXME
+Common.Couple.Isolate       = Close #FIXME
+Common.Couple.EKKState      = EKK state (electrical connection) #FIXME
+Common.Couple.Disconnected  = Disconnected #FIXME
+Common.Couple.Connected     = Connected #FIXME
+Common.Couple.Connect       = Connect #FIXME
+Common.Couple.Disconnect    = Disconnect #FIXME
+
+#Bogey common
+Common.Bogey.Title              = Bogie menu #FIXME
+Common.Bogey.ContactState       = Current collectors state #FIXME
+Common.Bogey.CReleased          = Released #FIXME
+Common.Bogey.CPressed           = Pressed #FIXME
+Common.Bogey.CPress             = Press #FIXME
+Common.Bogey.CRelease           = Release #FIXME
+Common.Bogey.ParkingBrakeState  = Parking brake state #FIXME
+Common.Bogey.PBDisabled         = Manually disabled #FIXME
+Common.Bogey.PBEnabled          = Enabled #FIXME
+Common.Bogey.PBEnable           = Enable #FIXME
+Common.Bogey.PBDisable          = Manual disable #FIXME
 
 #Trains common
 Common.ALL.Unsused1                         = Inutilisé
 Common.ALL.Unsused2                         = (inutilisé)
+Common.ALL.Up                               = (up) #FIXME
+Common.ALL.Down                             = (down) #FIXME
+Common.ALL.Left                             = (left) #FIXME
+Common.ALL.Right                            = (right) #FIXME
+Common.ALL.CW                               = (clockwise) #FIXME
+Common.ALL.CCW                              = (counter-clockwise) #FIXME
 Common.ALL.VB                               = VB: Batterie on/off
 Common.ALL.VSOSD                            = SOSD: Lampe d'ouverture des portes en station
 Common.ALL.VKF                              = VKF: Batterie d'alimentation pour lumières rouges
@@ -227,6 +301,7 @@ Common.ALL.DriverValveBLDisconnect          = Déconnecter la valve de conduite 
 Common.ALL.DriverValveTLDisconnect          = Déconnecter la valve de conduite principale
 Common.ALL.DriverValveDisconnect            = Valve de déconnexion de la valve du conducteur
 Common.ALL.KRMH                             = Activer la valve d'urgence du conducteur
+Common.ALL.RVTB                             = RVTB: Reserved valve of safety brake #FIXME
 Common.ALL.FrontBrakeLineIsolationToggle    = Robinet d'arrêt de la conduite générale
 Common.ALL.FrontTrainLineIsolationToggle    = Robinet d'arrêt de la conduite principale
 Common.ALL.RearTrainLineIsolationToggle     = Robinet d'arrêt de la conduite générale
@@ -312,5 +387,6 @@ Common.ALL.EnginesCurrent1  = Courant des 1ers moteurs de traction (A)
 Common.ALL.EnginesCurrent2  = Courant des 2èmes moteurs de traction (A)
 Common.ALL.EnginesVoltage   = Voltage des moteurs (kV)
 Common.ALL.BatteryVoltage   = Voltage de batterie (V)
+Common.ALL.BatteryCurrent   = Battery current (A) #FIXME
 Common.ALL.HighVoltage      = Haute tension (kV)
 ]]

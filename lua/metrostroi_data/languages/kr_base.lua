@@ -52,6 +52,10 @@ Train.Common.Camera0        = 운전석
 Train.Common.RouteNumber    = 경로 번호
 Train.Common.LastStation    = 종착역
 Train.Common.HelpersPanel   = 보조석 패널
+Train.Common.UAVA           = UAVA #FIXME
+Train.Common.PneumoPanels   = Pneumatic valves #FIXME
+Train.Common.Voltmeters     = Voltmeters and amperemeters #FIXME
+Train.Common.CouplerCamera  = Coupler
 Common.ARM.Monitor1         = ARM 모니터 1
 Train.Buttons.Sealed        = 봉인 됨
 
@@ -68,6 +72,7 @@ Entities.gmod_subway_ezh1.Name        = 81-708 (Ezh1 중간차량)
 Entities.gmod_subway_ezh3.Name        = 81-710 (Ezh3 선두차량)
 Entities.gmod_subway_em508t.Name      = 81-508T (Em-508T 중간차량)
 Entities.gmod_subway_81-717_mvm.Name  = 81-717 (Moscow 선두차량)
+Entities.gmod_subway_81-717_mvm_custom.Name     = 81-717 (Moscow custom) #FIXME
 Entities.gmod_subway_81-714_mvm.Name  = 81-714 (Moscow 중간차량)
 Entities.gmod_subway_81-717_lvz.Name  = 81-717 (St. Petersburg 선두차량)
 Entities.gmod_subway_81-714_lvz.Name  = 81-714 (St. Petersburg 중간차량)
@@ -98,8 +103,30 @@ Entities.gmod_track_powermeter.Name         = 전력계
 Entities.gmod_track_arm.Name                = ARM DSCP
 Entities.gmod_track_udochka.Name            = 급전 커넥터
 Entities.gmod_train_spawner.Name            = 열차 스포너
+Entities.gmod_train_special_box.Name        = Special delivery #FIXME
+
+#Weapons
+Weapons.button_presser.Name                 = Button presser #FIXME
+Weapons.button_presser.Purpose              = Used to press buttons on the maps. #FIXME
+Weapons.button_presser.Instructions         = Hold to the button and click "Attack" button. #FIXME
+Weapons.train_key.Name                      = Administrator key #FIXME
+Weapons.train_key.Purpose                   = Used to activate the administrators buttons. #FIXME
+Weapons.train_key.Instructions              = Hold to administrator button and press "Attack" button. #FIXME
+Weapons.train_kv_wrench.Name                = Reverser wrench #FIXME
+Weapons.train_kv_wrench.Purpose             = Used in metro train and for pressing buttons in them. #FIXME
+Weapons.train_kv_wrench.Instructions        = Hold to button in the train and press "Attack" button. #FIXME
+Weapons.train_kv_wrench_gold.Name           = The golden reverser wrench #FIXME
+
+Weapons.train_kv_wrench_gold.Purpose        = @[Weapons.train_kv_wrench.Purpose]
+Weapons.train_kv_wrench_gold.Instructions   = @[Weapons.train_kv_wrench.Instructions]
 
 #Spawner common
+Spawner.Title                           = Train spawner #FIXME
+Spawner.Spawn                           = Spawn #FIXME
+Spawner.Close                           = Close #FIXME
+Spawner.Trains1                         = Wags. allowed #FIXME
+Spawner.Trains2                         = Per player #FIXME
+Spawner.WagNum                          = Wagons amount #FIXME
 Common.Spawner.Texture      = 차량 외부 도색
 Common.Spawner.PassTexture  = 차량 내부 인테리어
 Common.Spawner.CabTexture   = 운전대 텍스쳐
@@ -108,11 +135,58 @@ Common.Spawner.Type1        = 유형 1
 Common.Spawner.Type2        = 유형 2
 Common.Spawner.Type3        = 유형 3
 Common.Spawner.Type4        = 유형 4
+Common.Spawner.SpawnMode                = Train state #FIXME
+Common.Spawner.SpawnMode.Deadlock       = Dead-end #FIXME
+Common.Spawner.SpawnMode.Full           = Fully started #FIXME
+Common.Spawner.SpawnMode.NightDeadlock  = Dead-end after night #FIXME
+Common.Spawner.SpawnMode.Depot          = Depot #FIXME
+Spawner.Common.EType                    = Electric circuits type #FIXME
+Common.Spawner.Scheme                   = Line schemes
+Common.Spawner.Random                   = Random #FIXME
+Common.Spawner.Old                      = Old #FIXME
+Common.Spawner.New                      = New #FIXME
+Common.Spawner.Type                     = Type #FIXME
+Common.Spawner.SchemeInvert             = Invert line schemes #FIXME
 
+#Coupler common
+Common.Couple.Title         = Coupler menu #FIXME
+Common.Couple.CoupleState   = Coupler state #FIXME
+Common.Couple.Coupled       = Coupled #FIXME
+Common.Couple.Uncoupled     = Not coupled #FIXME
+Common.Couple.Uncouple      = Uncouple #FIXME
+Common.Couple.IsolState     = Isolation valves state #FIXME
+Common.Couple.Isolated      = Closed #FIXME
+Common.Couple.Opened        = Opened #FIXME
+Common.Couple.Open          = Open #FIXME
+Common.Couple.Isolate       = Close #FIXME
+Common.Couple.EKKState      = EKK state (electrical connection) #FIXME
+Common.Couple.Disconnected  = Disconnected #FIXME
+Common.Couple.Connected     = Connected #FIXME
+Common.Couple.Connect       = Connect #FIXME
+Common.Couple.Disconnect    = Disconnect #FIXME
+
+#Bogey common
+Common.Bogey.Title              = Bogie menu #FIXME
+Common.Bogey.ContactState       = Current collectors state #FIXME
+Common.Bogey.CReleased          = Released #FIXME
+Common.Bogey.CPressed           = Pressed #FIXME
+Common.Bogey.CPress             = Press #FIXME
+Common.Bogey.CRelease           = Release #FIXME
+Common.Bogey.ParkingBrakeState  = Parking brake state #FIXME
+Common.Bogey.PBDisabled         = Manually disabled #FIXME
+Common.Bogey.PBEnabled          = Enabled #FIXME
+Common.Bogey.PBEnable           = Enable #FIXME
+Common.Bogey.PBDisable          = Manual disable #FIXME
 
 #Trains common
 Common.ALL.Unsused1                         = 미사용
 Common.ALL.Unsused2                         = (미사용)
+Common.ALL.Up                               = (up) #FIXME
+Common.ALL.Down                             = (down) #FIXME
+Common.ALL.Left                             = (left) #FIXME
+Common.ALL.Right                            = (right) #FIXME
+Common.ALL.CW                               = (clockwise) #FIXME
+Common.ALL.CCW                              = (counter-clockwise) #FIXME
 Common.ALL.VB                               = VB: 배터리 투입/차단
 Common.ALL.VSOSD                            = SOSD: 승강장 안전문 열림 확인등
 Common.ALL.VKF                              = VKF: 적색등용 배터리 전원
@@ -227,6 +301,7 @@ Common.ALL.DriverValveBLDisconnect          = 제동관 차단 밸브
 Common.ALL.DriverValveTLDisconnect          = 주 공기관 차단 밸브
 Common.ALL.DriverValveDisconnect            = 제동변 차단 밸브
 Common.ALL.KRMH                             = KRMSH: 제동변 비상 사용
+Common.ALL.RVTB                             = RVTB: Reserved valve of safety brake #FIXME
 Common.ALL.FrontBrakeLineIsolationToggle    = 제동관 해방 밸브
 Common.ALL.FrontTrainLineIsolationToggle    = 주 공기관 해방 밸브
 Common.ALL.RearTrainLineIsolationToggle     = 주 공기관 해방 밸브
@@ -252,6 +327,7 @@ Common.ALL.GCab                             = Loudspeaker: 운전실 내부 방�
 Common.ALL.UPO                              = UPO: 안내방송기
 Common.ALL.R_Radio                          = 안내방송기
 Common.ALL.AnnPlay                          = 안내방송기 재생 표시등
+
 #RRI
 Train.Common.RRI                            = RRI: 무선 중계 안내방송기
 Common.RRI.RRIUp                            = RRI: 설정 위
@@ -263,6 +339,7 @@ Common.RRI.RRIRewindSet2                    = RRI: 빨리 감기
 Common.RRI.RRIRewindSet0                    = RRI: 되감기
 Common.RRI.RRIAmplifierToggle               = RRI: 증폭기
 Common.RRI.RRIOn                            = RRI 작동 표시등
+
 #ASNP
 Train.Common.ASNP           = ASNP
 Common.ASNP.ASNPMenu        = ASNP: 메뉴
@@ -310,5 +387,6 @@ Common.ALL.EnginesCurrent1   = 1번 견인 전동기 전류계 (A)
 Common.ALL.EnginesCurrent2   = 2번 견인 전동기 전류계 (A)
 Common.ALL.EnginesVoltage   = 추진 장치 전압계 (kV)
 Common.ALL.BatteryVoltage   = 배터리 전압계 (V)
+Common.ALL.BatteryCurrent   = Battery current (A) #FIXME
 Common.ALL.HighVoltage      = 고전압계 (kV)
 ]]

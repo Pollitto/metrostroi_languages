@@ -11,7 +11,7 @@ Train.722.Vityaz        = SAU "VITYAZ-SP" monitor
 Train.722.SARMAT        = CIS system monitor
 Train.722.CabLights     = Cabin lighting panel
 Train.722.Disconnects   = Disconnect valves
-Train.722.KRMH           = KRMSH and RVTB valves
+Train.722.KRMH          = KRMSH and RVTB valves
 
 #######Buttons###########
 Common.722.MirrorHeating                = Mirrors heater
@@ -104,7 +104,7 @@ Common.722.SF49                         = SF49: Counter
 Common.722.SF51                         = SF51: Wagon control unit
 Common.722.SF52                         = SF52: BODV
 Common.722.SF53                         = SF53: PSN (power supply)
-Common.722.SF54                         = SF54: Compressor air dryer
+Common.722.SF54                         = SF54: Compressed air dryer
 Common.722.SF55                         = SF55: BUFT (friction brake control unit)
 Common.722.SF56                         = SF56: Inverter
 Common.722.SF57                         = SF57: Inverter heater

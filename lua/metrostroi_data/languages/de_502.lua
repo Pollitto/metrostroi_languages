@@ -85,7 +85,7 @@ Entities.gmod_subway_81-502.Buttons.ALSPanel.!ALS_70            = @[Common.ARS.7
 Entities.gmod_subway_81-502.Buttons.ALSPanel.!ALS_60            = @[Common.ARS.60]
 Entities.gmod_subway_81-502.Buttons.ALSPanel.!ALS_40            = @[Common.ARS.40]
 Entities.gmod_subway_81-502.Buttons.ALSPanel.!ALS_00            = @[Common.ARS.0]
-Entities.gmod_subway_81-502.Buttons.ALSPanel.!ALS_04            = @[Common.ARS.04]
+Entities.gmod_subway_81-502.Buttons.ALSPanel.!ALS_04            = @[Common.ARS.N4]
 
 Entities.gmod_subway_81-502.Buttons.Lamps2_1.!CPS_KS            = @[Common.502.KS]
 Entities.gmod_subway_81-502.Buttons.Lamps2_1.!CPS_AV            = @[Common.502.AV]
@@ -175,8 +175,8 @@ Entities.gmod_subway_81-502.Buttons.RearPneumatic.RearTrainLineIsolationToggle  
 Entities.gmod_subway_81-502.Buttons.RearPneumatic.RearBrakeLineIsolationToggle              = @[Common.ALL.RearBrakeLineIsolationToggle]
 Entities.gmod_subway_81-502.Buttons.GV.GVToggle                                             = @[Common.ALL.GV]
 Entities.gmod_subway_81-502.Buttons.AirDistributor.AirDistributorDisconnectToggle           = @[Common.ALL.AirDistributor]
-Entities.gmod_subway_81-502.Buttons.PassengerDoor.PassengerDoor                             = @[Common.ALL.CabinDoor]
-Entities.gmod_subway_81-502.Buttons.PassengerDoor1.PassengerDoor                            = @[Common.ALL.CabinDoor]
+Entities.gmod_subway_81-502.Buttons.PassengerDoor.PassengerDoor                             = @[Common.ALL.PassDoor]
+Entities.gmod_subway_81-502.Buttons.PassengerDoor1.PassengerDoor                            = @[Common.ALL.PassDoor]
 Entities.gmod_subway_81-502.Buttons.FrontDoor.FrontDoor                                     = @[Common.ALL.FrontDoor]
 Entities.gmod_subway_81-502.Buttons.RearDoor.RearDoor                                       = @[Common.ALL.RearDoor]
 Entities.gmod_subway_81-502.Buttons.CabinDoor.CabinDoor                                     = @[Common.ALL.CabinDoor]
@@ -233,8 +233,8 @@ Entities.gmod_subway_81-501.Buttons.RearPneumatic.RearTrainLineIsolationToggle  
 Entities.gmod_subway_81-501.Buttons.RearPneumatic.RearBrakeLineIsolationToggle              = @[Common.ALL.RearBrakeLineIsolationToggle]
 Entities.gmod_subway_81-501.Buttons.GV.GVToggle                                             = @[Common.ALL.GV]
 Entities.gmod_subway_81-501.Buttons.AirDistributor.AirDistributorDisconnectToggle           = @[Common.ALL.AirDistributor]
-Entities.gmod_subway_81-501.Buttons.PassengerDoor.PassengerDoor                             = @[Common.ALL.CabinDoor]
-Entities.gmod_subway_81-501.Buttons.PassengerDoor1.PassengerDoor                            = @[Common.ALL.CabinDoor]
+Entities.gmod_subway_81-501.Buttons.PassengerDoor.PassengerDoor                             = @[Common.ALL.PassDoor]
+Entities.gmod_subway_81-501.Buttons.PassengerDoor1.PassengerDoor                            = @[Common.ALL.PassDoor]
 Entities.gmod_subway_81-501.Buttons.FrontDoor.FrontDoor                                     = @[Common.ALL.FrontDoor]
 Entities.gmod_subway_81-501.Buttons.RearDoor.RearDoor                                       = @[Common.ALL.RearDoor]
 Entities.gmod_subway_81-501.Buttons.CabinDoor.CabinDoor                                     = @[Common.ALL.CabinDoor]
@@ -249,9 +249,10 @@ Train.502.VBA = @[Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle]
 Train.502.VRD = VRD
 Train.502.RCARS = RC-ARS
 Train.502.RCAV5 = RC-AV5
-Train.502.RCBPS = RC-BPС
+Train.502.RCBPS = RC-BPS
 Train.502.RCAV3 = RC-AV3
 Train.502.RCAV4 = RC-AV4
+
 #Spawner:
 Entities.gmod_subway_81-502.Spawner.Texture.Name        = @[Common.Spawner.Texture]
 Entities.gmod_subway_81-502.Spawner.PassTexture.Name    = @[Common.Spawner.PassTexture]
@@ -262,8 +263,8 @@ Entities.gmod_subway_81-502.Spawner.EMAType.2           = @[Spawner.502.TypeKVLO
 Entities.gmod_subway_81-502.Spawner.EMAType.3           = @[Spawner.502.TypeKVLN]
 Entities.gmod_subway_81-502.Spawner.EWagons.Name        = @[Spawner.502.EWagons]
 Entities.gmod_subway_81-502.Spawner.SpawnMode.Name      = @[Common.Spawner.SpawnMode]
-Entities.gmod_subway_81-502.Spawner.SpawnMode.1         = @[Common.Spawner.SpawnMode.Deadlock]
-Entities.gmod_subway_81-502.Spawner.SpawnMode.2         = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.1         = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-502.Spawner.SpawnMode.2         = @[Common.Spawner.SpawnMode.Deadlock]
 Entities.gmod_subway_81-502.Spawner.SpawnMode.3         = @[Common.Spawner.SpawnMode.NightDeadlock]
 Entities.gmod_subway_81-502.Spawner.SpawnMode.4         = @[Common.Spawner.SpawnMode.Depot]
 ]]
