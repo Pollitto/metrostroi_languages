@@ -22,10 +22,10 @@ Common.502.VAK                  = AK: 비상 주행 모드 회로 연결
 Common.502.LRU                  = 비상 주행 모드 회로 작동 중
 
 #Spawner
-Spawner.502.TypeNVL         = Train from NVL #FIXME
-Spawner.502.TypeKVLO        = Old train from KVL #FIXME
-Spawner.502.TypeKVLN        = New train from KVL #FIXME
-Spawner.502.EWagons         = Add "E" type wagons #FIXME
+Spawner.502.TypeNVL         = NVL 사양 차량 #FIXME
+Spawner.502.TypeKVLO        = KVL 사양 구형 차량#FIXME
+Spawner.502.TypeKVLN        = KVL 사양 신형 차량#FIXME
+Spawner.502.EWagons         = "E" 형식 객차 추가 #FIXME
 
 #gmod_subway_81-502
 Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = 자동 운전 배터리 투입/차단

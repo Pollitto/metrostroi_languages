@@ -11,17 +11,17 @@ Train.703.Breakers1 = Baterie
 Train.703.Breakers2 = Hlavní jistič, osvětlení
 Train.703.Parking   = Parkovací brzda, Autostop (UAVA)
 Train.703.RCARS     = RC-1: Odpojovač řídících obvodů ARS
-Train.703.AVU       = Panel AVU
+Train.703.AVU       = Pult AVU
 
 #Spawner
-Spawner.707.Type    = Panel type #FIXME
-Spawner.707.Type1   = Old + RRI #FIXME
-Spawner.707.Type2   = New + ASNP #FIXME
-Spawner.710.RRI     = Radio-relay announcer #FIXME
+Spawner.707.Type    = Typ pultu
+Spawner.707.Type1   = Starý + RRI
+Spawner.707.Type2   = Nový + ASNP
+Spawner.710.RRI     = Radioreléový hlásič
 
 #######Buttons###########
 #Common
-Common.702.VZ1                  = Pneumatic valve №1 #FIXME!!
+Common.702.VZ1                  = Pneumatický ventil č. 1
 Common.703.ParkingBrakeLeft     = Odbrzdit ruční brzdu
 Common.703.ParkingBrakeRight    = Zabrzdit ruční brzdu
 Common.703.KSD                  = KSD: Tlačítko kontroly blokování dveří

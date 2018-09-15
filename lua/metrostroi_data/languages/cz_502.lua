@@ -22,10 +22,10 @@ Common.502.VAK                  = AK: Tlačítko zkompletování obvodů v reži
 Common.502.LRU                  = Kontrolka: Jističe pro režim nouzové jízdy jsou zapojeny
 
 #Spawner
-Spawner.502.TypeNVL         = Train from NVL #FIXME
-Spawner.502.TypeKVLO        = Old train from KVL #FIXME
-Spawner.502.TypeKVLN        = New train from KVL #FIXME
-Spawner.502.EWagons         = Add "E" type wagons #FIXME
+Spawner.502.TypeNVL         = Klasická souprava (linka NVL)
+Spawner.502.TypeKVLO        = Stará souprava (linka KVL)
+Spawner.502.TypeKVLN        = Nová souprava (linka KVL)
+Spawner.502.EWagons         = Vložit vozy typu E do soupravy
 
 #gmod_subway_81-502
 Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Přepínač baterie autovedení

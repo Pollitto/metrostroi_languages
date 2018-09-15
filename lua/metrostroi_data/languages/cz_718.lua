@@ -4,6 +4,11 @@ return [[
 [cz]
 
 #######Buttons###########
+#Cameras
+Train.718.BUP = BUP #FIXME
+Train.718.PPZ = PPZ #FIXME
+Train.718.VPU = VPU #FIXME
+
 #Common
 Common.718.SB4   = Kontrola zkompletování obvodů
 Common.718.SB5   = Předání řízení (zvonek)
@@ -14,8 +19,7 @@ Common.718.SB13  = Vypnout jednotku automatických vypínáčů
 Common.718.SB15  = Zapnout jednotku dodávky el. energie
 Common.718.SB16  = Vypnout jednotku dodávky el. energie
 
-Common.718.VTPR-    = Přepínač odpojení sběračů proudu (-)
-Common.718.VTPR+    = Přepínač odpojení sběračů proudu (+)
+Common.718.VTPR    = Přepínač odpojení sběračů proudu
 Common.718.RX1      = Jízda nouze (J-1)
 Common.718.KAH2     = KAH: Tlačítko nouzové jízdy bez ARS
 Common.718.RX2      = Jízda nouze (J-2)
@@ -23,6 +27,7 @@ Common.718.RX2      = Jízda nouze (J-2)
 Common.718.SPULightStrength = Indikátor osvětlení přístrojové desky
 
 Common.718.Heat     = Vytápění kabiny
+Common.718.SBP22    = Circuit assembly test #FIXME
 Common.718.KDPR     = Dveře nouze (otevřít levé)
 Common.718.KDLR     = Dveře nouze (otevřít pravé)
 Common.718.UOS      = UOS: Odpojovač obvodů omezovače rychlosti (jízda bez EPV/EPK)
@@ -187,8 +192,8 @@ Common.718.MALP1SN       = @[Common.718.MALP1]: Elektrické obvody nezkompletov�
 Common.718.MALP1VN       = @[Common.718.MALP1]: Závada ventilace
 
 
-Common.718.MVDOTK        = @[Common.718.MVD]: Porucha režimů Jízda/Brzda
-Common.718.MVDRP         = @[Common.718.MVD]: Vybavení RP
+Common.718.MVDOTK        = @[Common.718.MALP1]: Porucha režimů Jízda/Brzda
+Common.718.MVDRP         = @[Common.718.MALP1]: Vybavení RP
 
 Common.718.MALP2MSU      = @[Common.718.MALP1]: Okamžité vynulování požadované hodnoty
 Common.718.MALP2800      = @[Common.718.MALP1]: 800V dostupno v přívodní kolejnici
@@ -199,12 +204,12 @@ Common.718.MALP20        = @[Common.718.MALP1]: 2. skupina armatury bez proudu
 Common.718.MALP2BV       = @[Common.718.MALP1]: Vybavení BV
 Common.718.MALP2ITB      = @[Common.718.MALP1]: El. probití brzdového reostatu 2. skupiny > 100A
 
-Common.718.MGRTP1        = @[Common.718.MGR]: Přitlačení 1. sběrače proudu
-Common.718.MGRTP3        = @[Common.718.MGR]: Přitlačení 3. sběrače proudu
+Common.718.MGRTP1        = @[Common.718.MGR]: Připojení 1. sběrače proudu
+Common.718.MGRTP3        = @[Common.718.MGR]: Připojení 3. sběrače proudu
 Common.718.MGRKHA        = @[Common.718.MGR]: 1. skupina stykačů jízdy je zapnuta
 Common.718.MGRKTA        = @[Common.718.MGR]: 1. skupina stykačů brzdy je zapnuta
-Common.718.MGRTP2        = @[Common.718.MGR]: Přitlačení 2. sběrače proudu
-Common.718.MGRTP4        = @[Common.718.MGR]: Přitlačení 4. sběrače proudu
+Common.718.MGRTP2        = @[Common.718.MGR]: Připojení 2. sběrače proudu
+Common.718.MGRTP4        = @[Common.718.MGR]: Připojení 4. sběrače proudu
 Common.718.MGRKHB        = @[Common.718.MGR]: 2. skupina stykačů jízdy je zapnuta
 Common.718.MGRKTB        = @[Common.718.MGR]: 2. skupina stykačů brzdy je zapnuta
 Common.718.MGRKRV        = @[Common.718.MGR]: Zapnutí stykačů reversu Vpřed
@@ -300,9 +305,8 @@ Entities.gmod_subway_81-718.Buttons.Main.SB16Set         = @[Common.718.SB16]
 
 Entities.gmod_subway_81-718.Buttons.Battery.RCToggle    = @[Common.ALL.RC1]
 Entities.gmod_subway_81-718.Buttons.Battery.VBToggle    = @[Common.ALL.VB]
-Entities.gmod_subway_81-718.Buttons.Battery.VTPR        = @[Common.718.VTPR]
-Entities.gmod_subway_81-718.Buttons.Battery.VTPR-       = @[Common.718.VTPR-]
-Entities.gmod_subway_81-718.Buttons.Battery.VTPR+       = @[Common.718.VTPR+]
+Entities.gmod_subway_81-718.Buttons.Battery.VTPR-       = @[Common.718.VTPR] @[Common.ALL.CCW]
+Entities.gmod_subway_81-718.Buttons.Battery.VTPR+       = @[Common.718.VTPR] @[Common.ALL.CW]
 
 
 Entities.gmod_subway_81-718.Buttons.KR.SBR14Set = @[Common.718.RX1]
@@ -320,7 +324,7 @@ Entities.gmod_subway_81-718.Buttons.VPU.SAP9Toggle   = @[Common.720.Vent1]
 Entities.gmod_subway_81-718.Buttons.VPU.SAP10Toggle  = @[Common.720.Vent2]
 Entities.gmod_subway_81-718.Buttons.VPU.SAP3Toggle   = @[Common.ALL.UNCh]
 Entities.gmod_subway_81-718.Buttons.VPU.SAP39Toggle  = @[Common.ALL.GCab]
-Entities.gmod_subway_81-718.Buttons.VPU.SBP22Set     = Kontrola provozuschopnosti
+Entities.gmod_subway_81-718.Buttons.VPU.SBP22Set     = @[Common.718.SBP22]
 Entities.gmod_subway_81-718.Buttons.VPU.SBP6Set      = @[Common.718.KDPR]
 Entities.gmod_subway_81-718.Buttons.VPU.SBP4Set      = @[Common.718.KDLR]
 Entities.gmod_subway_81-718.Buttons.VPU.SAP14Toggle  = @[Common.ARS.Freq] @[Common.ARS.FreqU]
@@ -496,7 +500,6 @@ Entities.gmod_subway_81-718.Buttons.PVZ.SF14Toggle  = @[Common.718.SF14]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF15Toggle  = @[Common.718.SF15]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF25Toggle  = @[Common.718.SF25]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF72Toggle  = @[Common.718.SF72]
-Entities.gmod_subway_81-718.Buttons.PVZ.SF56Toggle  = @[Common.718.SF56]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF29Toggle  = @[Common.718.SF29]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF26Toggle  = @[Common.718.SF26]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF42Toggle  = @[Common.718.SF42]
@@ -525,10 +528,8 @@ Entities.gmod_subway_81-718.Buttons.BZOS.SAB1Toggle              = @[Common.BZOS
 Entities.gmod_subway_81-718.Buttons.BZOS.!VH1                    = @[Common.BZOS.VH1]
 Entities.gmod_subway_81-718.Buttons.BZOS.!VH2                    = @[Common.BZOS.VH2]
 
-Entities.gmod_subway_81-718.Buttons.CabVent_C.PVK-               = @[Common.CabVent.PVK-]
-Entities.gmod_subway_81-718.Buttons.CabVent_C.PVK+               = @[Common.CabVent.PVK+]
-Entities.gmod_subway_81-718.Buttons.CabVent_R.1:PVK-             = @[Common.CabVent.PVK-]
-Entities.gmod_subway_81-718.Buttons.CabVent_R.1:PVK+             = @[Common.CabVent.PVK+]
+Entities.gmod_subway_81-718.Buttons.CabVent.PVK-               = @[Common.CabVent.PVK-]
+Entities.gmod_subway_81-718.Buttons.CabVent.PVK+               = @[Common.CabVent.PVK+]
 
 Entities.gmod_subway_81-718.Buttons.FrontPneumatic.FrontBrakeLineIsolationToggle            = @[Common.ALL.FrontBrakeLineIsolationToggle]
 Entities.gmod_subway_81-718.Buttons.FrontPneumatic.FrontTrainLineIsolationToggle            = @[Common.ALL.FrontTrainLineIsolationToggle]
@@ -550,6 +551,19 @@ Entities.gmod_subway_81-718.Buttons.Stopkran.EmergencyBrakeValveToggle          
 Entities.gmod_subway_81-718.Buttons.UAVAPanel.UAVAToggle                                    = @[Common.ALL.UAVA]
 Entities.gmod_subway_81-718.Buttons.UAVAPanel.UAVAContactSet                                = @[Common.ALL.UAVAContact]
 
+Entities.gmod_subway_81-718.Buttons.RRI.!RRIOn          = @[Common.RRI.RRIOn]
+Entities.gmod_subway_81-718.Buttons.RRIScreen.RRIUp     = @[Common.RRI.RRIUp]
+Entities.gmod_subway_81-718.Buttons.RRIScreen.RRIDown   = @[Common.RRI.RRIDown]
+Entities.gmod_subway_81-718.Buttons.RRIScreen.RRILeft   = @[Common.RRI.RRILeft]
+Entities.gmod_subway_81-718.Buttons.RRIScreen.RRIRight  = @[Common.RRI.RRIRight]
+
+Entities.gmod_subway_81-718.Buttons.HVMeters.!I13                   = @[Common.ALL.EnginesCurrent1]
+Entities.gmod_subway_81-718.Buttons.HVMeters.!I24                   = @[Common.ALL.EnginesCurrent2]
+Entities.gmod_subway_81-718.Buttons.HVMeters.!HVVoltage             = @[Common.ALL.HighVoltage]
+Entities.gmod_subway_81-718.Buttons.HVMeters.!BatteryCurrent        = @[Common.ALL.BatteryCurrent]
+Entities.gmod_subway_81-718.Buttons.PneumaticPanels.!BLTLPressure   = @[Common.ALL.BLTLPressure]
+Entities.gmod_subway_81-718.Buttons.PneumaticPanels.!BCPressure     = @[Common.ALL.BCPressure]
+Entities.gmod_subway_81-718.Buttons.Left.!BatteryVoltage            = @[Common.ALL.BatteryVoltage]
 
 Entities.gmod_subway_81-719.Buttons.BUV_MPS.MPSPROV         = @[Common.718.MPSPROV]
 Entities.gmod_subway_81-719.Buttons.BUV_MPS.MPSAVR          = @[Common.718.MPSAVR]
@@ -657,9 +671,9 @@ Entities.gmod_subway_81-719.Buttons.PVZ.SF24Toggle  = @[Common.718.SF24]
 
 Entities.gmod_subway_81-719.Buttons.FrontPneumatic.FrontBrakeLineIsolationToggle            = @[Common.ALL.FrontBrakeLineIsolationToggle]
 Entities.gmod_subway_81-719.Buttons.FrontPneumatic.FrontTrainLineIsolationToggle            = @[Common.ALL.FrontTrainLineIsolationToggle]
-Entities.gmod_subway_81-719.Buttons.FrontPneumatic.ParkingBrakeToggle                       = @[Common.ALL.ParkingBrake]
 Entities.gmod_subway_81-719.Buttons.RearPneumatic.RearTrainLineIsolationToggle              = @[Common.ALL.RearTrainLineIsolationToggle]
 Entities.gmod_subway_81-719.Buttons.RearPneumatic.RearBrakeLineIsolationToggle              = @[Common.ALL.RearBrakeLineIsolationToggle]
+Entities.gmod_subway_81-719.Buttons.RearPneumatic.ParkingBrakeToggle                        = @[Common.ALL.ParkingBrake]
 Entities.gmod_subway_81-719.Buttons.GV.GVToggle                                             = @[Common.ALL.GV]
 Entities.gmod_subway_81-719.Buttons.AirDistributor.AirDistributorDisconnectToggle           = @[Common.ALL.AirDistributor]
 Entities.gmod_subway_81-719.Buttons.RearDoor.RearDoor                                       = @[Common.ALL.RearDoor]
@@ -669,7 +683,15 @@ Entities.gmod_subway_81-719.Buttons.couch_cap.CouchCap                          
 
 Entities.gmod_subway_81-719.Buttons.Battery.VBToggle    = @[Common.ALL.VB]
 
-#Cameras:
-
 #Spawner:
+Entities.gmod_subway_81-718.Spawner.Texture.Name     = @[Common.Spawner.Texture]
+Entities.gmod_subway_81-718.Spawner.PassTexture.Name = @[Common.Spawner.PassTexture]
+Entities.gmod_subway_81-718.Spawner.CabTexture.Name  = @[Common.Spawner.CabTexture]
+Entities.gmod_subway_81-718.Spawner.Announcer.Name   = @[Common.Spawner.Announcer]
+Entities.gmod_subway_81-718.Spawner.Scheme.Name      = @[Common.Spawner.Scheme]
+Entities.gmod_subway_81-718.Spawner.SpawnMode.Name   = @[Common.Spawner.SpawnMode]
+Entities.gmod_subway_81-718.Spawner.SpawnMode.1      = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-718.Spawner.SpawnMode.2      = @[Common.Spawner.SpawnMode.Deadlock]
+Entities.gmod_subway_81-718.Spawner.SpawnMode.3      = @[Common.Spawner.SpawnMode.NightDeadlock]
+Entities.gmod_subway_81-718.Spawner.SpawnMode.4      = @[Common.Spawner.SpawnMode.Depot]
 ]]

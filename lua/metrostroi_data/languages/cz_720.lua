@@ -4,6 +4,14 @@ return [[
 [cz]
 
 #######Buttons###########
+#Cameras
+Train.720.CameraCond    = Air conditioner, IGLA #FIXME
+Train.720.CameraPPZ     = PPZ #FIXME
+Train.720.CameraPV      = VPU #FIXME
+Train.720.CameraVityaz  = SAU "Vityaz" #FIXME
+Train.720.CameraKRMH    = KRMSH and UAVA valves #FIXME
+Train.720.CameraPVZ     = PVZ #FIXME
+
 #Common
 Common.720.SF1              = SF1: Hlavní napájení
 Common.720.SF2              = SF2: Hlavní řízení
@@ -62,12 +70,11 @@ Common.720.SFV31            = SF31: @[Common.ALL.Unsused1]
 Common.720.SFV32            = SF32: @[Common.ALL.Unsused1]
 Common.720.SFV33            = SF33: @[Common.ALL.Unsused1]
 
-Common.720.VentCMode-       = Režim ventilace (proti směru hodinových ručiček)
-Common.720.VentCMode+       = Režim ventilace (po směru hodinových ručiček)
-Common.720.VentHMode+       = Zvýšit výkon topení
-Common.720.VentHMode-       = Snížit výkon topení
-Common.720.VentSMode-       = Zvýšit chod ventilace
-Common.720.VentSMode+       = Snížit chod ventilace
+Common.720.VentCMode       = Ventilation mode #FIXME
+Common.720.VentHMode+       = Increase heater power #FIXME
+Common.720.VentHMode-       = Decrease heater power #FIXME
+Common.720.VentSMode-       = Increase ventilation power #FIXME
+Common.720.VentSMode+       = Decrease ventilation power #FIXME
 
 Common.720.Pant1            = Odpojení sběračů proudu 1. skupiny
 Common.720.Pant2            = Odpojení sběračů proudu 2. skupiny
@@ -78,8 +85,7 @@ Common.720.BBER             = Nouzové zapnutí BBE
 Common.720.BBE              = Zapnutí BBE
 Common.720.CabLightStrength = Jas osvětlení kabiny
 Common.720.AppLights        = Osvětlení vybavení vozu
-Common.720.BARSBlock-       = Blokování nefunkčních jednotek BARS (proti směru hodinových ručiček)
-Common.720.BARSBlock+       = Blokování nefunkčních jednotek BARS (po směru hodinových ručiček)
+Common.720.BARSBlock       = Faulty BARS (ARS unit) blocking #FIXME
 
 Common.720.Accel                = Akcelerace
 Common.720.Forward              = Jízda vpřed
@@ -112,8 +118,6 @@ Common.720.EBrakeToggle         = Zapnout rezervní brzdu
 Common.720.EmergencyBrake       = Zapnout nouzovou brzdu
 Common.720.DoorClose            = Zavření dveří
 Common.720.AttentionMessage     = Potvrzovací tlačítko ARS
-Common.720.KB                   = KB: Tlačítko bdělosti
-Common.720.KVT                  = KVT: Tlačítko potvrzení zásahu ARS
 
 
 Common.720.DoorSelectL          = Zvolit levé dveře
@@ -151,8 +155,8 @@ Common.720.BRU              = Odpojovač BRU (vysokého napětí)
 #gmod_subway_81-720
 #Buttons:
 
-Entities.gmod_subway_81-720.Buttons.BackVent.VentCondMode-      = @[Common.720.VentCMode-]
-Entities.gmod_subway_81-720.Buttons.BackVent.VentCondMode+      = @[Common.720.VentCMode+]
+Entities.gmod_subway_81-720.Buttons.BackVent.VentCondMode-      = @[Common.720.VentCMode] @[Common.ALL.CCW]
+Entities.gmod_subway_81-720.Buttons.BackVent.VentCondMode+      = @[Common.720.VentCMode] @[Common.ALL.CW]
 Entities.gmod_subway_81-720.Buttons.BackVent.VentHeatMode+      = @[Common.720.VentHMode+]
 Entities.gmod_subway_81-720.Buttons.BackVent.VentHeatMode-      = @[Common.720.VentHMode-]
 Entities.gmod_subway_81-720.Buttons.BackVent.VentStrengthMode-  = @[Common.720.VentSMode-]
@@ -211,7 +215,7 @@ Entities.gmod_subway_81-720.Buttons.BackDown.Pant2Toggle            = @[Common.7
 Entities.gmod_subway_81-720.Buttons.BackDown.Vent1Toggle            = @[Common.720.Vent1]
 Entities.gmod_subway_81-720.Buttons.BackDown.Vent2Toggle            = @[Common.720.Vent2]
 Entities.gmod_subway_81-720.Buttons.BackDown.PassLightToggle        = @[Common.ALL.PassLights]
-Entities.gmod_subway_81-720.Buttons.BackDown.CabLightToggle         = @[Common.ALL.PanelLights]
+Entities.gmod_subway_81-720.Buttons.BackDown.CabLightToggle         = @[Common.ALL.CabLights]
 Entities.gmod_subway_81-720.Buttons.BackDown.Headlights1Toggle      = @[Common.ALL.VF1]
 Entities.gmod_subway_81-720.Buttons.BackDown.Headlights2Toggle      = @[Common.ALL.VF2]
 Entities.gmod_subway_81-720.Buttons.BackDown.ParkingBrakeToggle     = @[Common.ALL.ParkingBrake]
@@ -221,8 +225,8 @@ Entities.gmod_subway_81-720.Buttons.BackDown.BBEToggle              = @[Common.7
 Entities.gmod_subway_81-720.Buttons.BackDown.CompressorToggle       = @[Common.ALL.MK]
 Entities.gmod_subway_81-720.Buttons.BackDown.CabLightStrengthToggle = @[Common.720.CabLightStrength]
 Entities.gmod_subway_81-720.Buttons.BackDown.AppLights1Toggle       = @[Common.720.AppLights]
-Entities.gmod_subway_81-720.Buttons.BackDown.BARSBlock-             = @[Common.720.BARSBlock-]
-Entities.gmod_subway_81-720.Buttons.BackDown.BARSBlock+             = @[Common.720.BARSBlock+]
+Entities.gmod_subway_81-720.Buttons.BackDown.BARSBlock-             = @[Common.720.BARSBlock] @[Common.ALL.CCW]
+Entities.gmod_subway_81-720.Buttons.BackDown.BARSBlock+             = @[Common.720.BARSBlock] @[Common.ALL.CW]
 Entities.gmod_subway_81-720.Buttons.BackDown.BatteryToggle          = @[Common.ALL.VB]
 Entities.gmod_subway_81-720.Buttons.BackDown.ALSFreqToggle          = @[Common.ARS.Freq]
 
@@ -263,8 +267,8 @@ Entities.gmod_subway_81-720.Buttons.PUR.EmerBrakeToggle             = @[Common.7
 Entities.gmod_subway_81-720.Buttons.PUR.EmergencyBrakeToggle        = @[Common.720.EmergencyBrake]
 Entities.gmod_subway_81-720.Buttons.PUR.DoorCloseToggle             = @[Common.720.DoorClose]
 Entities.gmod_subway_81-720.Buttons.PUR.AttentionMessageSet         = @[Common.720.AttentionMessage]
-Entities.gmod_subway_81-720.Buttons.PUR.AttentionSet                = @[Common.720.KB]
-Entities.gmod_subway_81-720.Buttons.PUR.AttentionBrakeSet           = @[Common.720.KVT]
+Entities.gmod_subway_81-720.Buttons.PUR.AttentionSet                = @[Common.ARS.KB]
+Entities.gmod_subway_81-720.Buttons.PUR.AttentionBrakeSet           = @[Common.ARS.KVT]
 Entities.gmod_subway_81-720.Buttons.PUR.HornBSet                    = @[Common.ALL.Horn]
 Entities.gmod_subway_81-720.Buttons.PUR.DoorRightSet                = @[Common.720.KDP]
 Entities.gmod_subway_81-720.Buttons.PUR.!DoorRightLamp              = @[Common.ALL.KDPL]
@@ -394,7 +398,17 @@ Entities.gmod_subway_81-721.Buttons.FrontPneumatic.FrontTrainLineIsolationToggle
 Entities.gmod_subway_81-721.Buttons.RearPneumatic.RearTrainLineIsolationToggle      = @[Common.ALL.RearTrainLineIsolationToggle]
 Entities.gmod_subway_81-721.Buttons.RearPneumatic.RearBrakeLineIsolationToggle      = @[Common.ALL.RearBrakeLineIsolationToggle]
 
-#Cameras:
-
 #Spawner:
+
+Entities.gmod_subway_81-720.Spawner.Texture.Name            = @[Common.Spawner.Texture]
+Entities.gmod_subway_81-720.Spawner.PassTexture.Name        = @[Common.Spawner.PassTexture]
+Entities.gmod_subway_81-720.Spawner.CabTexture.Name         = @[Common.Spawner.CabTexture]
+Entities.gmod_subway_81-720.Spawner.Announcer.Name          = @[Common.Spawner.Announcer]
+Entities.gmod_subway_81-720.Spawner.Scheme.Name             = @[Common.Spawner.Scheme]
+Entities.gmod_subway_81-720.Spawner.PassSchemesInvert.Name  = @[Common.Spawner.SchemeInvert]
+Entities.gmod_subway_81-720.Spawner.SpawnMode.Name          = @[Common.Spawner.SpawnMode]
+Entities.gmod_subway_81-720.Spawner.SpawnMode.1             = @[Common.Spawner.SpawnMode.Full]
+Entities.gmod_subway_81-720.Spawner.SpawnMode.2             = @[Common.Spawner.SpawnMode.Deadlock]
+Entities.gmod_subway_81-720.Spawner.SpawnMode.3             = @[Common.Spawner.SpawnMode.NightDeadlock]
+Entities.gmod_subway_81-720.Spawner.SpawnMode.4             = @[Common.Spawner.SpawnMode.Depot]
 ]]
