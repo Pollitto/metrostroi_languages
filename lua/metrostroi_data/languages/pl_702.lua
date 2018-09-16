@@ -1,7 +1,7 @@
 return [[
 #D/E-based types
 
-[cz]
+[pl]
 
 #Cameras:
 Train.702.Breakers1 = Wyłącznik baterii akumulatorów
@@ -675,7 +675,6 @@ Entities.gmod_subway_em508t.Buttons.Main.!SD                = @[Common.703.SD]
 Entities.gmod_subway_em508t.Buttons.HelperPanel.V6Set         = @[Common.ALL.KDL]
 Entities.gmod_subway_em508t.Buttons.HelperPanel.V3Toggle       = @[Common.ALL.VUD2]
 
-Entities.gmod_subway_em508t.Buttons.Stopkran.EmergencyBrakeValveToggle                      = @[Common.ALL.EmergencyBrakeValve]
 Entities.gmod_subway_em508t.Buttons.ParkingBrake.ParkingBrakeLeft                           = @[Common.703.ParkingBrakeLeft]
 Entities.gmod_subway_em508t.Buttons.ParkingBrake.ParkingBrakeRight                          = @[Common.703.ParkingBrakeRight]
 Entities.gmod_subway_em508t.Buttons.DriverValveBLDisconnect.DriverValveBLDisconnectToggle   = @[Common.ALL.DriverValveBLDisconnect]
@@ -729,6 +728,7 @@ Entities.gmod_subway_ezh.Spawner.Texture.Name           = @[Common.Spawner.Textu
 Entities.gmod_subway_ezh.Spawner.PassTexture.Name       = @[Common.Spawner.PassTexture]
 Entities.gmod_subway_ezh.Spawner.CabTexture.Name        = @[Common.Spawner.CabTexture]
 Entities.gmod_subway_ezh.Spawner.Announcer.Name         = @[Common.Spawner.Announcer]
+Entities.gmod_subway_ezh.Spawner.EWagons.Name           = @[Spawner.502.EWagons]
 
 Entities.gmod_subway_ezh3.Spawner.Texture.Name          = @[Common.Spawner.Texture]
 Entities.gmod_subway_ezh3.Spawner.PassTexture.Name      = @[Common.Spawner.PassTexture]

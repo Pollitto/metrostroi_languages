@@ -1,7 +1,7 @@
 ﻿return [[
 #81-720
 
-[en]
+[de]
 
 #######Buttons###########
 #Cameras
@@ -353,6 +353,13 @@ Entities.gmod_subway_81-720.Buttons.PneumoHelper2.!BrakeTrainLine   = @[Common.A
 Entities.gmod_subway_81-720.Buttons.PneumoHelper1.!BrakeCylinder    = @[Common.ALL.BCPressure]
 Entities.gmod_subway_81-720.Buttons.VoltHelper1.!Battery            = @[Common.ALL.BatteryVoltage]
 Entities.gmod_subway_81-720.Buttons.GV.GVToggle                     = @[Common.720.BRU]
+
+Entities.gmod_subway_81-720.Buttons.Route.RouteNumber1+         = @[Common.ALL.RouteNumber1+]
+Entities.gmod_subway_81-720.Buttons.Route.RouteNumber2+         = @[Common.ALL.RouteNumber2+]
+Entities.gmod_subway_81-720.Buttons.Route.RouteNumber1-         = @[Common.ALL.RouteNumber1-]
+Entities.gmod_subway_81-720.Buttons.Route.RouteNumber2-         = @[Common.ALL.RouteNumber2-]
+Entities.gmod_subway_81-720.Buttons.LastStation.LastStation+    = @[Common.ALL.LastStation+]
+Entities.gmod_subway_81-720.Buttons.LastStation.LastStation-    = @[Common.ALL.LastStation-]
 
 #gmod_subway_81-721
 Entities.gmod_subway_81-721.Buttons.Battery.BatteryToggle   = @[Common.ALL.VB]
