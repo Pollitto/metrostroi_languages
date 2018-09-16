@@ -144,7 +144,7 @@ Common.717.A58PU                = A58: PUAV virta
 Common.717.A59PU                = A59: PUAV hallinta
 Common.717.A61PU                = A61: PUAV suunta taakse
 Common.717.A58PA                = A58: PA virta
-Common.717.A59PA                = A59: FIXME
+Common.717.A59PA                = А59: @[Common.ALL.Unsused1]
 Common.717.A61PA                = A61: PA suunnan avain
 
 Common.717.A78                  = A78: Etuoven hallinta

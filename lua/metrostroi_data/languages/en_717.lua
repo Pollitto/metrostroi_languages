@@ -144,7 +144,7 @@ Common.717.A58PU                = A58: PUAV power
 Common.717.A59PU                = A59: PUAV control
 Common.717.A61PU                = A61: PUAV reverser key control
 Common.717.A58PA                = A58: PA power
-Common.717.A59PA                = A59: FIXME
+Common.717.A59PA                = А59: @[Common.ALL.Unsused1]
 Common.717.A61PA                = A61: PA reverser key control
 
 Common.717.A78                  = A78: Front doors control

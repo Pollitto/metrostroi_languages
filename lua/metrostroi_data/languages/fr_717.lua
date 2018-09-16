@@ -3,34 +3,34 @@ return [[
 
 [fr]
 #Cameras:
-Train.717.Breakers  = Autobreakers #FIXME
-Train.717.VB        = Battery and RC #FIXME
-Train.717.VBD       = VBD and UPPS #FIXME
+Train.717.Breakers  = Freins automatiques
+Train.717.VB        = Batterie et RC
+Train.717.VBD       = VBD et UPPS
 
-Train.717.VRD       = VRD #FIXME
-Train.717.SOSD      = SOSD #FIXME
-Train.717.PUAV      = PUAV #FIXME
-Train.717.PA        = PA #FIXME
-Train.717.PAScreen  = PA screen #FIXME
+Train.717.VRD       = VRD
+Train.717.SOSD      = SOSD
+Train.717.PUAV      = PUAV
+Train.717.PA        = PA
+Train.717.PAScreen  = Ecran PA
 
 #Spawner
-Spawner.717.Line2   = Train from MPL #FIXME
-Spawner.717.Line4   = Train from PBL #FIXME
-Spawner.717.Line5   = Train from FPL #FIXME
+Spawner.717.Line2   = Train de MPL (ligne Moskovsko-Petrogradskaya)
+Spawner.717.Line4   = Train de PBL (ligne Frunzensko-Primorskaya)
+Spawner.717.Line5   = Train de FPL (ligne Pravoberezhnaya)
 
-Spawner.717.Type        = Train type #FIXME
-Spawner.717.BodyType    = Body type #FIXME
-Spawner.717.MVM         = MVM #FIXME
-Spawner.717.LVZ         = LVZ #FIXME
-Spawner.717.MaskType    = Mask type #FIXME
-Spawner.717.CranType    = Driver's valve type #FIXME
-Spawner.717.LampType    = Lamps type #FIXME
-Spawner.717.Lamp1       = LPV-02 #FIXME
-Spawner.717.Lamp2       = LLV-01 #FIXME
-Spawner.717.SeatType    = Seats type #FIXME
-Spawner.717.ARS         = ARS panel type #FIXME
-Spawner.717.RingType    = ARS beeper type #FIXME
-Spawner.717.BPSNType    = BPSN type #FIXME
+Spawner.717.Type        = Type de train
+Spawner.717.BodyType    = Type de carrosserie
+Spawner.717.MVM         = MVM
+Spawner.717.LVZ         = LVZ
+Spawner.717.MaskType    = Type de masque
+Spawner.717.CranType    = Type de valve de conducteur
+Spawner.717.LampType    = Type de lampes
+Spawner.717.Lamp1       = LPV-02
+Spawner.717.Lamp2       = LLV-01
+Spawner.717.SeatType    = Type de sièges
+Spawner.717.ARS         = Type de panneau ARS
+Spawner.717.RingType    = Type de bipper ARS
+Spawner.717.BPSNType    = Type de BPSN
 
 #######Buttons###########
 #Common
@@ -38,7 +38,7 @@ Common.717.VBD                  = Blocage des portes ASNP
 Common.717.UPPS                 = Système UPPS
 Common.717.BPSN                 = BPSN: Alimentation électrique du train
 Common.717.ARS13V               = ARS 13V: Vérification du voltage stabilisé de l'ARS
-Common.717.Radio13V             = Radio stabilized 13V voltage check #FIXME
+Common.717.Radio13V             = Vérificateur de voltage en radio stabilisée 13V
 Common.717.LVD                  = LVD: Lampe de 1er câble (moteurs allumés)
 Common.717.LHRK                 = LHRK: Lampe du 2ème câble (le RK tourne)
 Common.717.LST                  = LST: Lampe du 6ème câble (frein)
@@ -55,9 +55,9 @@ Common.717.V13                  = Ventilation d'urgence
 Common.717.V11                  = 1er groupe de ventilation
 Common.717.V12                  = 2ème groupe de ventilation
 Common.717.RZPL                 = RZP: Relai de protection d'alimentation
-Common.717.VPAOn                = VPA: Enable train unit #FIXME
-Common.717.VPAOff               = VPA: Disable train unit #FIXME
-Common.717.VZD                  = VZD: Door control toggle (close doors) #FIXME
+Common.717.VPAOn                = VPA: Activer l'unité de train
+Common.717.VPAOff               = VPA: Désactiver l'unité de train
+Common.717.VZD                  = VZD: Interrupteur de contrôle des portes (fermer les portes)
 
 Common.717.A53                  = A53: Contacteur des circuits auxiliaires
 Common.717.A56                  = A56: Batterie
@@ -144,7 +144,7 @@ Common.717.A58PU                = A58: Alimentation PUAV
 Common.717.A59PU                = A59: Contrôle PUAV
 Common.717.A61PU                = A61: Contrôle de la clé de l'inverseur PUAV
 Common.717.A58PA                = A58: Alimentation PA
-Common.717.A59PA                = A59: FIXME
+Common.717.A59PA                = А59: @[Common.ALL.Unsused1]
 Common.717.A61PA                = A61: Contrôle de la clé de l'inverseur PA
 
 Common.717.A78                  = A78: Contrôle des portes avant

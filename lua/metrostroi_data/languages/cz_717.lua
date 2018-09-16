@@ -144,7 +144,7 @@ Common.717.A58PU                = A58: Napájení PUAV
 Common.717.A59PU                = A59: Ovládání PUAV
 Common.717.A61PU                = A61: Kontrola klíče reversu PUAV
 Common.717.A58PA                = A58: Napájení PA
-Common.717.A59PA                = A59: FIXME
+Common.717.A59PA                = А59: @[Common.ALL.Unsused1]
 Common.717.A61PA                = A61: Kontrola klíče reversu PA
 
 Common.717.A78                  = A78: Přední dveře
