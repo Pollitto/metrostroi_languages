@@ -15,10 +15,10 @@ Common.502.L5w                  = Lampe du 5ème câble (direction : marche arri
 Common.502.L16w                 = Lampe du 16ème câble (verrouillage des portes)
 Common.502.L20w                 = Lampe du 20ème câble (fermeture du LK2 et LK5, retombée progressive du courant)
 Common.502.L23w                 = Lampe du 23ème câble (contrôle du compresseur)
-Common.502.RK1                  = Control of the first RK position
+Common.502.RK1                  = Contrôle de la première position du RK
 Common.502.BRD                  = Lampe d'échec de manoeuvre des portes
 Common.502.KOS                  = KB: Limitation de vitesse (bouton d'avertissement)
-Common.502.VAK                  = AK: Assembly emergency drive mode circuits
+Common.502.VAK                  = AK: Asssemblage des circuits du mode de conduite d'urgence
 Common.502.LRU                  = Les circuits du mode de conduite d'urgence sont enclenchés
 
 #Spawner

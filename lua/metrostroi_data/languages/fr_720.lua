@@ -5,12 +5,12 @@ return [[
 
 #######Buttons###########
 #Cameras
-Train.720.CameraCond    = Air conditioner, IGLA #FIXME
-Train.720.CameraPPZ     = PPZ #FIXME
-Train.720.CameraPV      = VPU #FIXME
-Train.720.CameraVityaz  = SAU "Vityaz" #FIXME
-Train.720.CameraKRMH    = KRMSH and UAVA valves #FIXME
-Train.720.CameraPVZ     = PVZ #FIXME
+Train.720.CameraCond    = Climatisation, IGLA
+Train.720.CameraPPZ     = PPZ
+Train.720.CameraPV      = VPU
+Train.720.CameraVityaz  = SAU "Vityaz"
+Train.720.CameraKRMH    = Valves KRMSH et UAVA
+Train.720.CameraPVZ     = PVZ
 
 #Common
 Common.720.SF1              = SF1: Alimentation principale
@@ -70,11 +70,11 @@ Common.720.SFV31            = SF31: @[Common.ALL.Unsused1]
 Common.720.SFV32            = SF32: @[Common.ALL.Unsused1]
 Common.720.SFV33            = SF33: @[Common.ALL.Unsused1]
 
-Common.720.VentCMode       = Ventilation mode #FIXME
-Common.720.VentHMode+       = Increase heater power #FIXME
-Common.720.VentHMode-       = Decrease heater power #FIXME
-Common.720.VentSMode-       = Increase ventilation power #FIXME
-Common.720.VentSMode+       = Decrease ventilation power #FIXME
+Common.720.VentCMode       = Mode de ventilation
+Common.720.VentHMode+       = Augmenter la puissance du chauffage
+Common.720.VentHMode-       = Diminuer la puissance du chauffage
+Common.720.VentSMode-       = Augmenter la puissance de la ventilation
+Common.720.VentSMode+       = Diminuer la puissance de la ventilation
 
 Common.720.Pant1            = Désactiver le 1er groupe de collecteurs de courant
 Common.720.Pant2            = Désactiver le 2ème groupe de collecteurs de courant
@@ -85,7 +85,7 @@ Common.720.BBER             = BBE d'urgence
 Common.720.BBE              = BBE: Alimentation
 Common.720.CabLightStrength = Luminosité de l'éclairage cabine
 Common.720.AppLights        = Equipement d'éclairage de voiture
-Common.720.BARSBlock       = Faulty BARS (ARS unit) blocking #FIXME
+Common.720.BARSBlock       = Blocage du BARS défectueux (ARS unit)
 
 Common.720.Accel                = Accélération
 Common.720.Forward              = Marche avant
