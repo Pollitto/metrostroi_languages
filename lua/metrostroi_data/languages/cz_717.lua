@@ -3,47 +3,47 @@ return [[
 
 [cz]
 #Cameras:
-Train.717.Breakers  = Autobreakers #FIXME
-Train.717.VB        = Battery and RC #FIXME
-Train.717.VBD       = VBD and UPPS #FIXME
+Train.717.Breakers  = Jističe
+Train.717.VB        = Baterie a OŘO
+Train.717.VBD       = VBD a UPPS
 
-Train.717.VRD       = VRD #FIXME
-Train.717.SOSD      = SOSD #FIXME
-Train.717.PUAV      = PUAV #FIXME
-Train.717.PA        = PA #FIXME
-Train.717.PAScreen  = PA screen #FIXME
+Train.717.VRD       = VRD
+Train.717.SOSD      = SOSD
+Train.717.PUAV      = PUAV (RAV)
+Train.717.PA        = PA (Vlaková aparatura)
+Train.717.PAScreen  = Obrazovka PA
 
 #Spawner
-Spawner.717.Line2   = Train from MPL #FIXME
-Spawner.717.Line4   = Train from PBL #FIXME
-Spawner.717.Line5   = Train from FPL #FIXME
+Spawner.717.Line2   = Souprava z linky MPL
+Spawner.717.Line4   = Souprava z linky PBL
+Spawner.717.Line5   = Souprava z linky FPL
 
-Spawner.717.Type        = Train type #FIXME
-Spawner.717.BodyType    = Body type #FIXME
-Spawner.717.MVM         = MVM #FIXME
-Spawner.717.LVZ         = LVZ #FIXME
-Spawner.717.MaskType    = Mask type #FIXME
-Spawner.717.CranType    = Driver's valve type #FIXME
-Spawner.717.LampType    = Lamps type #FIXME
-Spawner.717.Lamp1       = LPV-02 #FIXME
-Spawner.717.Lamp2       = LLV-01 #FIXME
-Spawner.717.SeatType    = Seats type #FIXME
-Spawner.717.ARS         = ARS panel type #FIXME
-Spawner.717.RingType    = ARS beeper type #FIXME
-Spawner.717.BPSNType    = BPSN type #FIXME
+Spawner.717.Type        = Typ soupravy
+Spawner.717.BodyType    = Plášť vozu
+Spawner.717.MVM         = MVM (Moskevský)
+Spawner.717.LVZ         = LVZ (Petrohradský)
+Spawner.717.MaskType    = Maska čela
+Spawner.717.CranType    = Brzdič
+Spawner.717.LampType    = Typ osvětlení
+Spawner.717.Lamp1       = LPV-02
+Spawner.717.Lamp2       = LLV-01
+Spawner.717.SeatType    = Typ sedadel
+Spawner.717.ARS         = Panel ARS
+Spawner.717.RingType    = Zvonek ARS
+Spawner.717.BPSNType    = Typ měniče (BPSN)
 
 #######Buttons###########
 #Common
 Common.717.VBD                  = Vypínač blokování dveří pomocí ASNP
 Common.717.UPPS                 = Vypínač systému UPPS
 Common.717.BPSN                 = BPSN: Měnič
-Common.717.ARS13V               = ARS 13V: Ověření napětí ARS
-Common.717.Radio13V             = Radio stabilized 13V voltage check #FIXME
+Common.717.ARS13V               = Ověření napětí ARS 13V
+Common.717.Radio13V             = Ověření napětí Rádio 13V
 Common.717.LVD                  = LVD: Kontrolka 1. vodiče (trakční motory v chodu)
 Common.717.LHRK                 = LHRK: Kontrolka 2. vodiče (rotace reostatu kontroléru)
 Common.717.LST                  = LST: Kontrolka 6. vodiče (Brzda)
 Common.717.KVC                  = LKVC: Kontrolka pomocných elektrických stykačů (vysoké napětí není k dispozici)
-Common.717.GLEB                 = GLEB: Kontrolka obnovení
+Common.717.GLEB                 = GLEB: Kontrolka aktualizace
 Common.717.KVP                  = LKVP: Kontrolka regulace vysokonapěťového měniče (BPSN)
 Common.717.LSP                  = LSP: Požár
 Common.717.OtklBV               = Vypnutí BV
@@ -55,9 +55,9 @@ Common.717.V13                  = Ventilace nouze
 Common.717.V11                  = Ventilace 1. skupiny
 Common.717.V12                  = Ventilace 2. skupiny
 Common.717.RZPL                 = RZP: Vybavení RZP (ochrana BPSN)
-Common.717.VPAOn                = VPA: Enable train unit #FIXME
-Common.717.VPAOff               = VPA: Disable train unit #FIXME
-Common.717.VZD                  = VZD: Door control toggle (close doors) #FIXME
+Common.717.VPAOn                = VPA: Zapnout vlakovou aparaturu
+Common.717.VPAOff               = VPA: Vypnout vlakovou aparaturu
+Common.717.VZD                  = VZD: Zavření dveří
 
 Common.717.A53                  = A53: Vlakové obvody
 Common.717.A56                  = A56: Baterie
