@@ -17,7 +17,7 @@ Workshop.Installed          = Nainstalováno
 Workshop.Open               = Workshop
 Workshop.ErrorGithub        = Zjištěna GitHub verze módu Metrostroi. Současná verze módu Metrostroi není kompatibilní a nebude fungovat s GitHub verzí módu Metrostroi.
 Workshop.ErrorLegacy        = Žjištěna Legacy verze módu Metrostroi. Současná verze módu Metrostroi není kompatibilní a nebude fungovat s Legacy verzí módu Metrostroi.
-
+Workshop.ErrorEnhancers     = This addon contain a graphic enhancers that may interfere comfortable game.
 Workshop.Error1             = Tento addon obsahuje starý script kód módu Metrostroi, který není kompatibilní se současnou verzí. Může se zobrazit hláška "Scrips errors", a může se projevit nestabilita addonu.
 
 #Client settings

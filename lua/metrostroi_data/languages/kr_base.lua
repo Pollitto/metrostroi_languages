@@ -17,7 +17,7 @@ Workshop.Installed          = 설치 완료
 Workshop.Open               = 창작마당
 Workshop.ErrorGithub        = GitHub 버전의 Metrostroi가 감지되었습니다. 최신 버전의 Metrostroi는 GitHub 버전의 Metrostroi와 호환되거나 작동하지 않습니다.
 Workshop.ErrorLegacy        = 기존 버전의 Metrostroi가 감지되었습니다. 최신 버전의 Metrostroi는 기존 버전의 Metrostroi와 호환되거나 작동하지 않습니다.
-
+Workshop.ErrorEnhancers     = 이 애드온에는 원활한 게임 플레이를 방해할 수 있는 그래픽 향상 요소가 포함되어 있습니다.
 Workshop.Error1             = 이 애드온은 현재 버전과 충돌을 일으킬 수 있는 Metrostroi의 구식 스크립트를 포함하고 있습니다. 스크립트 에러나 작동이 불안정할 가능성이 있습니다.
 
 #Client settings
@@ -32,6 +32,7 @@ Panel.DisableCamAccel   = 시점 흔들림 사용 안함
 Panel.DisableHoverText  = 주석 텍스트 표시 안함
 Panel.ScreenshotMode    = 스크린샷 모드 (낮은 FPS)
 Panel.ShadowsHeadlight  = 전조등 그림자 활성
+Panel.RedLights         = 적색등의 다이나믹 라이트 사용
 Panel.ShadowsOther      = 기타 광원 그림자 활성
 Panel.MinimizedShow     = 창 최소화시 구성요소 언로드 하지 않기
 Panel.FOV               = 시야각(FOV)

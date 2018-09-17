@@ -5,12 +5,12 @@ return [[
 
 #######Buttons###########
 #Cameras
-Train.720.CameraCond    = Air conditioner, IGLA #FIXME
-Train.720.CameraPPZ     = PPZ #FIXME
-Train.720.CameraPV      = VPU #FIXME
-Train.720.CameraVityaz  = SAU "Vityaz" #FIXME
-Train.720.CameraKRMH    = KRMSH and UAVA valves #FIXME
-Train.720.CameraPVZ     = PVZ #FIXME
+Train.720.CameraCond    = 냉난방기, IGLA
+Train.720.CameraPPZ     = PPZ
+Train.720.CameraPV      = VPU
+Train.720.CameraVityaz  = SAU "Vityaz"
+Train.720.CameraKRMH    = KRMSH, UAVA 밸브
+Train.720.CameraPVZ     = PVZ
 
 #Common
 Common.720.SF1              = SF1: 주 전원
@@ -70,11 +70,11 @@ Common.720.SFV31            = SF31: @[Common.ALL.Unsused1]
 Common.720.SFV32            = SF32: @[Common.ALL.Unsused1]
 Common.720.SFV33            = SF33: @[Common.ALL.Unsused1]
 
-Common.720.VentCMode       = Ventilation mode #FIXME
-Common.720.VentHMode+       = Increase heater power #FIXME
-Common.720.VentHMode-       = Decrease heater power #FIXME
-Common.720.VentSMode-       = Increase ventilation power #FIXME
-Common.720.VentSMode+       = Decrease ventilation power #FIXME
+Common.720.VentCMode       = 환기 모드
+Common.720.VentHMode+       = 난방 세기 증가
+Common.720.VentHMode-       = 난방 세기 감소
+Common.720.VentSMode-       = 환기 세기 증가
+Common.720.VentSMode+       = 환기 세기 감소
 
 Common.720.Pant1            = 집전기 1번 그룹 사용 중지
 Common.720.Pant2            = 집전기 2번 그룹 사용 중지
@@ -85,7 +85,7 @@ Common.720.BBER             = 비상 BBE
 Common.720.BBE              = BBE: 전원 공급 장치
 Common.720.CabLightStrength = 운전실 조명 밝기 조절
 Common.720.AppLights        = 배전함 조명
-Common.720.BARSBlock       = Faulty BARS (ARS unit) blocking #FIXME
+Common.720.BARSBlock       = 고장 BARS (ARS 유닛) 차단
 
 Common.720.Accel                = 가속도
 Common.720.Forward              = 전진
@@ -353,13 +353,6 @@ Entities.gmod_subway_81-720.Buttons.PneumoHelper2.!BrakeTrainLine   = @[Common.A
 Entities.gmod_subway_81-720.Buttons.PneumoHelper1.!BrakeCylinder    = @[Common.ALL.BCPressure]
 Entities.gmod_subway_81-720.Buttons.VoltHelper1.!Battery            = @[Common.ALL.BatteryVoltage]
 Entities.gmod_subway_81-720.Buttons.GV.GVToggle                     = @[Common.720.BRU]
-
-Entities.gmod_subway_81-720.Buttons.Route.RouteNumber1+         = @[Common.ALL.RouteNumber1+]
-Entities.gmod_subway_81-720.Buttons.Route.RouteNumber2+         = @[Common.ALL.RouteNumber2+]
-Entities.gmod_subway_81-720.Buttons.Route.RouteNumber1-         = @[Common.ALL.RouteNumber1-]
-Entities.gmod_subway_81-720.Buttons.Route.RouteNumber2-         = @[Common.ALL.RouteNumber2-]
-Entities.gmod_subway_81-720.Buttons.LastStation.LastStation+    = @[Common.ALL.LastStation+]
-Entities.gmod_subway_81-720.Buttons.LastStation.LastStation-    = @[Common.ALL.LastStation-]
 
 #gmod_subway_81-721
 Entities.gmod_subway_81-721.Buttons.Battery.BatteryToggle   = @[Common.ALL.VB]

@@ -5,9 +5,9 @@ return [[
 
 #######Buttons###########
 #Cameras
-Train.718.BUP = BUP #FIXME
-Train.718.PPZ = PPZ #FIXME
-Train.718.VPU = VPU #FIXME
+Train.718.BUP = BUP
+Train.718.PPZ = PPZ
+Train.718.VPU = VPU
 
 #Common
 Common.718.SB4   = Kontrola zkompletování obvodů
@@ -19,7 +19,7 @@ Common.718.SB13  = Vypnout jednotku automatických vypínáčů
 Common.718.SB15  = Zapnout jednotku dodávky el. energie
 Common.718.SB16  = Vypnout jednotku dodávky el. energie
 
-Common.718.VTPR    = Přepínač odpojení sběračů proudu
+Common.718.VTPR     = Přepínač odpojení sběračů proudu
 Common.718.RX1      = Jízda nouze (J-1)
 Common.718.KAH2     = KAH: Tlačítko nouzové jízdy bez ARS
 Common.718.RX2      = Jízda nouze (J-2)
@@ -27,7 +27,7 @@ Common.718.RX2      = Jízda nouze (J-2)
 Common.718.SPULightStrength = Indikátor osvětlení přístrojové desky
 
 Common.718.Heat     = Vytápění kabiny
-Common.718.SBP22    = Circuit assembly test #FIXME
+Common.718.SBP22    = Test zkompletování obvodů
 Common.718.KDPR     = Dveře nouze (otevřít levé)
 Common.718.KDLR     = Dveře nouze (otevřít pravé)
 Common.718.UOS      = UOS: Odpojovač obvodů omezovače rychlosti (jízda bez EPV/EPK)
@@ -168,7 +168,7 @@ Common.718.MPSNZ        = @[Common.718.MPS]: Jízda Vzad
 Common.718.MPSNZR       = @[Common.718.MPS]: Nouzová jízda Vzad
 Common.718.MPSVPR       = @[Common.718.MPS]: Nouzová jízda Vpřed
 Common.718.MPSPROV0     = @[Common.718.MPS]: Kontrola provozuschopnosti
-Common.718.MPSSK        = @[Common.718.MPS]: Rychlost              #IDK what is this, no info (@Gleb)
+Common.718.MPSSK        = @[Common.718.MPS]: Rychlost
 Common.718.MPST         = @[Common.718.MPS]: Indikátor režimu "Brzda"
 Common.718.MPSXR        = @[Common.718.MPS]: Nouzová jízda J-1
 Common.718.MPSU1        = @[Common.718.MPS]: Požadovaná hodnota 1
@@ -514,12 +514,10 @@ Entities.gmod_subway_81-718.Buttons.PVZ.SF35Toggle  = @[Common.718.SF35]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF23Toggle  = @[Common.718.SF23]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF24Toggle  = @[Common.718.SF24]
 
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1+         = @[Common.ALL.RouteNumber1+]
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2+         = @[Common.ALL.RouteNumber2+]
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1-         = @[Common.ALL.RouteNumber1-]
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2-         = @[Common.ALL.RouteNumber2-]
-Entities.gmod_subway_81-718.Buttons.LastStation.LastStation+    = @[Common.ALL.LastStation+]
-Entities.gmod_subway_81-718.Buttons.LastStation.LastStation-    = @[Common.ALL.LastStation-]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1+ = @[Common.ALL.RouteNumber1+]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2+ = @[Common.ALL.RouteNumber2+]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1- = @[Common.ALL.RouteNumber1-]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2- = @[Common.ALL.RouteNumber2-]
 
 Entities.gmod_subway_81-718.Buttons.HelperPanel.SA6Toggle        = @[Common.ALL.VUD2]
 Entities.gmod_subway_81-718.Buttons.HelperPanel.SA24Set          = @[Common.ALL.KDL]

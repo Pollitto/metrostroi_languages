@@ -5,9 +5,9 @@ return [[
 
 #######Buttons###########
 #Cameras
-Train.718.BUP = BUP #FIXME
-Train.718.PPZ = PPZ #FIXME
-Train.718.VPU = VPU #FIXME
+Train.718.BUP = BUP
+Train.718.PPZ = PPZ
+Train.718.VPU = VPU
 
 #Common
 Common.718.SB4   = 회로 연결 확인
@@ -27,7 +27,7 @@ Common.718.RX2      = 비상 운전 2
 Common.718.SPULightStrength = 운전대 표시등 밝기
 
 Common.718.Heat     = 운전실 난방기
-Common.718.SBP22    = Circuit assembly test #FIXME
+Common.718.SBP22    = 회로 연결 시험
 Common.718.KDPR     = 우측 출입문 비상 개방
 Common.718.KDLR     = 좌측 출입문 비상 개방
 Common.718.UOS      = UOS: 속도 제한 장치 (EPV/EPK 미사용 주행)
@@ -514,12 +514,10 @@ Entities.gmod_subway_81-718.Buttons.PVZ.SF35Toggle  = @[Common.718.SF35]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF23Toggle  = @[Common.718.SF23]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF24Toggle  = @[Common.718.SF24]
 
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1+         = @[Common.ALL.RouteNumber1+]
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2+         = @[Common.ALL.RouteNumber2+]
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1-         = @[Common.ALL.RouteNumber1-]
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2-         = @[Common.ALL.RouteNumber2-]
-Entities.gmod_subway_81-718.Buttons.LastStation.LastStation+    = @[Common.ALL.LastStation+]
-Entities.gmod_subway_81-718.Buttons.LastStation.LastStation-    = @[Common.ALL.LastStation-]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1+ = @[Common.ALL.RouteNumber1+]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2+ = @[Common.ALL.RouteNumber2+]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1- = @[Common.ALL.RouteNumber1-]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2- = @[Common.ALL.RouteNumber2-]
 
 Entities.gmod_subway_81-718.Buttons.HelperPanel.SA6Toggle        = @[Common.ALL.VUD2]
 Entities.gmod_subway_81-718.Buttons.HelperPanel.SA24Set          = @[Common.ALL.KDL]

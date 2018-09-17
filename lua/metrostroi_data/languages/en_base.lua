@@ -17,7 +17,7 @@ Workshop.Installed          = Installed
 Workshop.Open               = Workshop
 Workshop.ErrorGithub        = Detected GitHub version of the Metrostroi. Current Metrostroi version is not compatible and cannot work with GitHub version of Metrostroi.
 Workshop.ErrorLegacy        = Detected Legacy version of the Metrostroi. Current Metrostroi version is not compatible and cannot work with Legacy version of Metrostroi.
-Workshop.ErrorEnhancers     = This addon contain a graphic enhancers that may interfere comfortable game.
+Workshop.ErrorEnhancers     = This addon contains a graphic enhancers that may interfere with the game experience.
 Workshop.Error1             = This addon contain an old script code of the Metrostroi that conflicts with current. May be "Scripts errors" and unstable work of the addon.
 
 #Client settings
@@ -32,6 +32,7 @@ Panel.DisableCamAccel   = Disable camera acceleration
 Panel.DisableHoverText  = Disable hover text
 Panel.ScreenshotMode    = Screenshot mode (LOW FPS)
 Panel.ShadowsHeadlight  = Enable headlight shadows
+Panel.RedLights         = Enable dynamic light\nof red lights
 Panel.ShadowsOther      = Enable shadows from other\nlight sources
 Panel.MinimizedShow     = Don't unload an elements\nwhen minimized
 Panel.FOV               = FOV

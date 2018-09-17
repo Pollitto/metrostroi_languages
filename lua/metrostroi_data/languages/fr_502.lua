@@ -22,10 +22,10 @@ Common.502.VAK                  = AK: Assembly emergency drive mode circuits
 Common.502.LRU                  = Les circuits du mode de conduite d'urgence sont enclenchés
 
 #Spawner
-Spawner.502.TypeNVL         = Train from NVL #FIXME
-Spawner.502.TypeKVLO        = Old train from KVL #FIXME
-Spawner.502.TypeKVLN        = New train from KVL #FIXME
-Spawner.502.EWagons         = Add "E" type wagons #FIXME
+Spawner.502.TypeNVL         = Train de NVL (ligne Nevsko-Vasileostrovskaya)
+Spawner.502.TypeKVLO        = Ancien train de KVL (ligne Kirovsko-Vyborskaya)
+Spawner.502.TypeKVLN        = Nouveau train de KVL (ligne Kirovsko-Vyborskaya)
+Spawner.502.EWagons         = Ajouter des voitures de type "E"
 
 #gmod_subway_81-502
 Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Batterie de conduite automatique on/off

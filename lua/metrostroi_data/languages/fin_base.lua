@@ -33,6 +33,7 @@ Panel.DisableHoverText  = Disabloi lentävä teksti
 Panel.ScreenshotMode    = Kuvankaappaus tila(Matala fps)
 Panel.ShadowsHeadlight  = Aktivoi ajovalojen varjot
 Panel.ShadowsOther      = Aktivoi varjot 
+Panel.RedLights         = Kytke päälle dynaamiset punaiset takavalot
 Panel.MinimizedShow     = Älä poista elementtejä
 Panel.FOV               = FOV(näkökentän laajuus)
 Panel.RenderDistance    = Renderöinnin matka

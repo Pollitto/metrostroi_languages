@@ -14,14 +14,14 @@ Train.703.RCARS     = RC-1: Déconncteur des circuits ARS
 Train.703.AVU       = Bloc AVU
 
 #Spawner
-Spawner.707.Type    = Panel type #FIXME
-Spawner.707.Type1   = Old + RRI #FIXME
-Spawner.707.Type2   = New + ASNP #FIXME
-Spawner.710.RRI     = Radio-relay announcer #FIXME
+Spawner.707.Type    = Type de tableau de bord
+Spawner.707.Type1   = Ancien + RRI
+Spawner.707.Type2   = Nouveau + ASNP
+Spawner.710.RRI     = Annonceur radio-relai
 
 #######Buttons###########
 #Common
-Common.702.VZ1                  = Pneumatic valve №1 #FIXME!!
+Common.702.VZ1                  = Valve pneumatique №1
 Common.703.ParkingBrakeLeft     = Relâcher le frein de parking
 Common.703.ParkingBrakeRight    = Appliquer le frein de parking
 Common.703.KSD                  = KSD: Contrôle du verouillage des portes
@@ -675,6 +675,7 @@ Entities.gmod_subway_em508t.Buttons.Main.!SD                = @[Common.703.SD]
 Entities.gmod_subway_em508t.Buttons.HelperPanel.V6Set         = @[Common.ALL.KDL]
 Entities.gmod_subway_em508t.Buttons.HelperPanel.V3Toggle       = @[Common.ALL.VUD2]
 
+Entities.gmod_subway_em508t.Buttons.Stopkran.EmergencyBrakeValveToggle                      = @[Common.ALL.EmergencyBrakeValve]
 Entities.gmod_subway_em508t.Buttons.ParkingBrake.ParkingBrakeLeft                           = @[Common.703.ParkingBrakeLeft]
 Entities.gmod_subway_em508t.Buttons.ParkingBrake.ParkingBrakeRight                          = @[Common.703.ParkingBrakeRight]
 Entities.gmod_subway_em508t.Buttons.DriverValveBLDisconnect.DriverValveBLDisconnectToggle   = @[Common.ALL.DriverValveBLDisconnect]
@@ -728,7 +729,6 @@ Entities.gmod_subway_ezh.Spawner.Texture.Name           = @[Common.Spawner.Textu
 Entities.gmod_subway_ezh.Spawner.PassTexture.Name       = @[Common.Spawner.PassTexture]
 Entities.gmod_subway_ezh.Spawner.CabTexture.Name        = @[Common.Spawner.CabTexture]
 Entities.gmod_subway_ezh.Spawner.Announcer.Name         = @[Common.Spawner.Announcer]
-Entities.gmod_subway_ezh.Spawner.EWagons.Name           = @[Spawner.502.EWagons]
 
 Entities.gmod_subway_ezh3.Spawner.Texture.Name          = @[Common.Spawner.Texture]
 Entities.gmod_subway_ezh3.Spawner.PassTexture.Name      = @[Common.Spawner.PassTexture]

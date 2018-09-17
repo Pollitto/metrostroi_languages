@@ -3,34 +3,34 @@ return [[
 
 [kr]
 #Cameras:
-Train.717.Breakers  = Autobreakers #FIXME
-Train.717.VB        = Battery and RC #FIXME
-Train.717.VBD       = VBD and UPPS #FIXME
+Train.717.Breakers  = 회로 차단기
+Train.717.VB        = 배터리, RC
+Train.717.VBD       = VBD, UPPS
 
-Train.717.VRD       = VRD #FIXME
-Train.717.SOSD      = SOSD #FIXME
-Train.717.PUAV      = PUAV #FIXME
-Train.717.PA        = PA #FIXME
-Train.717.PAScreen  = PA screen #FIXME
+Train.717.VRD       = VRD
+Train.717.SOSD      = SOSD
+Train.717.PUAV      = PUAV
+Train.717.PA        = PA
+Train.717.PAScreen  = PA 화면
 
 #Spawner
-Spawner.717.Line2   = Train from MPL #FIXME
-Spawner.717.Line4   = Train from PBL #FIXME
-Spawner.717.Line5   = Train from FPL #FIXME
+Spawner.717.Line2   = MPL 사양 차량
+Spawner.717.Line4   = PBL 사양 차량
+Spawner.717.Line5   = FPL 사양 차량
 
-Spawner.717.Type        = Train type
-Spawner.717.BodyType    = Body type
+Spawner.717.Type        = 차량 종류
+Spawner.717.BodyType    = 차체 종류
 Spawner.717.MVM         = MVM
 Spawner.717.LVZ         = LVZ
-Spawner.717.MaskType    = Mask type
-Spawner.717.CranType    = Driver's valve type
-Spawner.717.LampType    = Lamps type
+Spawner.717.MaskType    = 전면부 종류
+Spawner.717.CranType    = 제동변 종류
+Spawner.717.LampType    = 실내등 종류
 Spawner.717.Lamp1       = LPV-02
 Spawner.717.Lamp2       = LLV-01
-Spawner.717.SeatType    = Seats type
-Spawner.717.ARS         = ARS panel type
-Spawner.717.RingType    = ARS beeper type
-Spawner.717.BPSNType    = BPSN type
+Spawner.717.SeatType    = 좌석 종류
+Spawner.717.ARS         = ARS 패널 종류
+Spawner.717.RingType    = ARS 부저 종류
+Spawner.717.BPSNType    = BPSN 종류
 
 #######Buttons###########
 #Common
@@ -38,7 +38,7 @@ Common.717.VBD                  = ASNP 출입문 잠금 스위치
 Common.717.UPPS                 = UPPS 시스템 스위치
 Common.717.BPSN                 = BPSN: 차량 전원 공급 장치
 Common.717.ARS13V               = ARS 13V: ARS 전압 안정 검사
-Common.717.Radio13V             = Radio stabilized 13V voltage check #FIXME
+Common.717.Radio13V             = 무선 13V 전압 안정 검사
 Common.717.LVD                  = LVD: 차량 회로 1 표시등 (견인 전동기 작동 중)
 Common.717.LHRK                 = LHRK: 차량 회로 2 표시등 (RK 회전 중)
 Common.717.LST                  = LST: 차량 회로 6 표시등 (제동 표시등)
@@ -55,9 +55,9 @@ Common.717.V13                  = 비상 환기 스위치
 Common.717.V11                  = 환풍기 1번 그룹 스위치
 Common.717.V12                  = 환풍기 2번 그룹 스위치
 Common.717.RZPL                 = RZP: 전원 공급 장치 보호 계전기
-Common.717.VPAOn                = VPA: Enable train unit #FIXME
-Common.717.VPAOff               = VPA: Disable train unit #FIXME
-Common.717.VZD                  = VZD: Door control toggle (close doors) #FIXME
+Common.717.VPAOn                = VPA: 차량 유닛 작동
+Common.717.VPAOff               = VPA: 차량 유닛 작동 중지
+Common.717.VZD                  = VZD: 출입문 제어 스위치 (출입문 닫힘)
 
 Common.717.A53                  = A53: 보조 회로 접촉기
 Common.717.A56                  = A56: 배터리

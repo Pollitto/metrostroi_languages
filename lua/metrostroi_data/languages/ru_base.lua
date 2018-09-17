@@ -32,6 +32,7 @@ Panel.DisableCamAccel   = Откл. симуляцию качания голов
 Panel.DisableHoverText  = Откл. всплывающий текст
 Panel.ScreenshotMode    = Режим съёмки (НИЗКИЙ ФПС)
 Panel.ShadowsHeadlight  = Вкл. тени от фар
+Panel.RedLights         = Вкл. динамический свет от\nкрасных фар
 Panel.ShadowsOther      = Вкл. тени от остальных\nисточников света
 Panel.MinimizedShow     = Не выгружать элементы\nпри сворачивании
 Panel.FOV               = Поле зрения
