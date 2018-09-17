@@ -2,7 +2,7 @@ return [[
 #Base text for Finnish language
 
 [fin]
-lang        = Finnish                          #Full language name
+lang        = Suomi                          #Full language name
 AuthorText  = Translation Author: Nikke&Dannu     #Author text
 
 #Workshop errors

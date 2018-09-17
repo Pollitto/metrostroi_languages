@@ -2,7 +2,7 @@ return [[
 #Base text for English language
 
 [kr]
-lang        = Korean                           #Full language name
+lang        = 한국어                           #Full language name
 AuthorText  = Translation Author: Archerity      #Author text
 
 #Workshop errors

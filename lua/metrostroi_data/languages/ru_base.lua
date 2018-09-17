@@ -2,7 +2,7 @@ return [[
 #Base text for Russian language
 
 [ru]
-lang        = Russian                           #Language name
+lang        = Русский                           #Language name
 AuthorText  = Автор перевода: glebqip           #Author text
 
 #Workshop errors

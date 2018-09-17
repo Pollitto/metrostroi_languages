@@ -2,7 +2,7 @@ return [[
 #Base text for Polish languagę
 
 [pl]
-lang        = Polish                            #Full language name
+lang        = Polski                            #Full language name
 AuthorText  = Autor przekładu: Elkm             #Author text
 
 #Workshop errors

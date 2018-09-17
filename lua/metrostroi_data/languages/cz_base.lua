@@ -2,7 +2,7 @@ return [[
 #Base text for Czech language
 
 [cz]
-lang        = Czech                           				#Full language name
+lang        = Čeština                           				#Full language name
 AuthorText  = Autor překladu: Silverpilen_CZ |СПЕЦНАЗ|      #Author text
 
 #Workshop errors
@@ -17,7 +17,7 @@ Workshop.Installed          = Nainstalováno
 Workshop.Open               = Workshop
 Workshop.ErrorGithub        = Zjištěna GitHub verze módu Metrostroi. Současná verze módu Metrostroi není kompatibilní a nebude fungovat s GitHub verzí módu Metrostroi.
 Workshop.ErrorLegacy        = Žjištěna Legacy verze módu Metrostroi. Současná verze módu Metrostroi není kompatibilní a nebude fungovat s Legacy verzí módu Metrostroi.
-Workshop.ErrorEnhancers     = This addon contain a graphic enhancers that may interfere comfortable game.
+Workshop.ErrorEnhancers     = Tento addon obsahuje vylepšení grafiky, které může narušit plynulost hry.
 Workshop.Error1             = Tento addon obsahuje starý script kód módu Metrostroi, který není kompatibilní se současnou verzí. Může se zobrazit hláška "Scrips errors", a může se projevit nestabilita addonu.
 
 #Client settings
@@ -33,6 +33,7 @@ Panel.DisableHoverText  = Vypnout vysvětlivky
 Panel.ScreenshotMode    = Mód snímku obrazovky (NÍZKÉ FPS)
 Panel.ShadowsHeadlight  = Zapnout odrazy reflektorů
 Panel.ShadowsOther      = Zapnout odrazy ostatních\nzdrojů světla
+Panel.RedLights         = Zapnout dynamická červená světla
 Panel.MinimizedShow     = Nenačítat znovu součásti\npři minimalizování
 Panel.FOV               = FOV
 Panel.RenderDistance    = Vykreslovací\nvzdálenost
