@@ -33,6 +33,7 @@ Panel.DisableHoverText  = Wyłącz podpowiedzi przycisków
 Panel.ScreenshotMode    = Tryb fotografii (NISKI FPS!)
 Panel.ShadowsHeadlight  = Włącz dynamiczne cienie (lampy)
 Panel.ShadowsOther      = Włącz dynamiczne cienie (inne źródła)
+Panel.RedLights         = Enable dynamic light\nof red lights
 Panel.MinimizedShow     = Nie zwalniaj zasobów podczas minimalizacji
 Panel.FOV               = FOV (pole widzenia)
 Panel.RenderDistance    = Odległość rysowania

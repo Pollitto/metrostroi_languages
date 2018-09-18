@@ -32,6 +32,7 @@ Panel.DisableCamAccel   = Deaktivieren der Kamerabewegung
 Panel.DisableHoverText  = Hilfetext ausblenden
 Panel.ScreenshotMode    = Screenshot modus (NIEDRIGE FPS)
 Panel.ShadowsHeadlight  = Schatten der Scheinwerfer aktivieren
+Panel.RedLights         = Enable dynamic light\nof red lights
 Panel.ShadowsOther      = Schatten von anderen\nLichtquellen
 Panel.MinimizedShow     = Elemente beibehalten\nwenn minimiert
 Panel.FOV               = Sichtfeld
