@@ -220,7 +220,6 @@ Entities.gmod_subway_81-501.Buttons.Main.VMKToggle              = @[Common.ALL.V
 Entities.gmod_subway_81-501.Buttons.Main.VUDToggle              = @[Common.ALL.VUD]
 
 Entities.gmod_subway_81-501.Buttons.HelperPanel.VDLSet          = @[Common.ALL.KDL]
-Entities.gmod_subway_81-501.Buttons.HelperPanel.KDPHSet         = @[Common.ALL.KDPH]
 
 Entities.gmod_subway_81-501.Buttons.Stopkran.EmergencyBrakeValveToggle                      = @[Common.ALL.EmergencyBrakeValve]
 Entities.gmod_subway_81-501.Buttons.ParkingBrake.ParkingBrakeLeft                           = @[Common.703.ParkingBrakeLeft]

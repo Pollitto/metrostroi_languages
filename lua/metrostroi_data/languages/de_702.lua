@@ -486,7 +486,6 @@ Entities.gmod_subway_ezh1.Buttons.Main.!GRP             = @[Common.ALL.RRP]
 Entities.gmod_subway_ezh1.Buttons.Main.!RRP             = @[Common.ALL.GRP]
 Entities.gmod_subway_ezh1.Buttons.Main.!SD              = @[Common.703.SD]
 
-Entities.gmod_subway_ezh1.Buttons.Stopkran.EmergencyBrakeValveToggle                      = @[Common.ALL.EmergencyBrakeValve]
 Entities.gmod_subway_ezh1.Buttons.ParkingBrake.ParkingBrakeLeft                           = @[Common.703.ParkingBrakeLeft]
 Entities.gmod_subway_ezh1.Buttons.ParkingBrake.ParkingBrakeRight                          = @[Common.703.ParkingBrakeRight]
 Entities.gmod_subway_ezh1.Buttons.DriverValveBLDisconnect.DriverValveBLDisconnectToggle   = @[Common.ALL.DriverValveBLDisconnect]
