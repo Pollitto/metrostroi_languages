@@ -19,7 +19,7 @@ Workshop.ErrorGithub        = Zjištěna GitHub verze módu Metrostroi. Současn
 Workshop.ErrorLegacy        = Žjištěna Legacy verze módu Metrostroi. Současná verze módu Metrostroi není kompatibilní a nebude fungovat s Legacy verzí módu Metrostroi.
 Workshop.ErrorEnhancers     = Tento addon obsahuje vylepšení grafiky, které může narušit plynulost hry.
 Workshop.Error1             = Tento addon obsahuje starý script kód módu Metrostroi, který není kompatibilní se současnou verzí. Může se zobrazit hláška "Scrips errors", a může se projevit nestabilita addonu.
-Workshop.ErrorOld           = Old models detected (81-702 and 81-717 old models). Check and remove old metrostroi content files, remove cache, download and downloads folders from garrysmod folder.
+Workshop.ErrorOld           = Nalezeny staré modely (81-702 a 81-717). Odstraňte původní herní obsah hry Metrostroi (složka garrysmod/addons), a odstraňte složky "cache", "download" a "downloads" ze složky "garrysmod".
 
 #Client settings
 Panel.Admin             = Admin
