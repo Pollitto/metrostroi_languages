@@ -19,6 +19,7 @@ Workshop.ErrorGithub        = Znaleziona wersja GitHub modu Metrostroi - jest on
 Workshop.ErrorLegacy        = Znaleziona wersja Legacy modu Metrostroi - jest ona niekompatybilna z wersją GitHub.
 Workshop.ErrorEnhancers     = This addon contain a graphic enhancers that may interfere comfortable game.
 Workshop.Error1             = Ten addon zawiera stary kod modu Metrostroi, który nie jest kompatybilny z zainstalowanym. Mogą pojawić się "Script errors" i zachodzić niestabilność addonu.
+Workshop.ErrorOld           = Old models detected (81-702 and 81-717 old models). Check and remove old metrostroi content files, remove cache, download and downloads folders from garrysmod folder.
 
 #Client settings
 Panel.Admin             = Admin
@@ -32,8 +33,8 @@ Panel.DisableCamAccel   = Wyłącz ruch kamery (wrażenie przyspieszenia)
 Panel.DisableHoverText  = Wyłącz podpowiedzi przycisków
 Panel.ScreenshotMode    = Tryb fotografii (NISKI FPS!)
 Panel.ShadowsHeadlight  = Włącz dynamiczne cienie (lampy)
-Panel.ShadowsOther      = Włącz dynamiczne cienie (inne źródła)
 Panel.RedLights         = Enable dynamic light\nof red lights
+Panel.ShadowsOther      = Włącz dynamiczne cienie (inne źródła)
 Panel.MinimizedShow     = Nie zwalniaj zasobów podczas minimalizacji
 Panel.FOV               = FOV (pole widzenia)
 Panel.RenderDistance    = Odległość rysowania

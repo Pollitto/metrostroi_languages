@@ -19,6 +19,7 @@ Workshop.ErrorGithub        = Es wurde die GitHub Version von Metrostroi erkannt
 Workshop.ErrorLegacy        = Es wurde die Legacy Version von Metrostroi erkannt. Diese Version von Metrostroiw wird nicht mit der Legacy Version funtkionieren.
 Workshop.ErrorEnhancers     = This addon contain a graphic enhancers that may interfere comfortable game.
 Workshop.Error1             = Es werden veraltete Scripts von Metrostroi verwendet. Dies kann zu Problemen fuehren!
+Workshop.ErrorOld           = Old models detected (81-702 and 81-717 old models). Check and remove old metrostroi content files, remove cache, download and downloads folders from garrysmod folder.
 
 #Client settings
 Panel.Admin             = Admin

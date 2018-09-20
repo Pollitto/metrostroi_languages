@@ -24,7 +24,7 @@ Common.718.RX1      = Jízda nouze (J-1)
 Common.718.KAH2     = KAH: Tlačítko nouzové jízdy bez ARS
 Common.718.RX2      = Jízda nouze (J-2)
 
-Common.718.SPULightStrength = Indikátor osvětlení přístrojové desky
+Common.718.SPULightStrength = Osvětlení přístrojové desky (jas)
 
 Common.718.Heat     = Vytápění kabiny
 Common.718.SBP22    = Test zkompletování obvodů
@@ -33,7 +33,7 @@ Common.718.KDLR     = Dveře nouze (otevřít pravé)
 Common.718.UOS      = UOS: Odpojovač obvodů omezovače rychlosti (jízda bez EPV/EPK)
 
 Common.718.KES      = KES: Nouzové komunikační zařízení je zapnuto
-Common.718.CUV      = CUV: Kontrolka nezapnutí CUV ve voze
+Common.718.CUV      = CUV: Kontrolka zapnutí CUV ve voze
 Common.718.AIP      = AIP: Nouzový indikátor požáru (požár ve vlaku)
 Common.718.RIP      = RIP: Požár
 Common.718.VS1      = VS1: Ventilace 1. skupiny je vypnuta

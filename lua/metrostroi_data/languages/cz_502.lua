@@ -7,8 +7,8 @@ return [[
 #Common
 Common.502.KS                   = Kontrolka KSAUP (Autovedení)
 Common.502.AV                   = Režim RAV zapnut
-Common.502.SD                   = SD: Kontrolka dveří (dveře jsou zavřené)
-Common.502.SDW                  = SD: Kontrolka dveří (dveře jsou otevřené)
+Common.502.SD                   = SD: Signalizace stavu dveří
+Common.502.SDW                  = SD: Signalizace stavu dveří
 Common.502.L3w                  = Kontrolka 3. vodiče (režim chodu J3)
 Common.502.L4w                  = Kontrolka 4. vodiče (režim jízdy vzad)
 Common.502.L5w                  = Kontrolka 5. vodiče (režim jízdy vpřed)
@@ -32,7 +32,7 @@ Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Přepínač baterie autovede
 
 Entities.gmod_subway_81-502.Buttons.AV.VRUToggle = VRU: Přepínač rezervního řízení
 Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle = KPVU: Vypnutí pneumatického vypínače řízení
-Entities.gmod_subway_81-502.Buttons.AV.KSDToggle = KSD: Přepínač kontroly blokování dveří
+Entities.gmod_subway_81-502.Buttons.AV.KSDToggle = KSD: Tlačítko kontroly blokování dveří
 Entities.gmod_subway_81-502.Buttons.AV.KAHToggle = @[Common.ALL.VAH]
 Entities.gmod_subway_81-502.Buttons.AV.KADToggle = @[Common.ALL.VAD]
 Entities.gmod_subway_81-502.Buttons.AV.OVTToggle = @[Common.ALL.OVT]
@@ -194,6 +194,8 @@ Entities.gmod_subway_81-502.Buttons.HVMeters.!EnginesVoltage             = @[Com
 Entities.gmod_subway_81-502.Buttons.HVMeters.!EnginesCurrent             = @[Common.ALL.EnginesCurrent]
 Entities.gmod_subway_81-502.Buttons.BatteryVoltage.!BatteryVoltage       = @[Common.ALL.BatteryVoltage]
 
+Entities.gmod_subway_81-502.Buttons.PanelLamp.PanelLampToggle            = @[Common.ALL.PanelLights]
+
 #gmod_subway_81-501
 Entities.gmod_subway_81-501.Buttons.AV.KPVUToggle               = @[Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle]
 Entities.gmod_subway_81-501.Buttons.AV.KSDToggle                = @[Entities.gmod_subway_81-502.Buttons.AV.KSDToggle]
@@ -242,6 +244,9 @@ Entities.gmod_subway_81-501.Buttons.BLTLPressure.!BLTLPressure           = @[Com
 Entities.gmod_subway_81-501.Buttons.BCPressure.!BCPressure               = @[Common.ALL.BCPressure]
 Entities.gmod_subway_81-501.Buttons.HVMeters.!EnginesVoltage             = @[Common.ALL.EnginesVoltage]
 Entities.gmod_subway_81-501.Buttons.HVMeters.!EnginesCurrent             = @[Common.ALL.EnginesCurrent]
+
+Entities.gmod_subway_81-501.Buttons.PanelLamp.PanelLampToggle            = @[Common.ALL.PanelLights]
+
 #Cameras:
 Train.502.AV = Elektrické jističe
 Train.502.VBA = @[Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle]

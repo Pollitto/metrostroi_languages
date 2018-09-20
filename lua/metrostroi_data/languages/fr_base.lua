@@ -19,6 +19,7 @@ Workshop.ErrorGithub        = Version GitHub de Metrostroi détectée. La versio
 Workshop.ErrorLegacy        = Version Legacy (alpha) de Metrostroi détectée. La version actuelle de Metrostroi n'est pas pas compatible et ne fonctionne pas en version Legacy (alpha).
 Workshop.ErrorEnhancers     = Cet addon contient un mod graphique susceptible d'interférer avec l'expérience de jeu.
 Workshop.Error1             = Cette extension contient un ancien code de script de Metrostroi qui crée un conflit avec l'actuel. Cela peut créer des "Scripts errors" et une instabilité de l'extension.
+Workshop.ErrorOld           = Anciens modèles détectés (ancien modèles des 81-702 et 81-717). Supprimez les anciens fichiers de contenu de Metrostroi du dossier "Addons", supprimez les fichiers "Cache", "Download" et "Downloads", du dossier principal Garry's Mod.
 
 #Client settings
 Panel.Admin             = Administrateur

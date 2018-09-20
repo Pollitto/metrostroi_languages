@@ -19,6 +19,7 @@ Workshop.ErrorGithub        = GitHub 버전의 Metrostroi가 감지되었습니�
 Workshop.ErrorLegacy        = 기존 버전의 Metrostroi가 감지되었습니다. 최신 버전의 Metrostroi는 기존 버전의 Metrostroi와 호환되거나 작동하지 않습니다.
 Workshop.ErrorEnhancers     = 이 애드온에는 원활한 게임 플레이를 방해할 수 있는 그래픽 향상 요소가 포함되어 있습니다.
 Workshop.Error1             = 이 애드온은 현재 버전과 충돌을 일으킬 수 있는 Metrostroi의 구식 스크립트를 포함하고 있습니다. 스크립트 에러나 작동이 불안정할 가능성이 있습니다.
+Workshop.ErrorOld           = 이전 버전의 모델이 감지되었습니다 (81-702, 81-717 의 옛날 모델). 이전 버전의 Metrostroi 컨텐츠가 남아 있는지 확인 후 삭제하고, 게리모드 폴더에 있는 "cache","download","downloads" 폴더를 삭제해주세요.
 
 #Client settings
 Panel.Admin             = 관리자

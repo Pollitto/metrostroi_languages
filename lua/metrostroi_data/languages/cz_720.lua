@@ -115,7 +115,7 @@ Common.720.AccelRate            = Zapnout režim "Stoupání"
 Common.720.EBrakeAdd            = Zvýšit účinek rezervní brzdy
 Common.720.EBrakeRelease        = Snížit účinek rezervní brzdy
 Common.720.EBrakeToggle         = Zapnout rezervní brzdu
-Common.720.EmergencyBrake       = Zapnout nouzovou brzdu
+Common.720.EmergencyBrake       = Záchranná brzda
 Common.720.DoorClose            = Zavření dveří
 Common.720.AttentionMessage     = Potvrzovací tlačítko ARS
 

@@ -22,8 +22,8 @@ Common.722.LAVS                         = Kontrolka nízkého tlaku vzduchu v br
 Common.722.LRU                          = Kontrolka: Ovládání relé je vypnuto
 Common.722.GlassWasher                  = Ostřikovač
 Common.722.GlassCleaner                 = Stěrač
-Common.722.EmergencyBrakeTPlus          = Záchranná brzda (režim T+)
-Common.722.EmergencyBrakeTPlusK         = Krytka tlačítka "Záchranná brzda"
+Common.722.EmergencyBrakeTPlus          = Brzda nouze (režim T+)
+Common.722.EmergencyBrakeTPlusK         = Krytka tlačítka „Brzda nouze“
 Common.722.KRO                          = Směr jízdy
 
 Common.722.PSNToggle                    = Zapnutí nápájení baterie z vnějšího zdroje
@@ -31,7 +31,7 @@ Common.722.BattOn                       = Zapnutí dodávky el. energie
 Common.722.BattOff                      = Vypnutí dodávky el. energie
 Common.722.TorecDoorUnlock              = Odblokovat zadní dveře
 Common.722.SCEnabled                    = Zkratovací zařízení zapnuto
-Common.722.LSOSD                        = Kontrolka indikátoru otevření dveří ve stanici
+Common.722.LSOSD                        = Indikátor otevření dveří ve stanici
 
 Common.722.PassVent                     = Ventilace interiéru
 Common.722.VRU                          = Přepínač režimů jízdy

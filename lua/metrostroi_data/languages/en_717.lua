@@ -46,6 +46,8 @@ Common.717.KVC                  = LKVC: Auxiliary circuits contactor lamp (high 
 Common.717.GLEB                 = GLEB: Update indicator
 Common.717.KVP                  = LKVP: High-voltage converter control (BPSN)
 Common.717.LSP                  = LSP: Fire emergency
+Common.717.LEKK                 = LEKK: Electric box indicator
+Common.717.LPU                  = LPU: Reduced RUT setting indicator
 Common.717.OtklBV               = Disable fast-acting switch (BV)
 Common.717.OtklBVK              = Fast-acting switch cover
 Common.717.ConverterProtection  = Power supply protection button
@@ -546,8 +548,8 @@ Entities.gmod_subway_81-717_mvm.Buttons.EPKDisconnect.EPKToggle                 
 Entities.gmod_subway_81-717_mvm.Buttons.EPVDisconnect.EPKToggle                                 = @[Common.ALL.EPV]
 Entities.gmod_subway_81-717_mvm.Buttons.ParkingBrake.ParkingBrakeToggle                         = @[Common.ALL.ParkingBrake]
 
-Entities.gmod_subway_81-717_mvm.Buttons.Meters.!TotalVoltmeter                                  = @[Common.ALL.HighVoltage]
-Entities.gmod_subway_81-717_mvm.Buttons.Meters.!TotalAmpermeter                                 = @[Common.ALL.EnginesCurrent]
+Entities.gmod_subway_81-717_mvm.Buttons.Meters.!TotalVoltmeter                                  = @[Common.ALL.EnginesCurrent]
+Entities.gmod_subway_81-717_mvm.Buttons.Meters.!TotalAmpermeter                                 = @[Common.ALL.HighVoltage]
 
 
 #gmod_subway_81-717_lvz

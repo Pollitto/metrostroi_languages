@@ -46,6 +46,8 @@ Common.717.KVC                  = ЛКВЦ: Лампа контактора вс
 Common.717.GLEB                 = ГЛЕБ: Лампа обновления
 Common.717.KVP                  = ЛКВП: Лампа контроля включения преобразователя (БПСН)
 Common.717.LSP                  = ЛСП: Лампа сигнализации пожара
+Common.717.LEKK                 = ЛЭКК: Лампа электроконтактной коробки
+Common.717.LPU                  = ЛПУ: Лампа пониженной уставки РУТ
 Common.717.OtklBV               = Отключение быстродействующего выключателя
 Common.717.OtklBVK              = Крышка отключения быстродействующего выключателя
 Common.717.ConverterProtection  = Кнопка возврата защиты преобразователя
@@ -546,8 +548,8 @@ Entities.gmod_subway_81-717_mvm.Buttons.EPKDisconnect.EPKToggle                 
 Entities.gmod_subway_81-717_mvm.Buttons.EPVDisconnect.EPKToggle                                 = @[Common.ALL.EPV]
 Entities.gmod_subway_81-717_mvm.Buttons.ParkingBrake.ParkingBrakeToggle                         = @[Common.ALL.ParkingBrake]
 
-Entities.gmod_subway_81-717_mvm.Buttons.Meters.!TotalVoltmeter                                  = @[Common.ALL.HighVoltage]
-Entities.gmod_subway_81-717_mvm.Buttons.Meters.!TotalAmpermeter                                 = @[Common.ALL.EnginesCurrent]
+Entities.gmod_subway_81-717_mvm.Buttons.Meters.!TotalVoltmeter                                  = @[Common.ALL.EnginesCurrent]
+Entities.gmod_subway_81-717_mvm.Buttons.Meters.!TotalAmpermeter                                 = @[Common.ALL.HighVoltage]
 
 
 #gmod_subway_81-717_lvz
