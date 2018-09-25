@@ -42,6 +42,7 @@ Panel.ReloadClient      = Reload client side
 
 Panel.ClientAdvanced    = Client (advanced)
 Panel.DrawDebugInfo     = Draw debug information
+Panel.DrawSignalDebugInfo     = Signalling debug info #FIXME
 Panel.CheckAddons       = Scan addons
 Panel.ReloadLang        = Reload languages
 Panel.SoftDraw          = Elements "smooth\nloading" percent
@@ -141,7 +142,7 @@ Common.Spawner.SpawnMode                = Train state #FIXME
 Common.Spawner.SpawnMode.Deadlock       = Dead-end #FIXME
 Common.Spawner.SpawnMode.Full           = Fully started #FIXME
 Common.Spawner.SpawnMode.NightDeadlock  = Dead-end after night #FIXME
-Common.Spawner.SpawnMode.Depot          = Depot #FIXME
+Common.Spawner.SpawnMode.Depot          = Cold & dark #FIXME
 Spawner.Common.EType                    = Electric circuits type #FIXME
 Common.Spawner.Scheme                   = Line schemes
 Common.Spawner.Random                   = Random #FIXME

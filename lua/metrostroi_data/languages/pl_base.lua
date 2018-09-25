@@ -42,6 +42,7 @@ Panel.ReloadClient      = Przeładuj zasoby (klient)
 
 Panel.ClientAdvanced    = Klient (zaawansowane)
 Panel.DrawDebugInfo     = Pokaż dodatkowe informacje (debug)
+Panel.DrawSignalDebugInfo     = Signalling debug info #FIXME
 Panel.CheckAddons       = Przeskanuj addony
 Panel.ReloadLang        = Przeładuj języki
 Panel.SoftDraw          = Opóźnienie między rysowaniami

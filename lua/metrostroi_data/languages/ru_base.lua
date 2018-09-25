@@ -42,6 +42,7 @@ Panel.ReloadClient      = Перезагрузить клиентскую час
 
 Panel.ClientAdvanced    = Клиент (дополнительно)
 Panel.DrawDebugInfo     = Отладочная информация
+Panel.DrawSignalDebugInfo     = Отладочная информация\nсигнализации
 Panel.CheckAddons       = Просканировать аддоны
 Panel.ReloadLang        = Перезагрузить языки
 Panel.SoftDraw          = Процент "мягкой"\nпрогрузки элементов

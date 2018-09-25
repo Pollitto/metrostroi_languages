@@ -42,6 +42,7 @@ Panel.ReloadClient      = Redémarrer le client
 
 Panel.ClientAdvanced    = Client (avancé)
 Panel.DrawDebugInfo     = Afficher les informations de debug
+Panel.DrawSignalDebugInfo     = Signalling debug info #FIXME
 Panel.CheckAddons       = Rechercher les extensions
 Panel.ReloadLang        = Recharger les langues
 Panel.SoftDraw          = Pourcentage de chargement \nprogressif d'éléments

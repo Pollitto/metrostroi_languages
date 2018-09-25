@@ -42,6 +42,7 @@ Panel.ReloadClient      = Clientseitig neuladen
 
 Panel.ClientAdvanced    = Client (Fortgeschritten)
 Panel.DrawDebugInfo     = Debuginformationen zeigen
+Panel.DrawSignalDebugInfo     = Signalling debug info
 Panel.CheckAddons       = Addons ueberpruefen
 Panel.ReloadLang        = Sprachen laden
 Panel.SoftDraw          = Element "weiches\nLaden" in Prozent

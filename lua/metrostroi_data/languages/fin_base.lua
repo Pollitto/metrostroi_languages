@@ -42,6 +42,7 @@ Panel.ReloadClient      = Palautus
 
 Panel.ClientAdvanced    = "asikas" (edistynyt)
 Panel.DrawDebugInfo     = Debug logi näkyville
+Panel.DrawSignalDebugInfo     = Signalling debug info
 Panel.CheckAddons       = Scannaa lisäosat
 Panel.ReloadLang        = Palauta kieli
 Panel.SoftDraw          = Elementtien "kevyt\lataus" prosentti
