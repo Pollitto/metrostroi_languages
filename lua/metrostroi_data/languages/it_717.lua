@@ -13,7 +13,7 @@ Train.717.PUAV      = PUAV
 Train.717.PA        = PA
 Train.717.PAScreen  = Schermo PA
 
-Train.714.Shunt     = Shunting control panel, driver's valve #FIXME
+Train.714.Shunt     = Quadro comandi di manovra, valvola del guidatore
 #Spawner
 Spawner.717.Line2   = Train da MPL
 Spawner.717.Line4   = Train da PBL
@@ -47,8 +47,8 @@ Common.717.KVC                  = LKVC: Indicatore contatto circuiti ausiliari (
 Common.717.GLEB                 = GLEB: Indicatore di aggiornamento
 Common.717.KVP                  = LKVP: Controllo del convertitore ad alta tensione (BPSN)
 Common.717.LSP                  = LSP: Emergenza incendio
-Common.717.LEKK                 = LEKK: Electric box indicator #FIXME
-Common.717.LPU                  = LPU: Reduced RUT setting indicator #FIXME
+Common.717.LEKK                 = LEKK: Electric box indicator
+Common.717.LPU                  = LPU: Reduced RUT setting indicator
 Common.717.OtklBV               = Disabilitare l'interruttore ad azione rapida(BV)
 Common.717.OtklBVK              = Coperchio dell'interruttore ad azione rapida
 Common.717.ConverterProtection  = Pulsante di protezione dell'alimentazione
@@ -60,7 +60,7 @@ Common.717.V12                  = Secondo gruppo di ventilazione
 Common.717.RZPL                 = RZP: Relè di protezione dell'alimentazione
 Common.717.VPAOn                = VPA: Abilita unità treno
 Common.717.VPAOff               = VPA: Disabilita l'unità del treno
-Common.717.VZD                  = VZD: Attiva / disattiva il controllo della porta (chiudi le porte) #FIXME
+Common.717.VZD                  = VZD: Attiva / disattiva il controllo della porta (chiudi le porte)
 
 Common.717.A53                  = A53: Contatto ausiliario dei circuiti
 Common.717.A56                  = A56: Batteria 
@@ -191,8 +191,8 @@ Common.PA.Right                 = Destra
 Common.PA.Esc                   = Annulla
 Common.PA.Enter                 = Enter
 
-Common.714.Start                = Start traction-motors #FIXME
-Common.714.RV                   = Direction switch #FIXME
+Common.714.Start                = Avvia i motori di trazione
+Common.714.RV                   = Interruttore di direzione
 
 #gmod_subway_81-717
 Entities.gmod_subway_81-717_mvm.Buttons.Battery_C.1:UOSToggle   = @[Common.ALL.UOS]

@@ -42,7 +42,7 @@ Panel.ReloadClient      = Znovu načíst klienta
 
 Panel.ClientAdvanced    = Klient (pokročilý)
 Panel.DrawDebugInfo     = Zobrazit informace pro vývojáře
-Panel.DrawSignalDebugInfo     = Signalling debug info
+Panel.DrawSignalDebugInfo     = Informace pro vývojáře (Signalizace)
 Panel.CheckAddons       = Zkontrolovat addony
 Panel.ReloadLang        = Znovu načíst jazyky
 Panel.SoftDraw          = Procento "plynulého"\nnačtení součástí

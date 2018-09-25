@@ -13,7 +13,7 @@ Train.717.PUAV      = PUAV (RAV)
 Train.717.PA        = PA (Vlaková aparatura)
 Train.717.PAScreen  = Obrazovka PA
 
-Train.714.Shunt     = Shunting control panel, driver's valve #FIXME
+Train.714.Shunt     = Ovládací panel (posun), ventil brzdiče
 #Spawner
 Spawner.717.Line2   = Souprava z linky MPL
 Spawner.717.Line4   = Souprava z linky PBL
@@ -191,8 +191,8 @@ Common.PA.Right                 = Doprava
 Common.PA.Esc                   = Zrušit
 Common.PA.Enter                 = Zadat
 
-Common.714.Start                = Start traction-motors #FIXME
-Common.714.RV                   = Direction switch #FIXME
+Common.714.Start                = Zapnout trakční motory
+Common.714.RV                   = Přepínač směru jízdy
 
 #gmod_subway_81-717
 Entities.gmod_subway_81-717_mvm.Buttons.Battery_C.1:UOSToggle   = @[Common.ALL.UOS]
