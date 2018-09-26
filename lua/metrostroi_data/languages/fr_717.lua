@@ -13,7 +13,7 @@ Train.717.PUAV      = PUAV
 Train.717.PA        = PA
 Train.717.PAScreen  = Ecran PA
 
-Train.714.Shunt     = Shunting control panel, driver's valve #FIXME
+Train.714.Shunt     = Panneau de contrôle en mannoeuvre, valve du conducteur
 #Spawner
 Spawner.717.Line2   = Train de MPL (ligne Moskovsko-Petrogradskaya)
 Spawner.717.Line4   = Train de PBL (ligne Frunzensko-Primorskaya)
@@ -191,8 +191,8 @@ Common.PA.Right                 = Droite
 Common.PA.Esc                   = Annuler
 Common.PA.Enter                 = Entrer
 
-Common.714.Start                = Start traction-motors #FIXME
-Common.714.RV                   = Direction switch #FIXME
+Common.714.Start                = Démarrage des moteurs de traction
+Common.714.RV                   = Interrupteur de direction
 
 #gmod_subway_81-717
 Entities.gmod_subway_81-717_mvm.Buttons.Battery_C.1:UOSToggle   = @[Common.ALL.UOS]
