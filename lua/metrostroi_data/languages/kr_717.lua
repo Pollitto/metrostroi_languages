@@ -13,7 +13,7 @@ Train.717.PUAV      = PUAV
 Train.717.PA        = PA
 Train.717.PAScreen  = PA 화면
 
-Train.714.Shunt     = Shunting control panel, driver's valve #FIXME
+Train.714.Shunt     = 입환 작업용 패널, 제동변 밸브
 #Spawner
 Spawner.717.Line2   = MPL 사양 차량
 Spawner.717.Line4   = PBL 사양 차량
@@ -191,8 +191,8 @@ Common.PA.Right                 = 우
 Common.PA.Esc                   = 취소
 Common.PA.Enter                 = 입력
 
-Common.714.Start                = Start traction-motors #FIXME
-Common.714.RV                   = Direction switch #FIXME
+Common.714.Start                = 견인 전동기 기동
+Common.714.RV                   = 방향 스위치
 
 #gmod_subway_81-717
 Entities.gmod_subway_81-717_mvm.Buttons.Battery_C.1:UOSToggle   = @[Common.ALL.UOS]

@@ -42,7 +42,7 @@ Panel.ReloadClient      = 사용자 시스템 다시 불러오기
 
 Panel.ClientAdvanced    = 사용자 (고급설정)
 Panel.DrawDebugInfo     = 디버깅 정보 표시
-Panel.DrawSignalDebugInfo     = Signalling debug info #FIXME
+Panel.DrawSignalDebugInfo     = 신호 디버그 정보
 Panel.CheckAddons       = 애드온 스캔
 Panel.ReloadLang        = 언어 다시 불러오기
 Panel.SoftDraw          = 구성 요소 "부드러운 로딩" 비율
