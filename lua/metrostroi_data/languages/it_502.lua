@@ -194,6 +194,8 @@ Entities.gmod_subway_81-502.Buttons.HVMeters.!EnginesVoltage             = @[Com
 Entities.gmod_subway_81-502.Buttons.HVMeters.!EnginesCurrent             = @[Common.ALL.EnginesCurrent]
 Entities.gmod_subway_81-502.Buttons.BatteryVoltage.!BatteryVoltage       = @[Common.ALL.BatteryVoltage]
 
+Entities.gmod_subway_81-502.Buttons.PanelLamp.PanelLampToggle            = @[Common.ALL.PanelLights]
+
 #gmod_subway_81-501
 Entities.gmod_subway_81-501.Buttons.AV.KPVUToggle               = @[Entities.gmod_subway_81-502.Buttons.AV.KPVUToggle]
 Entities.gmod_subway_81-501.Buttons.AV.KSDToggle                = @[Entities.gmod_subway_81-502.Buttons.AV.KSDToggle]
@@ -206,8 +208,8 @@ Entities.gmod_subway_81-501.Buttons.AV1.VU3Toggle               = @[Common.703.V
 
 Entities.gmod_subway_81-501.Buttons.VU.VUToggle                 = @[Common.ALL.VU]
 
-Entities.gmod_subway_81-501.Buttons.Main.!GRP                   = @[Common.ALL.RRP]
-Entities.gmod_subway_81-501.Buttons.Main.!RRP                   = @[Common.ALL.GRP]
+Entities.gmod_subway_81-501.Buttons.Main.!GRP                   = @[Common.ALL.GRP]
+Entities.gmod_subway_81-501.Buttons.Main.!RRP                   = @[Common.ALL.RRP]
 Entities.gmod_subway_81-501.Buttons.Main.!SD                    = @[Common.703.SD]
 Entities.gmod_subway_81-501.Buttons.Main.LOnSet                 = @[Common.703.LOn]
 Entities.gmod_subway_81-501.Buttons.Main.LOffSet                = @[Common.703.LOff]
@@ -242,6 +244,9 @@ Entities.gmod_subway_81-501.Buttons.BLTLPressure.!BLTLPressure           = @[Com
 Entities.gmod_subway_81-501.Buttons.BCPressure.!BCPressure               = @[Common.ALL.BCPressure]
 Entities.gmod_subway_81-501.Buttons.HVMeters.!EnginesVoltage             = @[Common.ALL.EnginesVoltage]
 Entities.gmod_subway_81-501.Buttons.HVMeters.!EnginesCurrent             = @[Common.ALL.EnginesCurrent]
+
+Entities.gmod_subway_81-501.Buttons.PanelLamp.PanelLampToggle            = @[Common.ALL.PanelLights]
+
 #Cameras:
 Train.502.AV = Switches
 Train.502.VBA = @[Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle]

@@ -208,8 +208,8 @@ Entities.gmod_subway_81-501.Buttons.AV1.VU3Toggle               = @[Common.703.V
 
 Entities.gmod_subway_81-501.Buttons.VU.VUToggle                 = @[Common.ALL.VU]
 
-Entities.gmod_subway_81-501.Buttons.Main.!GRP                   = @[Common.ALL.RRP]
-Entities.gmod_subway_81-501.Buttons.Main.!RRP                   = @[Common.ALL.GRP]
+Entities.gmod_subway_81-501.Buttons.Main.!GRP                   = @[Common.ALL.GRP]
+Entities.gmod_subway_81-501.Buttons.Main.!RRP                   = @[Common.ALL.RRP]
 Entities.gmod_subway_81-501.Buttons.Main.!SD                    = @[Common.703.SD]
 Entities.gmod_subway_81-501.Buttons.Main.LOnSet                 = @[Common.703.LOn]
 Entities.gmod_subway_81-501.Buttons.Main.LOffSet                = @[Common.703.LOff]
