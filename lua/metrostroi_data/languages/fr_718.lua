@@ -53,7 +53,7 @@ Common.718.SF8   = SF8: Contrôle des portes
 Common.718.SF11  = SF11: Contrôle du 2ème groupe de ventilateurs
 Common.718.SF10  = SF10: Contrôle du 1er groupe de ventilateurs
 Common.718.SF7   = SF7: BBE, compresseur
-Common.718.SF50  = SF50: Speedomètre
+Common.718.SF50  = SF50: Indicateur de vitesse
 Common.718.SF76  = SF76: Alarme incendie
 Common.718.SF73  = SF73: Lubrification de boudin
 Common.718.SF3   = SF3: Alimentation de voiture, CUV
@@ -197,7 +197,7 @@ Common.718.MVDRP         = @[Common.718.MVD]: Actionnement du RP
 
 Common.718.MALP2MSU      = @[Common.718.MALP1]: Réinitialisation instantanée du point de consigne actuel
 Common.718.MALP2800      = @[Common.718.MALP1]: 800V par troisième rail disponible
-Common.718.MALP2975      = @[Common.718.MALP1]: Voltage maximal par troisième rail
+Common.718.MALP2975      = @[Common.718.MALP1]: Tension maximale par troisième rail
 Common.718.MALP250       = @[Common.718.MALP1]: Disponibilité du courant du 2ème groupe d'armature
 Common.718.MALP2650      = @[Common.718.MALP1]: Le courant 2ème groupe d'armature est supérieure à 650A
 Common.718.MALP20        = @[Common.718.MALP1]: Pas de courant du 2ème groupe d'armature

@@ -388,8 +388,8 @@ Common.ALL.BCPressure       = Pression des cylindres de frein
 Common.ALL.EnginesCurrent   = Courant des moteurs (A)
 Common.ALL.EnginesCurrent1  = Courant des 1ers moteurs de traction (A)
 Common.ALL.EnginesCurrent2  = Courant des 2èmes moteurs de traction (A)
-Common.ALL.EnginesVoltage   = Voltage des moteurs (kV)
-Common.ALL.BatteryVoltage   = Voltage de batterie (V)
+Common.ALL.EnginesVoltage   = Tension des moteurs (kV)
+Common.ALL.BatteryVoltage   = Tension de batterie (V)
 Common.ALL.BatteryCurrent   = Courant de batterie (A)
 Common.ALL.HighVoltage      = Haute tension (kV)
 ]]
