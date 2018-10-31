@@ -88,7 +88,7 @@ Common.720.AppLights        = Освещение аппаратного отсе
 Common.720.BARSBlock        = Блокировка неисправных БАРСов
 
 Common.720.Accel                = Текущее ускорение
-Common.720.Forward              = Движение вепрёд
+Common.720.Forward              = Движение вперёд
 Common.720.Backward             = Движение назад
 Common.720.Stand                = Стоянка
 Common.720.Ticker               = Включение бегущей строки в салоне
