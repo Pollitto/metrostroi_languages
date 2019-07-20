@@ -45,7 +45,7 @@ Panel.DrawDebugInfo     = 디버깅 정보 표시
 Panel.DrawSignalDebugInfo     = 신호 디버그 정보
 Panel.CheckAddons       = 애드온 스캔
 Panel.ReloadLang        = 언어 다시 불러오기
-Panel.SoftDraw          = 구성 요소 "부드러운 로딩" 비율
+Panel.SoftDraw          = 차량 구성요소 로딩 시간
 Panel.SoftReloadLang    = 스폰 메뉴 다시 불러오지 않기
 
 

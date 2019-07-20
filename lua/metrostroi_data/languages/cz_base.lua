@@ -45,7 +45,7 @@ Panel.DrawDebugInfo     = Zobrazit informace pro vývojáře
 Panel.DrawSignalDebugInfo     = Informace pro vývojáře (Signalizace)
 Panel.CheckAddons       = Zkontrolovat addony
 Panel.ReloadLang        = Znovu načíst jazyky
-Panel.SoftDraw          = Procento "plynulého"\nnačtení součástí
+Panel.SoftDraw          = Doba načítání prvků vlaku
 Panel.SoftReloadLang    = Znovu nenahrávat spawnovací menu
 
 

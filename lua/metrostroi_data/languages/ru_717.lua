@@ -34,6 +34,8 @@ Spawner.717.RingType    = Тип звонка
 Spawner.717.BPSNType    = Тип БПСН
 
 #######Buttons###########
+Train.Buttons.RZP = Сработала защита БПСН
+
 #Common
 Common.717.VBD                  = Выключатель блокировки дверей от АСНП
 Common.717.UPPS                 = Выключатель системы УППС
@@ -86,9 +88,9 @@ Common.717.A49                  = А49: Аварийное освещение
 Common.717.A27                  = А27: Управление освещением салона, освещение кабины, сигнализация тормоза, зелёная лампа РП
 Common.717.A72                  = А72: Синхронизация вентиля замещения №1
 Common.717.A50                  = А50: Контактор освещения
-Common.717.AV3                  = АВ3: Резервное питание венлиляции
+Common.717.AV3                  = АВ3: Резервное питание вентиляции
 Common.717.AV3S                 = АВ3: Резервное питание радиостанции
-Common.717.AV2                  = АВ2: Основное питание венлиляции
+Common.717.AV2                  = АВ2: Основное питание вентиляции
 Common.717.AV4                  = АВ4: Управление I группой вентиляции
 Common.717.AV5                  = АВ5: Управление II группой вентиляции
 Common.717.AV6                  = АВ6: Управление резервной группой вентиляции
@@ -256,6 +258,7 @@ Entities.gmod_subway_81-717_mvm.Buttons.Block2_2.!LampLEKK      = @[Common.717.G
 Entities.gmod_subway_81-717_mvm.Buttons.Block2_2.!LampLN        = @[Common.ARS.LN]
 Entities.gmod_subway_81-717_mvm.Buttons.Block2_2.!LampLRS       = @[Common.ARS.RS]
 
+Entities.gmod_subway_81-717_mvm.Buttons.Block2_3.!Speedometer2  = @[Common.ALL.Speedometer]
 Entities.gmod_subway_81-717_mvm.Buttons.Block2_3.!LSD           = @[Common.ALL.LSD]
 Entities.gmod_subway_81-717_mvm.Buttons.Block2_3.!LOch          = @[Common.ARS.0]\n@[Common.ARS.04]
 Entities.gmod_subway_81-717_mvm.Buttons.Block2_3.!LN            = @[Common.ARS.LN]\n@[Common.ARS.40]
@@ -534,7 +537,7 @@ Entities.gmod_subway_81-717_mvm.Buttons.DriverValveTLDisconnect.DriverValveTLDis
 Entities.gmod_subway_81-717_mvm.Buttons.DriverValveBLDisconnect.DriverValveBLDisconnectToggle   = @[Common.ALL.DriverValveBLDisconnect]
 Entities.gmod_subway_81-717_mvm.Buttons.Stopkran.EmergencyBrakeValveToggle                      = @[Common.ALL.EmergencyBrakeValve]
 Entities.gmod_subway_81-717_mvm.Buttons.UAVAPanel.UAVAToggle                                    = @[Common.ALL.UAVA]
-Entities.gmod_subway_81-717_mvm.Buttons.UAVAPanel.UAVAContactSet                                = @[Common.ALL.UAVAContact]
+Entities.gmod_subway_81-717_mvm.Buttons.UAVAPanel.UAVACToggle                                   = @[Common.ALL.UAVAContact]
 
 Entities.gmod_subway_81-717_mvm.Buttons.FrontPneumatic.FrontBrakeLineIsolationToggle            = @[Common.ALL.FrontBrakeLineIsolationToggle]
 Entities.gmod_subway_81-717_mvm.Buttons.FrontPneumatic.FrontTrainLineIsolationToggle            = @[Common.ALL.FrontTrainLineIsolationToggle]
@@ -951,7 +954,7 @@ Entities.gmod_subway_81-717_lvz.Buttons.DriverValveBLDisconnect.DriverValveBLDis
 Entities.gmod_subway_81-717_lvz.Buttons.DriverValveTLDisconnect.DriverValveTLDisconnectToggle   = @[Common.ALL.DriverValveBLDisconnect]
 Entities.gmod_subway_81-717_lvz.Buttons.Stopkran.EmergencyBrakeValveToggle                      = @[Common.ALL.EmergencyBrakeValve]
 Entities.gmod_subway_81-717_lvz.Buttons.UAVAPanel.UAVAToggle                                    = @[Common.ALL.UAVA]
-Entities.gmod_subway_81-717_lvz.Buttons.UAVAPanel.UAVAContactSet                                = @[Common.ALL.UAVAContact]
+Entities.gmod_subway_81-717_lvz.Buttons.UAVAPanel.UAVACToggle                                   = @[Common.ALL.UAVAContact]
 
 Entities.gmod_subway_81-717_lvz.Buttons.FrontPneumatic.FrontBrakeLineIsolationToggle            = @[Common.ALL.FrontBrakeLineIsolationToggle]
 Entities.gmod_subway_81-717_lvz.Buttons.FrontPneumatic.FrontTrainLineIsolationToggle            = @[Common.ALL.FrontTrainLineIsolationToggle]
@@ -1048,6 +1051,10 @@ Entities.gmod_subway_81-714_mvm.Buttons.DriverValveBLTLDisconnect.DriverValveBLD
 Entities.gmod_subway_81-714_mvm.Buttons.DriverValveBLTLDisconnect.DriverValveTLDisconnectToggle = @[Common.ALL.DriverValveTLDisconnect]
 Entities.gmod_subway_81-714_mvm.Buttons.Stopkran.EmergencyBrakeValveToggle = @[Common.ALL.EmergencyBrakeValve]
 
+Entities.gmod_subway_81-714_mvm.Buttons.Voltages.!BatteryVoltage = @[Common.ALL.BatteryVoltage]
+Entities.gmod_subway_81-714_mvm.Buttons.Voltages.!BatteryCurrent = @[Common.ALL.BatteryCurrent]
+Entities.gmod_subway_81-714_mvm.Buttons.Pressures.!BCPressure = @[Common.ALL.BLTLPressure]
+Entities.gmod_subway_81-714_mvm.Buttons.Pressures.!BLTLPressure = @[Common.ALL.BCPressure]
 
 #gmod_subway_81-714_lvz
 Entities.gmod_subway_81-714_lvz.Buttons.FrontPneumatic.FrontBrakeLineIsolationToggle            = @[Common.ALL.FrontBrakeLineIsolationToggle]
@@ -1121,6 +1128,11 @@ Entities.gmod_subway_81-714_lvz.Buttons.Shunt.RV+                       = @[Comm
 Entities.gmod_subway_81-714_lvz.Buttons.DriverValveBLTLDisconnect.DriverValveBLDisconnectToggle = @[Common.ALL.DriverValveBLDisconnect]
 Entities.gmod_subway_81-714_lvz.Buttons.DriverValveBLTLDisconnect.DriverValveTLDisconnectToggle = @[Common.ALL.DriverValveTLDisconnect]
 Entities.gmod_subway_81-714_lvz.Buttons.Stopkran.EmergencyBrakeValveToggle = @[Common.ALL.EmergencyBrakeValve]
+
+Entities.gmod_subway_81-714_lvz.Buttons.Voltages.!BatteryVoltage = @[Common.ALL.BatteryVoltage] #NEW
+Entities.gmod_subway_81-714_lvz.Buttons.Voltages.!BatteryCurrent = @[Common.ALL.BatteryCurrent] #NEW
+Entities.gmod_subway_81-714_lvz.Buttons.Pressures.!BCPressure = @[Common.ALL.BLTLPressure] #NEW
+Entities.gmod_subway_81-714_lvz.Buttons.Pressures.!BLTLPressure = @[Common.ALL.BCPressure] #NEW
 
 #Spawner:
 Entities.gmod_subway_81-717_mvm.Spawner.Announcer.Name  = @[Common.Spawner.Announcer]

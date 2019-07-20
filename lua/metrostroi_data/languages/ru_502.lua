@@ -243,7 +243,7 @@ Entities.gmod_subway_81-501.Buttons.BCPressure.!BCPressure               = @[Com
 Entities.gmod_subway_81-501.Buttons.HVMeters.!EnginesVoltage             = @[Common.ALL.EnginesVoltage]
 Entities.gmod_subway_81-501.Buttons.HVMeters.!EnginesCurrent             = @[Common.ALL.EnginesCurrent]
 
-Entities.gmod_subway_81-501.Buttons.PanelLamp.PanelLampToggle            = @[Common.ALL.PanelLights1]
+Entities.gmod_subway_81-501.Buttons.PanelLamp.PanelLampToggle            = @[Common.ALL.PanelLights]
 
 #Cameras:
 Train.502.AV = Выключатели

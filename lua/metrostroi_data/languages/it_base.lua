@@ -44,7 +44,7 @@ Panel.DrawDebugInfo     = Disegna le informazioni di debug
 Panel.CheckAddons       = Verifica addons
 Panel.DrawSignalDebugInfo     = Segnala informazioni di debug
 Panel.ReloadLang        = Ricarica linguaggi
-Panel.SoftDraw          = Elementi "smooth\nloading" percento
+Panel.SoftDraw          = Tempo di caricamento degli elementi del treno
 Panel.SoftReloadLang    = Non ricaricare uno spawnmenu
 
 

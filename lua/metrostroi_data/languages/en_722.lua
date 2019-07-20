@@ -139,8 +139,8 @@ Entities.gmod_subway_81-722.Buttons.PU2.DoorRightSet                = @[Common.7
 Entities.gmod_subway_81-722.Buttons.BI3.KRO+                        = @[Common.722.KRO] @[Common.ALL.Up]
 Entities.gmod_subway_81-722.Buttons.BI3.KRO-                        = @[Common.722.KRO] @[Common.ALL.Down]
 Entities.gmod_subway_81-722.Buttons.BI3.RingSet                     = @[Common.ALL.Ring]
-Entities.gmod_subway_81-722.Buttons.BI3.Compressor-                 = @[Common.ALL.MK] @[Common.ALL.CCW]
-Entities.gmod_subway_81-722.Buttons.BI3.Compressor+                 = @[Common.ALL.MK] @[Common.ALL.CW]
+Entities.gmod_subway_81-722.Buttons.BI3.Compressor-                 = @[Common.ALL.MK] @[Common.ALL.CCW]\n[Off, Auto, 2, 5, 2/5]
+Entities.gmod_subway_81-722.Buttons.BI3.Compressor+                 = @[Common.ALL.MK] @[Common.ALL.CW]\n[Off, Auto, 2, 5, 2/5]
 Entities.gmod_subway_81-722.Buttons.BI3.!BrakeTrainLine             = @[Common.ALL.BLTLPressure]
 Entities.gmod_subway_81-722.Buttons.BI3.!BrakeCylinder              = @[Common.ALL.BCPressure]
 
@@ -152,8 +152,8 @@ Entities.gmod_subway_81-722.Buttons.PPZB.SCEnable                   = @[Common.7
 Entities.gmod_subway_81-722.Buttons.PPZB.SOSD                       = @[Common.722.LSOSD]
 
 Entities.gmod_subway_81-722.Buttons.PVM.PassLightToggle             = @[Common.ALL.PassLights]
-Entities.gmod_subway_81-722.Buttons.PVM.PassVent-                   = @[Common.722.PassVent] @[Common.ALL.CCW]
-Entities.gmod_subway_81-722.Buttons.PVM.PassVent+                   = @[Common.722.PassVent] @[Common.ALL.CW]
+Entities.gmod_subway_81-722.Buttons.PVM.PassVent-                   = @[Common.722.PassVent] @[Common.ALL.CCW]\n[Emerg, Off, Auto, 1/2, 1]
+Entities.gmod_subway_81-722.Buttons.PVM.PassVent+                   = @[Common.722.PassVent] @[Common.ALL.CW]\n[Emerg, Off, Auto, 1/2, 1]
 Entities.gmod_subway_81-722.Buttons.PVM.VKFToggle                   = @[Common.ALL.VKF]
 Entities.gmod_subway_81-722.Buttons.PVM.ParkingBrakeToggle          = @[Common.ALL.ParkingBrake]
 Entities.gmod_subway_81-722.Buttons.PVM.VRDToggle                   = @[Common.ARS.VRD]

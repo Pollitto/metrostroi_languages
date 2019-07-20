@@ -45,7 +45,7 @@ Panel.DrawDebugInfo     = Debug információk megjelenítése
 Panel.DrawSignalDebugInfo     = Jelzők debug információi
 Panel.CheckAddons       = Kiegészítők keresése
 Panel.ReloadLang        = Nyelvek újratöltése
-Panel.SoftDraw          = Elemek "sima\nbetöltés" százaléka 
+Panel.SoftDraw          = Vonatelemek betöltési ideje
 Panel.SoftReloadLang    = Ne töltsön be új spawnmenü-t
 
 
