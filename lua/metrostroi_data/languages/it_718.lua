@@ -5,9 +5,9 @@ return [[
 
 #######Buttons###########
 #Cameras
-Train.718.BUP = BUP #FIXME
-Train.718.PPZ = PPZ #FIXME
-Train.718.VPU = VPU #FIXME
+Train.718.BUP = BUP
+Train.718.PPZ = PPZ
+Train.718.VPU = VPU
 
 #Common
 Common.718.SB4   = Verifica integrità dei circuiti

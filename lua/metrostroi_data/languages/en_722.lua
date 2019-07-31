@@ -13,6 +13,20 @@ Train.722.CabLights     = Cabin lighting panel
 Train.722.Disconnects   = Disconnect valves
 Train.722.KRMH          = KRMSH and RVTB valves
 
+Train.Buttons.BattOn    = Battery is enabled #NEW (indicator)
+Train.Buttons.BattOff   = Battery is disabling #NEW (indicator)
+Train.Buttons.VentEmer  = Emergency #NEW (passenger ventilation)
+Train.Buttons.VentAuto  = Auto #NEW (passenger ventilation)
+Train.Buttons.Vent1/2   = Half of ventilation fans #NEW (passenger ventilation)
+Train.Buttons.VentAll   = All ventilation fans #NEW (passenger ventilation)
+
+Train.Buttons.VRUAH         = Emergency control #NEW
+Train.Buttons.VRUOn         = Manual activation #NEW (manual cab activation)
+Train.Buttons.PantSC        = Enable shorting device #NEW
+Train.Buttons.DoorCloseA    = Auto closing (with buzzer) #NEW
+Train.Buttons.DoorCloseM    = Manual closing (without buzzer) #NEW
+Train.Buttons.AHActive      = Emergency control is active #NEW
+
 #######Buttons###########
 Common.722.MirrorHeating                = Mirrors heater
 Common.722.EmergencyDrive               = Emergency start in the emergency drive mode
@@ -139,8 +153,8 @@ Entities.gmod_subway_81-722.Buttons.PU2.DoorRightSet                = @[Common.7
 Entities.gmod_subway_81-722.Buttons.BI3.KRO+                        = @[Common.722.KRO] @[Common.ALL.Up]
 Entities.gmod_subway_81-722.Buttons.BI3.KRO-                        = @[Common.722.KRO] @[Common.ALL.Down]
 Entities.gmod_subway_81-722.Buttons.BI3.RingSet                     = @[Common.ALL.Ring]
-Entities.gmod_subway_81-722.Buttons.BI3.Compressor-                 = @[Common.ALL.MK] @[Common.ALL.CCW]\n[Off, Auto, 2, 5, 2/5]
-Entities.gmod_subway_81-722.Buttons.BI3.Compressor+                 = @[Common.ALL.MK] @[Common.ALL.CW]\n[Off, Auto, 2, 5, 2/5]
+Entities.gmod_subway_81-722.Buttons.BI3.Compressor-                 = @[Common.ALL.MK] @[Common.ALL.CCW]
+Entities.gmod_subway_81-722.Buttons.BI3.Compressor+                 = @[Common.ALL.MK] @[Common.ALL.CW]
 Entities.gmod_subway_81-722.Buttons.BI3.!BrakeTrainLine             = @[Common.ALL.BLTLPressure]
 Entities.gmod_subway_81-722.Buttons.BI3.!BrakeCylinder              = @[Common.ALL.BCPressure]
 
@@ -152,8 +166,8 @@ Entities.gmod_subway_81-722.Buttons.PPZB.SCEnable                   = @[Common.7
 Entities.gmod_subway_81-722.Buttons.PPZB.SOSD                       = @[Common.722.LSOSD]
 
 Entities.gmod_subway_81-722.Buttons.PVM.PassLightToggle             = @[Common.ALL.PassLights]
-Entities.gmod_subway_81-722.Buttons.PVM.PassVent-                   = @[Common.722.PassVent] @[Common.ALL.CCW]\n[Emerg, Off, Auto, 1/2, 1]
-Entities.gmod_subway_81-722.Buttons.PVM.PassVent+                   = @[Common.722.PassVent] @[Common.ALL.CW]\n[Emerg, Off, Auto, 1/2, 1]
+Entities.gmod_subway_81-722.Buttons.PVM.PassVent-                   = @[Common.722.PassVent] @[Common.ALL.CCW]
+Entities.gmod_subway_81-722.Buttons.PVM.PassVent+                   = @[Common.722.PassVent] @[Common.ALL.CW]
 Entities.gmod_subway_81-722.Buttons.PVM.VKFToggle                   = @[Common.ALL.VKF]
 Entities.gmod_subway_81-722.Buttons.PVM.ParkingBrakeToggle          = @[Common.ALL.ParkingBrake]
 Entities.gmod_subway_81-722.Buttons.PVM.VRDToggle                   = @[Common.ARS.VRD]

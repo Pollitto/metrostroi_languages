@@ -12,6 +12,13 @@ Train.720.CameraVityaz  = САУ "Витязь"
 Train.720.CameraKRMH    = Краны КРМШ и УАВА
 Train.720.CameraPVZ     = ПВЗ
 
+Train.Buttons.Heating   = Обогрев
+Train.Buttons.Vent      = Вентиляция
+Train.Buttons.Cooling   = Охлаждение
+Train.Buttons.BARS1     = БАРС1
+Train.Buttons.BARS2     = БАРС2
+Train.Buttons.BARS12    = БАРС1 и БАРС2
+
 #Common
 Common.720.SF1              = SF1: Питание общее
 Common.720.SF2              = SF2: Управление основное
@@ -255,7 +262,7 @@ Entities.gmod_subway_81-720.Buttons.PUU.WiperToggle                 = @[Common.7
 Entities.gmod_subway_81-720.Buttons.PUU.!VDop                       = @[Common.ALL.SpeedAccept]
 Entities.gmod_subway_81-720.Buttons.PUU.!VFact                      = @[Common.ALL.SpeedCurr]
 Entities.gmod_subway_81-720.Buttons.PUU.!VPred                      = @[Common.ALL.SpeedAttent]
-Entities.gmod_subway_81-720.Buttons.PUU.!VDop2                      = @[Common.ALL.SpeedAccept]
+Entities.gmod_subway_81-720.Buttons.PUU.!VFact2                     = @[Common.ALL.SpeedCurr]
 Entities.gmod_subway_81-720.Buttons.PUU.!Acc                        = @[Common.720.Accel]
 Entities.gmod_subway_81-720.Buttons.PUU.!Forw                       = @[Common.720.Forward]
 Entities.gmod_subway_81-720.Buttons.PUU.!Back                       = @[Common.720.Backward]

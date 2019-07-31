@@ -55,6 +55,8 @@ Panel.SoftReloadLang    = Не перезагружать спавнменю
 
 
 #Common train
+
+#Cameras
 Train.Common.Camera0        = Место машиниста
 Train.Common.RouteNumber    = Номер маршрута
 Train.Common.LastStation    = Конечная станция
@@ -106,12 +108,14 @@ Train.Buttons.HighVoltage    = %d В
 Train.Buttons.BatteryCurrent = %d А
 Train.Buttons.EnginesCurrent = %d А
 Train.Buttons.Speed          = %d км/ч
-Train.Buttons.SpeedAll       = %d км/ч Ограничение:%s км/ч
+Train.Buttons.SpeedAll       = %d км/ч\nОграничение:%s км/ч
 Train.Buttons.SpeedLimit     = %s км/ч
 Train.Buttons.SpeedLimitNext = %s км/ч
 Train.Buttons.04             = ОЧ
 Train.Buttons.BCPressure     = %.1f кгс/см²
-Train.Buttons.BLTLPressure   = НМ: %.1f ТМ:%.1f кгс/см²
+Train.Buttons.BLTLPressure   = НМ: %.1f\nТМ: %.1f кгс/см²
+Train.Buttons.Locked         = Заблокирован
+Train.Buttons.Unlocked       = Разблокирован
 
 #Train entities
 Entities.gmod_subway_base.Name        = База метропоездов
@@ -175,9 +179,9 @@ Weapons.train_kv_wrench_gold.Purpose        = @[Weapons.train_kv_wrench.Purpose]
 Weapons.train_kv_wrench_gold.Instructions   = @[Weapons.train_kv_wrench.Instructions]
 
 #Spawner common
-Spawner.Title                           = Спавнер поездов #FIXME
-Spawner.Spawn                           = Создать #FIXME
-Spawner.Close                           = Закрыть #FIXME
+Spawner.Title                           = Спавнер поездов
+Spawner.Spawn                           = Создать
+Spawner.Close                           = Закрыть
 Spawner.Trains1                         = Разрешено ваг.
 Spawner.Trains2                         = На человека
 Spawner.WagNum                          = Количество вагонов
@@ -194,12 +198,12 @@ Common.Spawner.SpawnMode.Deadlock       = Тупик
 Common.Spawner.SpawnMode.Full           = Запущен полностью
 Common.Spawner.SpawnMode.NightDeadlock  = Ночной отстой
 Common.Spawner.SpawnMode.Depot          = Депо
-Spawner.Common.EType                    = Тип электросхем
+Spawner.Common.EType                    = Тип электросхем #FIXME
 Common.Spawner.Scheme                   = Схема в салоне
-Common.Spawner.Random                   = Случайно #FIXME
-Common.Spawner.Old                      = Старые #FIXME
-Common.Spawner.New                      = Новые #FIXME
-Common.Spawner.Type                     = Тип #FIXME
+Common.Spawner.Random                   = Случайно
+Common.Spawner.Old                      = Старые
+Common.Spawner.New                      = Новые
+Common.Spawner.Type                     = Тип
 Common.Spawner.SchemeInvert             = Инвертировать наддверные схемы
 
 #Coupler common

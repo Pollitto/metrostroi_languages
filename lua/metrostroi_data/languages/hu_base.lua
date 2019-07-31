@@ -37,6 +37,7 @@ Panel.RedLights         = \nZárjelző lámpák dinamikus fényének bekapcsolá
 Panel.ShadowsOther      = \nEgyéb forrásokból származó árnyékok bekapcsolása
 Panel.MinimizedShow     = Ne töltse be az elemeket, \nha a program tálcán van
 Panel.FOV               = FOV
+Panel.Z                 = Kamera magassága
 Panel.RenderDistance    = Renderelési távolság
 Panel.ReloadClient      = Kliens oldal újraindítása
 

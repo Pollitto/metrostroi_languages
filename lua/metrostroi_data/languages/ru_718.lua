@@ -9,6 +9,11 @@ Train.718.BUP = БУП
 Train.718.PPZ = ППЗ
 Train.718.VPU = ВПУ
 
+Train.Buttons.LHalf = Пониженная
+Train.Buttons.LFull = Полная
+Train.Buttons.HL5 = Несбор схемы
+Train.Buttons.HL6 = Сработала защита или минимальный ток
+Train.Buttons.HL7 = Сработала защита ББЭ
 #Common
 Common.718.SB4   = Проверка сбора схемы
 Common.718.SB5   = Передача управления (звонок)
@@ -551,7 +556,7 @@ Entities.gmod_subway_81-718.Buttons.DriverValveDisconnect.DriverValveDisconnectT
 
 Entities.gmod_subway_81-718.Buttons.Stopkran.EmergencyBrakeValveToggle                      = @[Common.ALL.EmergencyBrakeValve]
 Entities.gmod_subway_81-718.Buttons.UAVAPanel.UAVAToggle                                    = @[Common.ALL.UAVA]
-Entities.gmod_subway_81-718.Buttons.UAVAPanel.UAVAContactSet                                = @[Common.ALL.UAVAContact]
+Entities.gmod_subway_81-718.Buttons.UAVAPanel.UAVACToggle                                   = @[Common.ALL.UAVAContact]
 
 Entities.gmod_subway_81-718.Buttons.RRI.!RRIOn          = @[Common.RRI.RRIOn]
 Entities.gmod_subway_81-718.Buttons.RRIScreen.RRIUp     = @[Common.RRI.RRIUp]
@@ -684,6 +689,11 @@ Entities.gmod_subway_81-719.Buttons.couch_cap_o.CouchCap                        
 Entities.gmod_subway_81-719.Buttons.couch_cap.CouchCap                                      = @[Common.ALL.CouchCap]
 
 Entities.gmod_subway_81-719.Buttons.Battery.VBToggle    = @[Common.ALL.VB]
+
+Entities.gmod_subway_81-719.Buttons.Voltages.!BatteryVoltage    = @[Common.ALL.BatteryVoltage] #NEW
+Entities.gmod_subway_81-719.Buttons.Voltages.!BatteryCurrent    = @[Common.ALL.BatteryCurrent] #NEW
+Entities.gmod_subway_81-719.Buttons.Pressures.!BCPressure       = @[Common.ALL.BLTLPressure] #NEW
+Entities.gmod_subway_81-719.Buttons.Pressures.!BLTLPressure     = @[Common.ALL.BCPressure] #NEW
 
 #Spawner:
 Entities.gmod_subway_81-718.Spawner.Texture.Name     = @[Common.Spawner.Texture]

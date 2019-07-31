@@ -37,6 +37,7 @@ Panel.RedLights         = 적색등의 다이나믹 라이트 사용
 Panel.ShadowsOther      = 기타 광원 그림자 활성
 Panel.MinimizedShow     = 창 최소화시 구성요소 언로드 하지 않기
 Panel.FOV               = 시야각(FOV)
+Panel.Z                 = 시점 높이
 Panel.RenderDistance    = 렌더링 거리
 Panel.ReloadClient      = 사용자 시스템 다시 불러오기
 

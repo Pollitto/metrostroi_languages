@@ -9,6 +9,11 @@ Train.718.BUP = BUP
 Train.718.PPZ = PPZ
 Train.718.VPU = VPU
 
+Train.Buttons.LHalf = Dim #NEW (panel lighting)
+Train.Buttons.LFull = Bright #NEW (panel lighting)
+Train.Buttons.HL5 = Control circuits are not engaged #NEW
+Train.Buttons.HL6 = Protection has tripped or low current #NEW
+Train.Buttons.HL7 = BBE protection has tripped #NEW
 #Common
 Common.718.SB4   = Vérifier l'assemblage des circuits
 Common.718.SB5   = Transfère des contrôles (bip)
@@ -514,10 +519,12 @@ Entities.gmod_subway_81-718.Buttons.PVZ.SF35Toggle  = @[Common.718.SF35]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF23Toggle  = @[Common.718.SF23]
 Entities.gmod_subway_81-718.Buttons.PVZ.SF24Toggle  = @[Common.718.SF24]
 
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1+ = @[Common.ALL.RouteNumber1+]
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2+ = @[Common.ALL.RouteNumber2+]
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1- = @[Common.ALL.RouteNumber1-]
-Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2- = @[Common.ALL.RouteNumber2-]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1+         = @[Common.ALL.RouteNumber1+]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2+         = @[Common.ALL.RouteNumber2+]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber1-         = @[Common.ALL.RouteNumber1-]
+Entities.gmod_subway_81-718.Buttons.Route.RouteNumber2-         = @[Common.ALL.RouteNumber2-]
+Entities.gmod_subway_81-718.Buttons.LastStation.LastStation+    = @[Common.ALL.LastStation+]
+Entities.gmod_subway_81-718.Buttons.LastStation.LastStation-    = @[Common.ALL.LastStation-]
 
 Entities.gmod_subway_81-718.Buttons.HelperPanel.SA6Toggle        = @[Common.ALL.VUD2]
 Entities.gmod_subway_81-718.Buttons.HelperPanel.SA24Set          = @[Common.ALL.KDL]
@@ -549,7 +556,7 @@ Entities.gmod_subway_81-718.Buttons.DriverValveDisconnect.DriverValveDisconnectT
 
 Entities.gmod_subway_81-718.Buttons.Stopkran.EmergencyBrakeValveToggle                      = @[Common.ALL.EmergencyBrakeValve]
 Entities.gmod_subway_81-718.Buttons.UAVAPanel.UAVAToggle                                    = @[Common.ALL.UAVA]
-Entities.gmod_subway_81-718.Buttons.UAVAPanel.UAVAContactSet                                = @[Common.ALL.UAVAContact]
+Entities.gmod_subway_81-718.Buttons.UAVAPanel.UAVACToggle                                   = @[Common.ALL.UAVAContact]
 
 Entities.gmod_subway_81-718.Buttons.RRI.!RRIOn          = @[Common.RRI.RRIOn]
 Entities.gmod_subway_81-718.Buttons.RRIScreen.RRIUp     = @[Common.RRI.RRIUp]
@@ -683,6 +690,10 @@ Entities.gmod_subway_81-719.Buttons.couch_cap.CouchCap                          
 
 Entities.gmod_subway_81-719.Buttons.Battery.VBToggle    = @[Common.ALL.VB]
 
+Entities.gmod_subway_81-719.Buttons.Voltages.!BatteryVoltage    = @[Common.ALL.BatteryVoltage] #NEW
+Entities.gmod_subway_81-719.Buttons.Voltages.!BatteryCurrent    = @[Common.ALL.BatteryCurrent] #NEW
+Entities.gmod_subway_81-719.Buttons.Pressures.!BCPressure       = @[Common.ALL.BLTLPressure] #NEW
+Entities.gmod_subway_81-719.Buttons.Pressures.!BLTLPressure     = @[Common.ALL.BCPressure] #NEW
 #Spawner:
 Entities.gmod_subway_81-718.Spawner.Texture.Name     = @[Common.Spawner.Texture]
 Entities.gmod_subway_81-718.Spawner.PassTexture.Name = @[Common.Spawner.PassTexture]
